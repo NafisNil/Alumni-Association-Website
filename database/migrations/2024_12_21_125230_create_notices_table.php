@@ -13,7 +13,10 @@ return new class extends Migration
     {
         Schema::create('notices', function (Blueprint $table) {
             $table->id();
-            
+            $table->string('title');
+            $table->text('description')->nullable();
+            $table->string('photo')->nullable();
+            $table->string('file')->nullable();
             $table->timestamps();
         });
     }

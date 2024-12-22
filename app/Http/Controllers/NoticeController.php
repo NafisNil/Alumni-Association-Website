@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Notice;
 use Illuminate\Http\Request;
-
+use App\Http\Requests\NoticeRequest;
+use Image;
 class NoticeController extends Controller
 {
     /**

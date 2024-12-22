@@ -11,7 +11,7 @@ class NoticeRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -23,6 +23,9 @@ class NoticeRequest extends FormRequest
     {
         return [
             //
+            'title' => 'required',
+            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'file' => 'mimes:pdf,doc,docx,zip|max:2048',
         ];
     }
 }
