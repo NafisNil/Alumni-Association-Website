@@ -6,6 +6,7 @@ use App\Models\Committee;
 use Illuminate\Http\Request;
 use Image;
 use App\Http\Requests\CommitteeRequest;
+use App\Models\Batch;
 class CommitteeController extends Controller
 {
     /**
@@ -24,7 +25,10 @@ class CommitteeController extends Controller
     public function create()
     {
         //
-        return view('backend.committee.create');
+        $batch = Batch::orderBy('id', 'asc')->get();
+        return view('backend.committee.create',[
+            'batch' => $batch
+        ]);
     }
 
     /**
@@ -47,6 +51,7 @@ class CommitteeController extends Controller
     public function show(Committee $committee)
     {
         //
+        
         return view('backend.committee.show',[
             'committee' => $committee
         ]);
@@ -58,8 +63,10 @@ class CommitteeController extends Controller
     public function edit(Committee $committee)
     {
         //
+        $batch = Batch::orderBy('id', 'asc')->get();
         return view('backend.committee.edit',[
-            'edit' => $committee
+            'edit' => $committee,
+            'batch' => $batch
         ]);
     }
 
@@ -69,6 +76,7 @@ class CommitteeController extends Controller
     public function update(CommitteeRequest $request, Committee $committee)
     {
         //
+      
         $committee->update($request->all());
         if ($request->hasFile('photo')) {
             @unlink('storage/'.$committee->photo);

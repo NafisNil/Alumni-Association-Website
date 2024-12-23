@@ -75,11 +75,11 @@
 
 
 
-                      <form action="{{route('about.destroy',[$item->id])}}" method="POST">
+                      <form action="{{route('about.destroy',[$item->id])}}"  id="delete-form-{{ $item->id }}" method="POST">
                     
                         @method('DELETE')
                         @csrf
-                        <button class="btn btn-outline-danger btn-sm" title="Delete"><i class="fas fa-trash"></i></button>
+                        <button class="btn btn-outline-danger btn-sm delete-btn" title="Delete" data-id="{{ $item->id }}"><i class="fas fa-trash"></i></button>
                       </form>
 
 

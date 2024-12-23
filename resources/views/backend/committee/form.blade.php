@@ -33,7 +33,18 @@
   <div class="form-group">
     <label for="exampleInputEmail1">Batch <span style="color:red" >*</span></label>
 
-    <input type="text"  class="form-control" name="batch"  value="{!!old('batch',@$edit->batch)!!}" required>
+    <select class="form-control" name="batch" id="dropdown">
+      
+      <option>Select Batch</option>
+        
+     @foreach ($batch as $item)
+      <option value="{{$item->name}}" {{ ( $item->batch == @$edit->batch) ? 'selected' : '' }}> 
+        {{$item->name}} Batch
+      </option>
+     @endforeach
+
+     
+    </select>
 
   </div>
 

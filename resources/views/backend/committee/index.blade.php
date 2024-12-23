@@ -79,11 +79,11 @@ BAUET CSE AA- Committee -  - Index
 
 
 
-                      <form action="{{route('committee.destroy',[$item])}}" method="POST">
+                      <form action="{{route('committee.destroy',[$item])}}" method="POST"  id="delete-form-{{ $item->id }}">
                     
                         @method('DELETE')
                         @csrf
-                        <button class="btn btn-outline-danger btn-sm" title="Delete"><i class="fas fa-trash"></i></button>
+                        <button class="btn btn-outline-danger btn-sm delete-btn" title="Delete" data-id="{{ $item->id }}"><i class="fas fa-trash"></i></button>
                       </form>
 
 

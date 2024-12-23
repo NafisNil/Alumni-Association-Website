@@ -98,6 +98,28 @@
             <p>Committee</p>
           </a>
         </li>
+
+        <li class="nav-item">
+          <a href="{{ route('notice.index') }}" class="nav-link {{$route == 'notice.index'?'active':''}}">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Notice</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="{{ route('batch.index') }}" class="nav-link {{$route == 'batch.index'?'active':''}}">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Batch</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="{{ route('general.index') }}" class="nav-link {{$route == 'general.index'?'active':''}}">
+            <i class="far fa-circle nav-icon"></i>
+            <p>General</p>
+          </a>
+        </li>
+
          
      
         </ul>

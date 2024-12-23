@@ -8,9 +8,11 @@ use App\Http\Controllers\SliderController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\CommitteeController;
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\NoticeController;
+use App\Http\Controllers\GeneralController;
+use App\Http\Controllers\BatchController;
+use App\Http\Controllers\FrontendController;
+Route::get('/', [FrontendController::class, 'index'])->name('index');
 
 Route::get('/dashboard',[HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
@@ -22,6 +24,9 @@ Route::middleware('auth')->group(function () {
         'about' => AboutController::class,
         'event' => EventController::class,
         'committee' => CommitteeController::class,
+        'notice' => NoticeController::class,
+        'general' => GeneralController::class,
+        'batch' => BatchController::class,
     ]);
 
 });
