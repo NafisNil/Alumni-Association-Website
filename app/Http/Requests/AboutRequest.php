@@ -25,6 +25,7 @@ class AboutRequest extends FormRequest
             //
             'title' => 'required',
             'desc' => 'required',
+            'short_about' => 'required',
             'photo' => 'mimes:jpg,jpeg,webp,svg,png,gif',
         ];
     }

@@ -15,8 +15,9 @@ class CommitteeController extends Controller
     public function index()
     {
         //
-        $committee = Committee::orderBy('id', 'asc')->get();
-        return view('backend.committee.index',['committee'=>$committee]);
+        $committee = Committee::orderBy('serial', 'asc')->get();
+        $committeeCount = Committee::count();
+        return view('backend.committee.index',['committee'=>$committee, 'committeeCount' => $committeeCount]);
     }
 
     /**
@@ -25,9 +26,11 @@ class CommitteeController extends Controller
     public function create()
     {
         //
+        $committeeCount = Committee::count();
         $batch = Batch::orderBy('id', 'asc')->get();
         return view('backend.committee.create',[
-            'batch' => $batch
+            'batch' => $batch,
+            'committeeCount' => $committeeCount
         ]);
     }
 
@@ -64,9 +67,11 @@ class CommitteeController extends Controller
     {
         //
         $batch = Batch::orderBy('id', 'asc')->get();
+        $committeeCount = Committee::count();
         return view('backend.committee.edit',[
             'edit' => $committee,
-            'batch' => $batch
+            'batch' => $batch,
+            'committeeCount' => $committeeCount
         ]);
     }
 

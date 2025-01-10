@@ -95,7 +95,7 @@ class SliderController extends Controller
         if( $request->hasFile('photo') ) {
             $image = $request->file('photo');
             $filename = time() . '.' . $image->getClientOriginalExtension();
-            Image::make($image)->resize(980, 694)->save('storage/' . $filename);
+            Image::make($image)->resize(1100, 780)->save('storage/' . $filename);
             $about->photo = $filename;
             $about->save();
         }

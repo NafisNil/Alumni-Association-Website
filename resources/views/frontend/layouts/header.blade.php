@@ -1,344 +1,634 @@
-<header id="qodef-page-header" >
-    <div id="qodef-page-header-inner" class="qodef-content-grid">
-       <a itemprop="url" class="qodef-header-logo-link qodef-height--not-set" href="{{route('index')}}"  rel="home">
-       <img width="224" height="94" src="{{(!empty($logo->photo))?URL::to('storage/'.$logo->photo):URL::to('image/no_image.png')}}" class="qodef-header-logo-image qodef--main" alt="logo main" itemprop="image" />	<img width="224" height="94" src="{{(!empty($logo->photo))?URL::to('storage/'.$logo->photo):URL::to('image/no_image.png')}}" class="qodef-header-logo-image qodef--dark" alt="logo dark" itemprop="image" />	<img width="224" height="94" src="{{(!empty($logo->photo))?URL::to('storage/'.$logo->photo):URL::to('image/no_image.png')}}" class="qodef-header-logo-image qodef--light" alt="logo light" itemprop="image" /></a>	
-       <nav class="qodef-header-navigation" role="navigation" aria-label="Top Menu">
-          <ul id="menu-main-menu-1" class="menu">
-             <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-90 ">
-                <a href="{{route('index')}}"><span class="qodef-menu-item-text">Home</span></a>
-             </li>
-             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-91 qodef-menu-item--wide">
-                <a href="#"><span class="qodef-menu-item-text">Community</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-341 qodef--hide-link">
-                            <a href="#" onclick="JavaScript: return false;"><span class="qodef-menu-item-text">Social</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1985"><a href="global-newsfeed.html"><span class="qodef-menu-item-text">Global Newsfeed</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1987"><a href="members.html"><span class="qodef-menu-item-text">Members Directory</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1986"><a href="groups.html"><span class="qodef-menu-item-text">Groups Directory</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1989"><a href="groups/creative-thinking.html"><span class="qodef-menu-item-text">Group Profile</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1984"><a href="community-badges.html"><span class="qodef-menu-item-text">Community Badges</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1988"><a href="register.html"><span class="qodef-menu-item-text">Registration</span></a></li>
-                            </ul>
-                         </li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-342 qodef--hide-link">
-                            <a href="#" onclick="JavaScript: return false;"><span class="qodef-menu-item-text">Profile pages</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2121"><a href="members/anthony-clark.html"><span class="qodef-menu-item-text">User Profile</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2122"><a href="members/anthony-clark/info.html"><span class="qodef-menu-item-text">About User</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2123"><a href="members/anthony-clark/friends.html"><span class="qodef-menu-item-text">User’s Friends</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2124"><a href="members/anthony-clark/groups.html"><span class="qodef-menu-item-text">User’s Groups</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2125"><a href="members/anthony-clark/media.html"><span class="qodef-menu-item-text">User’s Photos</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2126"><a href="members/anthony-clark/reviews.html"><span class="qodef-menu-item-text">User’s Reviews</span></a></li>
-                            </ul>
-                         </li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-343 qodef--hide-link">
-                            <a href="#" onclick="JavaScript: return false;"><span class="qodef-menu-item-text">Forum</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-post_type_archive menu-item-object-forum menu-item-1990"><a href="forums.html"><span class="qodef-menu-item-text">All Forums</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-1992"><a href="forums/forum/web-designer-forum-news.html"><span class="qodef-menu-item-text">Forum Single</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1993"><a href="forums/topic/my-news.html"><span class="qodef-menu-item-text">Topics Single</span></a></li>
-                            </ul>
-                         </li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-344 qodef--hide-link">
-                            <a href="#" onclick="JavaScript: return false;"><span class="qodef-menu-item-text">Recently Active Members</span></a>
-                            <div class="qodef-mega-menu-widget-holder">
-                               <div class="widget widget_bp_core_recently_active_widget buddypress widget" data-area="menu-active-members">
-                                  <h5 class="qodef-widget-title"></h5>
-                                  <div class="avatar-block">
-                                     <div class="item-avatar">
-                                        <a href="members/test.html" class="bp-tooltip" data-bp-tooltip="Testman"><img loading="lazy" src="{{asset('frontend')}}/wp-content/uploads/avatars/43/1663783478-bpthumb.png" class="avatar user-43-avatar avatar-150 photo" width="150" height="94" alt="Profile picture of Testman" /></a>
-                                     </div>
-                                     <div class="item-avatar">
-                                        <a href="members/admin.html" class="bp-tooltip" data-bp-tooltip="admin<i class='fas fa-check youzify-account-verified youzify-small-verified-icon'></i>"><img loading="lazy" src="{{asset('frontend')}}/wp-content/uploads/2021/02/user-default-profile-img.jpg" class="avatar user-1-avatar avatar-150 photo" width="150" height="94" alt="Profile picture of admin" /></a>
-                                     </div>
-                                     <div class="item-avatar">
-                                        <a href="members/anthony-clark.html" class="bp-tooltip" data-bp-tooltip="Anthony Clark<i class='fas fa-check youzify-account-verified youzify-small-verified-icon'></i>"><img loading="lazy" src="{{asset('frontend')}}/wp-content/uploads/avatars/2/5fc9ecdf13932-bpthumb.jpg" class="avatar user-2-avatar avatar-150 photo" width="150" height="94" alt="Profile picture of Anthony Clark" /></a>
-                                     </div>
-                                     <div class="item-avatar">
-                                        <a href="members/demi-portillo.html" class="bp-tooltip" data-bp-tooltip="Demi Portillo<i class='fas fa-check youzify-account-verified youzify-small-verified-icon'></i>"><img loading="lazy" src="{{asset('frontend')}}/wp-content/uploads/avatars/11/5fc9ee4b79d2c-bpthumb.jpg" class="avatar user-11-avatar avatar-150 photo" width="150" height="94" alt="Profile picture of Demi Portillo" /></a>
-                                     </div>
-                                     <div class="item-avatar">
-                                        <a href="members/braydon-churchill.html" class="bp-tooltip" data-bp-tooltip="Braydon Churchill"><img loading="lazy" src="{{asset('frontend')}}/wp-content/uploads/avatars/22/5fc9ed5055529-bpthumb.jpg" class="avatar user-22-avatar avatar-150 photo" width="150" height="94" alt="Profile picture of Braydon Churchill" /></a>
-                                     </div>
-                                     <div class="item-avatar">
-                                        <a href="members/ronald-warner.html" class="bp-tooltip" data-bp-tooltip="Ronald Warner"><img loading="lazy" src="{{asset('frontend')}}/wp-content/uploads/avatars/7/5fc9f32a936c6-bpthumb.jpg" class="avatar user-7-avatar avatar-150 photo" width="150" height="94" alt="Profile picture of Ronald Warner" /></a>
-                                     </div>
-                                     <div class="item-avatar">
-                                        <a href="members/jayden-forbes.html" class="bp-tooltip" data-bp-tooltip="Jayden Forbes"><img loading="lazy" src="{{asset('frontend')}}/wp-content/uploads/avatars/32/5fc9f09a168ce-bpthumb.jpg" class="avatar user-32-avatar avatar-150 photo" width="150" height="94" alt="Profile picture of Jayden Forbes" /></a>
-                                     </div>
-                                  </div>
-                               </div>
-                            </div>
-                         </li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-92 qodef-menu-item--narrow">
-                <a href="#"><span class="qodef-menu-item-text">Pages</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-936"><a href="about-us.html"><span class="qodef-menu-item-text">About Us</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166"><a href="community-reviews.html"><span class="qodef-menu-item-text">Community Reviews</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1140"><a href="pricing-plans.html"><span class="qodef-menu-item-text">Pricing Plans</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1182"><a href="privacy-policy.html"><span class="qodef-menu-item-text">Privacy Policy</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1061"><a href="contact.html"><span class="qodef-menu-item-text">Contact</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1135"><a href="faq.html"><span class="qodef-menu-item-text">FAQ</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1172"><a href="coming-soon.html"><span class="qodef-menu-item-text">Coming Soon</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4121"><a href="404-error-page.html"><span class="qodef-menu-item-text">404 Error Page</span></a></li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-93 qodef-menu-item--narrow">
-                <a href="#"><span class="qodef-menu-item-text">Blog</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-589"><a href="right-sidebar.html"><span class="qodef-menu-item-text">Blog Right Sidebar</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-588"><a href="left-sidebar.html"><span class="qodef-menu-item-text">Blog Left Sidebar</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587"><a href="no-sidebar.html"><span class="qodef-menu-item-text">Blog No Sidebar</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-722"><a href="blog-masonry.html"><span class="qodef-menu-item-text">Blog Masonry</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-590 qodef--hide-link">
-                            <a href="#" onclick="JavaScript: return false;"><span class="qodef-menu-item-text">Post Types</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4652"><a href="learn-the-basics-of-design.html"><span class="qodef-menu-item-text">Standard</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4651"><a href="pay-attention-to-details.html"><span class="qodef-menu-item-text">Gallery</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4650"><a href="fun-ideas-for-your-forum.html"><span class="qodef-menu-item-text">Quote</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4649"><a href="practice-writing-blog-titles.html"><span class="qodef-menu-item-text">Link</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4648"><a href="nothing-can-stop-you-now.html"><span class="qodef-menu-item-text">Audio</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4647"><a href="exaggeration-in-animation.html"><span class="qodef-menu-item-text">Video</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-731"><a href="read-our-blog-and-master-your-designs.html"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
-                            </ul>
-                         </li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-94 qodef-menu-item--narrow">
-                <a href="#"><span class="qodef-menu-item-text">Events</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4548"><a href="event-list.html"><span class="qodef-menu-item-text">Event List</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1997"><a href="events/list.html"><span class="qodef-menu-item-text">Event Directory</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1998"><a href="events/month.html"><span class="qodef-menu-item-text">Event Calendar</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4543"><a href="events/today/tribe-bar-date-2024-04-17.html"><span class="qodef-menu-item-text">Event Day</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1999"><a href="event/eighty-percent-of-success-is-showing-up-5.html"><span class="qodef-menu-item-text">Event Single</span></a></li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95 qodef-menu-item--narrow">
-                <a href="#"><span class="qodef-menu-item-text">Shop</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1546"><a href="shop.html"><span class="qodef-menu-item-text">Shop List</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2064"><a href="product/leila-mug.html"><span class="qodef-menu-item-text">Shop Single</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1553 qodef--hide-link">
-                            <a href="#" onclick="JavaScript: return false;"><span class="qodef-menu-item-text">Shop Layouts</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1556"><a href="three-columns.html"><span class="qodef-menu-item-text">Three Columns</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2070"><a href="four-columns.html"><span class="qodef-menu-item-text">Four Columns</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2069"><a href="five-columns-wide.html"><span class="qodef-menu-item-text">Five Columns Wide</span></a></li>
-                            </ul>
-                         </li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1552 qodef--hide-link">
-                            <a href="#" onclick="JavaScript: return false;"><span class="qodef-menu-item-text">Shop Pages</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1550"><a href="my-account.html"><span class="qodef-menu-item-text">My Account</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1551"><a href="cart.html"><span class="qodef-menu-item-text">Cart</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1549"><a href="checkout.html"><span class="qodef-menu-item-text">Checkout</span></a></li>
-                            </ul>
-                         </li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-          </ul>
-       </nav>
-       <div class="qodef-widget-holder qodef--one">
-          <div id="joinup_core_prominent_groups-2" class="widget widget_joinup_core_prominent_groups qodef-header-widget-area-one" data-area="header-widget-one">
-             <div class="qodef-prominent-groups-widget">
-                <ul>
-                   <li class="qodef-hot"><i class="kikos kiko-fire"></i><a href="hot-groups.html" class="qodef-pg-link">Hot</a></li>
-                   <li class="qodef-trending"><i class="kikos kiko-lightning"></i><a href="trending-groups.html" class="qodef-pg-link">Trending</a></li>
-                </ul>
+<header id="qodef-page-header">
+   <div id="qodef-page-header-inner" class="qodef-content-grid">
+     <a itemprop="url" class="qodef-header-logo-link qodef-height--not-set" href="{{route('index')}}" rel="home">
+       <img width="224" height="94" src="{{(!empty($logo->photo))?URL::to('storage/'.$logo->photo):URL::to('image/no_image.png')}}" class="qodef-header-logo-image qodef--main" alt="logo main" itemprop="image" />
+
+     </a>
+     <nav class="qodef-header-navigation" role="navigation" aria-label="Top Menu">
+       <ul id="menu-main-menu-1" class="menu">
+         <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-90 ">
+           <a href="{{route('index')}}">
+             <span class="qodef-menu-item-text">Home</span>
+           </a>
+
+         </li>
+
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-92 qodef-menu-item--narrow">
+           <a href="#">
+             <span class="qodef-menu-item-text">About </span>
+           </a>
+           <div class="qodef-drop-down-second">
+             <div class="qodef-drop-down-second-inner">
+               <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-936">
+                   <a href="{{route('about_us')}}"">
+                     <span class="qodef-menu-item-text">About Us</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166">
+                   <a href="{{route('committee_member')}}">
+                     <span class="qodef-menu-item-text">Committee </span>
+                   </a>
+                 </li>
+
+               </ul>
              </div>
-          </div>
-          <div id="joinup_core_side_area_opener-2" class="widget widget_joinup_core_side_area_opener qodef-header-widget-area-one" data-area="header-widget-one"><a href="javascript:void(0)"  class="qodef-opener-icon qodef-m qodef-source--icon-pack qodef-side-area-opener" style="margin: -2px 0px 0px 19px" >
-             <span class="qodef-m-icon qodef--open">
-             <span class="qodef-icon-kiko kiko-ellipsis-menu-v kikos" ></span>	</span>
-             </a>
-          </div>
+           </div>
+         </li>
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-93 qodef-menu-item--narrow">
+           <a href="#">
+             <span class="qodef-menu-item-text">Blog</span>
+           </a>
+           <div class="qodef-drop-down-second">
+             <div class="qodef-drop-down-second-inner">
+               <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-589">
+                   <a href="right-sidebar.html">
+                     <span class="qodef-menu-item-text">Blog Right Sidebar</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-588">
+                   <a href="left-sidebar.html">
+                     <span class="qodef-menu-item-text">Blog Left Sidebar</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587">
+                   <a href="no-sidebar.html">
+                     <span class="qodef-menu-item-text">Blog No Sidebar</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-722">
+                   <a href="blog-masonry.html">
+                     <span class="qodef-menu-item-text">Blog Masonry</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-590 qodef--hide-link">
+                   <a href="#" onclick="JavaScript: return false;">
+                     <span class="qodef-menu-item-text">Post Types</span>
+                   </a>
+                   <ul class="sub-menu">
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4652">
+                       <a href="learn-the-basics-of-design.html">
+                         <span class="qodef-menu-item-text">Standard</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4651">
+                       <a href="pay-attention-to-details.html">
+                         <span class="qodef-menu-item-text">Gallery</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4650">
+                       <a href="fun-ideas-for-your-forum.html">
+                         <span class="qodef-menu-item-text">Quote</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4649">
+                       <a href="practice-writing-blog-titles.html">
+                         <span class="qodef-menu-item-text">Link</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4648">
+                       <a href="nothing-can-stop-you-now.html">
+                         <span class="qodef-menu-item-text">Audio</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4647">
+                       <a href="exaggeration-in-animation.html">
+                         <span class="qodef-menu-item-text">Video</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-731">
+                       <a href="read-our-blog-and-master-your-designs.html">
+                         <span class="qodef-menu-item-text">No Sidebar</span>
+                       </a>
+                     </li>
+                   </ul>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </li>
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-94 qodef-menu-item--narrow">
+           <a href="#">
+             <span class="qodef-menu-item-text">Events</span>
+           </a>
+           <div class="qodef-drop-down-second">
+             <div class="qodef-drop-down-second-inner">
+               <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4548">
+                   <a href="event-list.html">
+                     <span class="qodef-menu-item-text">Event List</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1997">
+                   <a href="events/list.html">
+                     <span class="qodef-menu-item-text">Event Directory</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1998">
+                   <a href="events/month.html">
+                     <span class="qodef-menu-item-text">Event Calendar</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4543">
+                   <a href="events/today/tribe-bar-date-2024-04-17.html">
+                     <span class="qodef-menu-item-text">Event Day</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1999">
+                   <a href="event/eighty-percent-of-success-is-showing-up-5.html">
+                     <span class="qodef-menu-item-text">Event Single</span>
+                   </a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </li>
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95 qodef-menu-item--narrow">
+           <a href="#">
+             <span class="qodef-menu-item-text">Shop</span>
+           </a>
+           <div class="qodef-drop-down-second">
+             <div class="qodef-drop-down-second-inner">
+               <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1546">
+                   <a href="shop.html">
+                     <span class="qodef-menu-item-text">Shop List</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2064">
+                   <a href="product/leila-mug.html">
+                     <span class="qodef-menu-item-text">Shop Single</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1553 qodef--hide-link">
+                   <a href="#" onclick="JavaScript: return false;">
+                     <span class="qodef-menu-item-text">Shop Layouts</span>
+                   </a>
+                   <ul class="sub-menu">
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1556">
+                       <a href="three-columns.html">
+                         <span class="qodef-menu-item-text">Three Columns</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2070">
+                       <a href="four-columns.html">
+                         <span class="qodef-menu-item-text">Four Columns</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2069">
+                       <a href="five-columns-wide.html">
+                         <span class="qodef-menu-item-text">Five Columns Wide</span>
+                       </a>
+                     </li>
+                   </ul>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1552 qodef--hide-link">
+                   <a href="#" onclick="JavaScript: return false;">
+                     <span class="qodef-menu-item-text">Shop Pages</span>
+                   </a>
+                   <ul class="sub-menu">
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1550">
+                       <a href="my-account.html">
+                         <span class="qodef-menu-item-text">My Account</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1551">
+                       <a href="cart.html">
+                         <span class="qodef-menu-item-text">Cart</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1549">
+                       <a href="checkout.html">
+                         <span class="qodef-menu-item-text">Checkout</span>
+                       </a>
+                     </li>
+                   </ul>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </li>
+       </ul>
+     </nav>
+     <div class="qodef-widget-holder qodef--one">
+       <div id="joinup_core_prominent_groups-2" class="widget widget_joinup_core_prominent_groups qodef-header-widget-area-one" data-area="header-widget-one">
+         <div class="qodef-prominent-groups-widget">
+           <ul>
+             <li class="qodef-hot">
+               <i class="kikos kiko-fire"></i>
+               <a href="hot-groups.html" class="qodef-pg-link">Hot</a>
+             </li>
+             <li class="qodef-trending">
+               <i class="kikos kiko-lightning"></i>
+               <a href="trending-groups.html" class="qodef-pg-link">Trending</a>
+             </li>
+           </ul>
+         </div>
        </div>
-    </div>
+       <div id="joinup_core_side_area_opener-2" class="widget widget_joinup_core_side_area_opener qodef-header-widget-area-one" data-area="header-widget-one">
+         <a href="javascript:void(0)" class="qodef-opener-icon qodef-m qodef-source--icon-pack qodef-side-area-opener" style="margin: -2px 0px 0px 19px">
+           <span class="qodef-m-icon qodef--open">
+             <span class="qodef-icon-kiko kiko-ellipsis-menu-v kikos"></span>
+           </span>
+         </a>
+       </div>
+     </div>
+   </div>
  </header>
  <header id="qodef-page-mobile-header">
-    <div id="qodef-page-mobile-header-inner">
-       <a itemprop="url" class="qodef-mobile-header-logo-link" href="index.html" style="height:47px" rel="home">
-       <img width="224" height="94" src="{{asset('frontend')}}/wp-content/uploads/2021/01/logo-mobile-img-6.png" class="qodef-header-logo-image qodef--main" alt="logo main" itemprop="image" />	</a>	
-       <div class="qodef-widget-holder qodef--one">
-          <div id="joinup_core_login_opener-3" class="widget widget_joinup_core_login_opener qodef-mobile-header-widget-area-one" data-area="mobile-header">
-             <div class="qodef-login-opener-widget">
-                <a class="qodef-login-opener qodef-login" data-show-youzify-login="true">
-                <span class="qodef-icon-kiko kiko-user kikol" ></span>        <span class="qodef-login-opener-text">Login</span>
-                </a>
-                <a href="register.html" class="qodef-login-opener qodef-register">
-                <span class="qodef-icon-kiko kiko-lock kikol" ></span>        <span class="qodef-login-opener-text">Register</span>
-                </a>
-             </div>
-          </div>
+   <div id="qodef-page-mobile-header-inner">
+     <a itemprop="url" class="qodef-mobile-header-logo-link" href="index.html" style="height:47px" rel="home">
+       <img width="224" height="94" src="{{asset('frontend')}}/wp-content/uploads/2021/01/logo-mobile-img-6.png" class="qodef-header-logo-image qodef--main" alt="logo main" itemprop="image" />
+     </a>
+     <div class="qodef-widget-holder qodef--one">
+       <div id="joinup_core_login_opener-3" class="widget widget_joinup_core_login_opener qodef-mobile-header-widget-area-one" data-area="mobile-header">
+         <div class="qodef-login-opener-widget">
+           <a class="qodef-login-opener qodef-login" data-show-youzify-login="true">
+             <span class="qodef-icon-kiko kiko-user kikol"></span>
+             <span class="qodef-login-opener-text">Login</span>
+           </a>
+           <a href="register.html" class="qodef-login-opener qodef-register">
+             <span class="qodef-icon-kiko kiko-lock kikol"></span>
+             <span class="qodef-login-opener-text">Register</span>
+           </a>
+         </div>
        </div>
-       <a href="javascript:void(0)"  class="qodef-opener-icon qodef-m qodef-source--icon-pack qodef-mobile-header-opener"  >
+     </div>
+     <a href="javascript:void(0)" class="qodef-opener-icon qodef-m qodef-source--icon-pack qodef-mobile-header-opener">
        <span class="qodef-m-icon qodef--open">
-       <span class="qodef-icon-kiko kiko-hamburger-menu kikol" ></span>	</span>
+         <span class="qodef-icon-kiko kiko-hamburger-menu kikol"></span>
+       </span>
        <span class="qodef-m-icon qodef--close">
-       <span class="qodef-icon-kiko kiko-cross-line kikol" ></span>		</span>
-       </a>	
-       <nav class="qodef-mobile-header-navigation" role="navigation" aria-label="Mobile Menu">
-          <ul id="menu-mobile-menu-1" class="qodef-content-grid">
-             <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3534 qodef-menu-item--narrow">
-                <a href="#"><span class="qodef-menu-item-text">Home</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3536"><a href="index.html"><span class="qodef-menu-item-text">Main Home</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-230 current_page_item menu-item-3537"><a href="index.html"><span class="qodef-menu-item-text">Online Community</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3538"><a href="social-network.html"><span class="qodef-menu-item-text">Social Network</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3596"><a href="landing.html"><span class="qodef-menu-item-text">Landing</span></a></li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3540 qodef-menu-item--narrow">
-                <a href="#"><span class="qodef-menu-item-text">Community</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3541">
-                            <a href="#"><span class="qodef-menu-item-text">Social</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3542"><a href="global-newsfeed.html"><span class="qodef-menu-item-text">Global Newsfeed</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3543"><a href="members.html"><span class="qodef-menu-item-text">Members Directory</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3544"><a href="groups.html"><span class="qodef-menu-item-text">Groups Directory</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3545"><a href="groups/creative-thinking.html"><span class="qodef-menu-item-text">Group Profile</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3546"><a href="community-badges.html"><span class="qodef-menu-item-text">Community Badges</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3547"><a href="register.html"><span class="qodef-menu-item-text">Registration</span></a></li>
-                            </ul>
-                         </li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3548">
-                            <a href="#"><span class="qodef-menu-item-text">Profile pages</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3549"><a href="members/anthony-clark.html"><span class="qodef-menu-item-text">User Profile</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3550"><a href="members/anthony-clark/info.html"><span class="qodef-menu-item-text">About User</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3551"><a href="members/anthony-clark/friends.html"><span class="qodef-menu-item-text">User’s Friends</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3552"><a href="members/anthony-clark/groups.html"><span class="qodef-menu-item-text">User’s Groups</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3553"><a href="members/anthony-clark/media.html"><span class="qodef-menu-item-text">User’s Photos</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3554"><a href="members/anthony-clark/reviews.html"><span class="qodef-menu-item-text">User’s Reviews</span></a></li>
-                            </ul>
-                         </li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3555">
-                            <a href="#"><span class="qodef-menu-item-text">Forum</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-post_type_archive menu-item-object-forum menu-item-3556"><a href="forums.html"><span class="qodef-menu-item-text">All Forums</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-3557"><a href="forums/forum/web-designer-forum-news.html"><span class="qodef-menu-item-text">Forum Single</span></a></li>
-                               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3558"><a href="forums/topic/my-news.html"><span class="qodef-menu-item-text">Topic Single</span></a></li>
-                            </ul>
-                         </li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3560 qodef-menu-item--narrow">
-                <a href="#"><span class="qodef-menu-item-text">Pages</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3561"><a href="about-us.html"><span class="qodef-menu-item-text">About Us</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3565"><a href="community-reviews.html"><span class="qodef-menu-item-text">Community Reviews</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3564"><a href="pricing-plans.html"><span class="qodef-menu-item-text">Pricing Plans</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3567"><a href="privacy-policy.html"><span class="qodef-menu-item-text">Privacy Policy</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3562"><a href="contact.html"><span class="qodef-menu-item-text">Contact</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3563"><a href="faq.html"><span class="qodef-menu-item-text">FAQ</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3566"><a href="coming-soon.html"><span class="qodef-menu-item-text">Coming Soon</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4124"><a href="404-error-page.html"><span class="qodef-menu-item-text">404 Error Page</span></a></li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3568 qodef-menu-item--narrow">
-                <a href="#"><span class="qodef-menu-item-text">Blog</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3569"><a href="right-sidebar.html"><span class="qodef-menu-item-text">Blog Right Sidebar</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3570"><a href="left-sidebar.html"><span class="qodef-menu-item-text">Blog Left Sidebar</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3571"><a href="no-sidebar.html"><span class="qodef-menu-item-text">Blog No Sidebar</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3572"><a href="blog-masonry.html"><span class="qodef-menu-item-text">Blog Masonry</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3573">
-                            <a href="#"><span class="qodef-menu-item-text">Post Types</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3574"><a href="how-to-have-a-job-you-love-doing.html"><span class="qodef-menu-item-text">Standard</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3575"><a href="1-design-mistake-you-should-avoid.html"><span class="qodef-menu-item-text">Gallery</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3576"><a href="free-and-usefull-online-courses.html"><span class="qodef-menu-item-text">Quote</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3577"><a href="learn-from-the-best-and-do-great.html"><span class="qodef-menu-item-text">Link</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3578"><a href="best-10-art-schools-for-your-child.html"><span class="qodef-menu-item-text">Audio</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3579"><a href="what-movies-to-watch-during-april.html"><span class="qodef-menu-item-text">Video</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3580"><a href="read-our-blog-and-master-your-designs.html"><span class="qodef-menu-item-text">No Sidebar</span></a></li>
-                            </ul>
-                         </li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3581 qodef-menu-item--narrow">
-                <a href="#"><span class="qodef-menu-item-text">Events</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4912"><a href="event-list.html"><span class="qodef-menu-item-text">Event List</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3582"><a href="events/list.html"><span class="qodef-menu-item-text">Event Directory</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3583"><a href="events/month.html"><span class="qodef-menu-item-text">Event Calendar</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4544"><a href="events/today/tribe-bar-date-2024-04-17.html"><span class="qodef-menu-item-text">Event Day</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3584"><a href="event/eighty-percent-of-success-is-showing-up-5.html"><span class="qodef-menu-item-text">Event Single</span></a></li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3585 qodef-menu-item--narrow">
-                <a href="#"><span class="qodef-menu-item-text">Shop</span></a>
-                <div class="qodef-drop-down-second">
-                   <div class="qodef-drop-down-second-inner">
-                      <ul class="sub-menu">
-                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3586"><a href="shop.html"><span class="qodef-menu-item-text">Shop List</span></a></li>
-                         <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3587"><a href="product/leila-mug.html"><span class="qodef-menu-item-text">Shop Single</span></a></li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3588">
-                            <a href="#"><span class="qodef-menu-item-text">Shop Layouts</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3589"><a href="three-columns.html"><span class="qodef-menu-item-text">Three Columns</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3590"><a href="four-columns.html"><span class="qodef-menu-item-text">Four Columns</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3591"><a href="five-columns-wide.html"><span class="qodef-menu-item-text">Five Columns Wide</span></a></li>
-                            </ul>
-                         </li>
-                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3592">
-                            <a href="#"><span class="qodef-menu-item-text">Shop Pages</span></a>
-                            <ul class="sub-menu">
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3593"><a href="my-account.html"><span class="qodef-menu-item-text">My Account</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3594"><a href="cart.html"><span class="qodef-menu-item-text">Cart</span></a></li>
-                               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3595"><a href="checkout.html"><span class="qodef-menu-item-text">Checkout</span></a></li>
-                            </ul>
-                         </li>
-                      </ul>
-                   </div>
-                </div>
-             </li>
-          </ul>
-       </nav>
-    </div>
+         <span class="qodef-icon-kiko kiko-cross-line kikol"></span>
+       </span>
+     </a>
+     <nav class="qodef-mobile-header-navigation" role="navigation" aria-label="Mobile Menu">
+       <ul id="menu-mobile-menu-1" class="qodef-content-grid">
+         <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3534 qodef-menu-item--narrow">
+           <a href="#">
+             <span class="qodef-menu-item-text">Home</span>
+           </a>
+           <div class="qodef-drop-down-second">
+             <div class="qodef-drop-down-second-inner">
+               <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-134 current_page_item menu-item-3536">
+                   <a href="index.html">
+                     <span class="qodef-menu-item-text">Main Home</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3537">
+                   <a href="online-community.html">
+                     <span class="qodef-menu-item-text">Online Community</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3538">
+                   <a href="social-network.html">
+                     <span class="qodef-menu-item-text">Social Network</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3596">
+                   <a href="landing.html">
+                     <span class="qodef-menu-item-text">Landing</span>
+                   </a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </li>
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3540 qodef-menu-item--narrow">
+           <a href="#">
+             <span class="qodef-menu-item-text">About</span>
+           </a>
+           <div class="qodef-drop-down-second">
+             <div class="qodef-drop-down-second-inner">
+               <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3541">
+                   <a href="#">
+                     <span class="qodef-menu-item-text">About Us</span>
+                   </a>
+                   <ul class="sub-menu">
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3542">
+                       <a href="global-newsfeed.html">
+                         <span class="qodef-menu-item-text">Global Newsfeed</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3543">
+                       <a href="members.html">
+                         <span class="qodef-menu-item-text">Members Directory</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3544">
+                       <a href="groups.html">
+                         <span class="qodef-menu-item-text">Groups Directory</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3545">
+                       <a href="groups/creative-thinking.html">
+                         <span class="qodef-menu-item-text">Group Profile</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3546">
+                       <a href="community-badges.html">
+                         <span class="qodef-menu-item-text">Community Badges</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3547">
+                       <a href="register.html">
+                         <span class="qodef-menu-item-text">Registration</span>
+                       </a>
+                     </li>
+                   </ul>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3548">
+                   <a href="#">
+                     <span class="qodef-menu-item-text">Profile pages</span>
+                   </a>
+                   <ul class="sub-menu">
+                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3549">
+                       <a href="members/anthony-clark.html">
+                         <span class="qodef-menu-item-text">User Profile</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3550">
+                       <a href="members/anthony-clark/info.html">
+                         <span class="qodef-menu-item-text">About User</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3551">
+                       <a href="members/anthony-clark/friends.html">
+                         <span class="qodef-menu-item-text">User’s Friends</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3552">
+                       <a href="members/anthony-clark/groups.html">
+                         <span class="qodef-menu-item-text">User’s Groups</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3553">
+                       <a href="members/anthony-clark/media.html">
+                         <span class="qodef-menu-item-text">User’s Photos</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3554">
+                       <a href="members/anthony-clark/reviews.html">
+                         <span class="qodef-menu-item-text">User’s Reviews</span>
+                       </a>
+                     </li>
+                   </ul>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3555">
+                   <a href="#">
+                     <span class="qodef-menu-item-text">Forum</span>
+                   </a>
+                   <ul class="sub-menu">
+                     <li class="menu-item menu-item-type-post_type_archive menu-item-object-forum menu-item-3556">
+                       <a href="forums.html">
+                         <span class="qodef-menu-item-text">All Forums</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-forum menu-item-3557">
+                       <a href="forums/forum/web-designer-forum-news.html">
+                         <span class="qodef-menu-item-text">Forum Single</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3558">
+                       <a href="forums/topic/my-news.html">
+                         <span class="qodef-menu-item-text">Topic Single</span>
+                       </a>
+                     </li>
+                   </ul>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </li>
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3560 qodef-menu-item--narrow">
+           <a href="#">
+             <span class="qodef-menu-item-text">Pages</span>
+           </a>
+           <div class="qodef-drop-down-second">
+             <div class="qodef-drop-down-second-inner">
+               <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3561">
+                   <a href="about-us.html">
+                     <span class="qodef-menu-item-text">About Us</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3565">
+                   <a href="community-reviews.html">
+                     <span class="qodef-menu-item-text">Community Reviews</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3564">
+                   <a href="pricing-plans.html">
+                     <span class="qodef-menu-item-text">Pricing Plans</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3567">
+                   <a href="privacy-policy.html">
+                     <span class="qodef-menu-item-text">Privacy Policy</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3562">
+                   <a href="contact.html">
+                     <span class="qodef-menu-item-text">Contact</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3563">
+                   <a href="faq.html">
+                     <span class="qodef-menu-item-text">FAQ</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3566">
+                   <a href="coming-soon.html">
+                     <span class="qodef-menu-item-text">Coming Soon</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4124">
+                   <a href="404-error-page.html">
+                     <span class="qodef-menu-item-text">404 Error Page</span>
+                   </a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </li>
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3568 qodef-menu-item--narrow">
+           <a href="#">
+             <span class="qodef-menu-item-text">Blog</span>
+           </a>
+           <div class="qodef-drop-down-second">
+             <div class="qodef-drop-down-second-inner">
+               <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3569">
+                   <a href="right-sidebar.html">
+                     <span class="qodef-menu-item-text">Blog Right Sidebar</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3570">
+                   <a href="left-sidebar.html">
+                     <span class="qodef-menu-item-text">Blog Left Sidebar</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3571">
+                   <a href="no-sidebar.html">
+                     <span class="qodef-menu-item-text">Blog No Sidebar</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3572">
+                   <a href="blog-masonry.html">
+                     <span class="qodef-menu-item-text">Blog Masonry</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3573">
+                   <a href="#">
+                     <span class="qodef-menu-item-text">Post Types</span>
+                   </a>
+                   <ul class="sub-menu">
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3574">
+                       <a href="how-to-have-a-job-you-love-doing.html">
+                         <span class="qodef-menu-item-text">Standard</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3575">
+                       <a href="1-design-mistake-you-should-avoid.html">
+                         <span class="qodef-menu-item-text">Gallery</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3576">
+                       <a href="free-and-usefull-online-courses.html">
+                         <span class="qodef-menu-item-text">Quote</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3577">
+                       <a href="learn-from-the-best-and-do-great.html">
+                         <span class="qodef-menu-item-text">Link</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3578">
+                       <a href="best-10-art-schools-for-your-child.html">
+                         <span class="qodef-menu-item-text">Audio</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3579">
+                       <a href="what-movies-to-watch-during-april.html">
+                         <span class="qodef-menu-item-text">Video</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-3580">
+                       <a href="read-our-blog-and-master-your-designs.html">
+                         <span class="qodef-menu-item-text">No Sidebar</span>
+                       </a>
+                     </li>
+                   </ul>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </li>
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3581 qodef-menu-item--narrow">
+           <a href="#">
+             <span class="qodef-menu-item-text">Events</span>
+           </a>
+           <div class="qodef-drop-down-second">
+             <div class="qodef-drop-down-second-inner">
+               <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4912">
+                   <a href="event-list.html">
+                     <span class="qodef-menu-item-text">Event List</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3582">
+                   <a href="events/list.html">
+                     <span class="qodef-menu-item-text">Event Directory</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3583">
+                   <a href="events/month.html">
+                     <span class="qodef-menu-item-text">Event Calendar</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4544">
+                   <a href="events/today/tribe-bar-date-2024-04-17.html">
+                     <span class="qodef-menu-item-text">Event Day</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3584">
+                   <a href="event/eighty-percent-of-success-is-showing-up-5.html">
+                     <span class="qodef-menu-item-text">Event Single</span>
+                   </a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </li>
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3585 qodef-menu-item--narrow">
+           <a href="#">
+             <span class="qodef-menu-item-text">Shop</span>
+           </a>
+           <div class="qodef-drop-down-second">
+             <div class="qodef-drop-down-second-inner">
+               <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3586">
+                   <a href="shop.html">
+                     <span class="qodef-menu-item-text">Shop List</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3587">
+                   <a href="product/leila-mug.html">
+                     <span class="qodef-menu-item-text">Shop Single</span>
+                   </a>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3588">
+                   <a href="#">
+                     <span class="qodef-menu-item-text">Shop Layouts</span>
+                   </a>
+                   <ul class="sub-menu">
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3589">
+                       <a href="three-columns.html">
+                         <span class="qodef-menu-item-text">Three Columns</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3590">
+                       <a href="four-columns.html">
+                         <span class="qodef-menu-item-text">Four Columns</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3591">
+                       <a href="five-columns-wide.html">
+                         <span class="qodef-menu-item-text">Five Columns Wide</span>
+                       </a>
+                     </li>
+                   </ul>
+                 </li>
+                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3592">
+                   <a href="#">
+                     <span class="qodef-menu-item-text">Shop Pages</span>
+                   </a>
+                   <ul class="sub-menu">
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3593">
+                       <a href="my-account.html">
+                         <span class="qodef-menu-item-text">My Account</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3594">
+                       <a href="cart.html">
+                         <span class="qodef-menu-item-text">Cart</span>
+                       </a>
+                     </li>
+                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3595">
+                       <a href="checkout.html">
+                         <span class="qodef-menu-item-text">Checkout</span>
+                       </a>
+                     </li>
+                   </ul>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </li>
+       </ul>
+     </nav>
+   </div>
  </header>

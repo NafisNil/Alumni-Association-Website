@@ -59,6 +59,9 @@
     <script>
     
         CKEDITOR.replace( 'desc' );
+        CKEDITOR.replace( 'mission' );
+        CKEDITOR.replace( 'vision' );
+        CKEDITOR.replace( 'short_about' );
     
     </script>
     

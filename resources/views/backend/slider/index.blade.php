@@ -29,9 +29,9 @@
               <div class="card-header">
                 <h3 class="card-title">BAUET CSE AA</h3>
 
-                @if ($sliderCount < 1)
+   
                 <a href="{{route('slider.create')}}" class="float-right btn btn-outline-dark btn-sm mb-2"><i class="fas fa-plus-square"></i></a>
-                @endif
+          
            
               </div>
               <!-- /.card-header -->

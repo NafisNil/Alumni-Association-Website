@@ -43,6 +43,9 @@
                     <th>#</th>
                     <th>Title</th>
                     <th>Description</th>
+                    <th>Short Description</th>
+                    <th>Mission</th>
+                    <th>Vision</th>
                     <th>Photo</th>
               
                     <th>Action</th>
@@ -65,6 +68,9 @@
                     <td>{{ ++$key }}</td>
                     <td>{{ $item->title }}</td>
                     <td>{!! $item->desc !!}</td>
+                    <td>{!! $item->short_about !!}</td>
+                    <td>{!! $item->mission !!}</td>
+                    <td>{!! $item->vision !!}</td>
                     <td> <img src="{{(!empty($item->photo))?URL::to('storage/'.$item->photo):URL::to('image/no_image.png')}}" alt="" style="max-height:150px"></td>
                 
                    <td>
@@ -96,6 +102,9 @@
                     <th>#</th>
                     <th>Title</th>
                     <th>Description</th>
+                    <th>Short Description</th>
+                    <th>Mission</th>
+                    <th>Vision</th>
                     <th>Photo</th>
                 
                     <th>Action</th>

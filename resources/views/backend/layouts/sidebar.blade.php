@@ -107,6 +107,13 @@
         </li>
 
         <li class="nav-item">
+          <a href="{{ route('news.index') }}" class="nav-link {{$route == 'news.index'?'active':''}}">
+            <i class="far fa-circle nav-icon"></i>
+            <p>News</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
           <a href="{{ route('batch.index') }}" class="nav-link {{$route == 'batch.index'?'active':''}}">
             <i class="far fa-circle nav-icon"></i>
             <p>Batch</p>

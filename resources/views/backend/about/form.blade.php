@@ -29,6 +29,27 @@
 
   </div>
 
+  <div class="form-group">
+    <label for="exampleInputEmail1">Short About <span style="color:red" >*</span></label>
+
+    <textarea name="short_about" id="" cols="30" rows="10" class="form-control" required>{!!old('short_about',@$edit->short_about)!!}</textarea>
+
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Mission</label>
+
+    <textarea name="mission" id="" cols="30" rows="10" class="form-control" >{!!old('mission',@$edit->mission)!!}</textarea>
+
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Vision </label>
+
+    <textarea name="vision" id="" cols="30" rows="10" class="form-control" >{!!old('vision',@$edit->vision)!!}</textarea>
+
+  </div>
+
 
   <div class="form-group">
     <label for="exampleInputEmail1">Title <span style="color:red" >*</span></label>

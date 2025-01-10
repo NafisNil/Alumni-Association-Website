@@ -42,6 +42,7 @@ BAUET CSE AA- Committee -  - Index
                   <thead>
                   <tr>
                     <th>#</th>
+                    <th>Serial No</th>
                     <th>Name</th>
                     <th>Designation</th>
                     <th>Department</th>
@@ -60,11 +61,9 @@ BAUET CSE AA- Committee -  - Index
 
                     @foreach ($committee as $key=>$item)
 
-
-
-
                   <tr>
                     <td>{{ ++$key }}</td>
+                    <td>{{ $item->serial }}</td>
                     <td>{{ $item->name }}</td>
                     <td>{{ $item->designation }}</td>
                     <td>{{ $item->dept }}</td>
@@ -98,6 +97,7 @@ BAUET CSE AA- Committee -  - Index
                   <tfoot>
                   <tr>
                     <th>#</th>
+                    <th>Serial No</th>
                     <th>Name</th>
                     <th>Designation</th>
                     <th>Department</th>

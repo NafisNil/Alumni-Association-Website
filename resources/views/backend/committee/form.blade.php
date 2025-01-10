@@ -64,7 +64,13 @@
 
   </div>
 
+  <div class="form-group">
+    <label for="exampleInputEmail1">Serial No. <span style="color:red" >*</span></label>
 
+    {{-- <input type="text"  class="form-control" name="dept"  value="{!!old('dept',@$edit->dept)!!}" required> --}}
+    <input type="number"  class="form-control" name="serial"  value="{!!old('serial',@$edit->serial)!!}" placeholder="1-{{$committeeCount}}" min="1" max="{{$committeeCount}}" required> 
+
+  </div>
 
   <div class="form-group">
     <label for="exampleInputEmail1">Department <span style="color:red" >*</span></label>
@@ -73,6 +79,7 @@
     <input type="text"  class="form-control" name="dept"  value="Computer Science and Engineering(CSE)" readonly> 
 
   </div>
+
 
 </div>
 <!-- /.card-body -->

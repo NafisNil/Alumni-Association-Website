@@ -11,8 +11,13 @@ use App\Http\Controllers\CommitteeController;
 use App\Http\Controllers\NoticeController;
 use App\Http\Controllers\GeneralController;
 use App\Http\Controllers\BatchController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\FrontendController;
+
 Route::get('/', [FrontendController::class, 'index'])->name('index');
+Route::get('/about-us', [FrontendController::class, 'about'])->name('about_us');
+Route::get('/committee-member', [FrontendController::class, 'committee'])->name('committee_member');
+Route::get('/event_all', [FrontendController::class, 'event'])->name('event_all');
 
 Route::get('/dashboard',[HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
@@ -27,6 +32,7 @@ Route::middleware('auth')->group(function () {
         'notice' => NoticeController::class,
         'general' => GeneralController::class,
         'batch' => BatchController::class,
+        'news' => NewsController::class,
     ]);
 
 });
