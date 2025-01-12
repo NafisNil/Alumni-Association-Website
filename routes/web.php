@@ -18,6 +18,7 @@ Route::get('/', [FrontendController::class, 'index'])->name('index');
 Route::get('/about-us', [FrontendController::class, 'about'])->name('about_us');
 Route::get('/committee-member', [FrontendController::class, 'committee'])->name('committee_member');
 Route::get('/event_all', [FrontendController::class, 'event'])->name('event_all');
+Route::get('/event_single/slug', [FrontendController::class, 'event_single'])->name('event_single');
 
 Route::get('/dashboard',[HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 

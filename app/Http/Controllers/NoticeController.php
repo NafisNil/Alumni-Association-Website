@@ -6,6 +6,7 @@ use App\Models\Notice;
 use Illuminate\Http\Request;
 use App\Http\Requests\NoticeRequest;
 use Image;
+use Illuminate\Support\Str;
 class NoticeController extends Controller
 {
     /**
@@ -33,7 +34,12 @@ class NoticeController extends Controller
     public function store(NoticeRequest $request)
     {
         //
-        $notice = Notice::create($request->all());
+
+        $notice = Notice::create([
+            'title' => $request->title,
+            'description' => $request->description,
+            'slug' => Str::slug($request->title),
+        ]);
         if ($request->hasFile('photo')) {
             $this->_uploadImage($request, $notice);
         }
@@ -70,8 +76,12 @@ class NoticeController extends Controller
      */
     public function update(NoticeRequest $request, Notice $notice)
     {
-        //
-        $notice->update($request->all());
+
+        $notice->update([
+            'title' => $request->title,
+            'description' => $request->description,
+            'slug' => Str::slug($request->title),
+        ]);
         if ($request->hasFile('photo')) {
             @unlink('storage/'.$notice->photo);
             $this->_uploadImage($request, $notice);

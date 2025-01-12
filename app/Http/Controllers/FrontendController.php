@@ -56,14 +56,12 @@ class FrontendController extends Controller
         $data['general'] = General::first();
        $data['event']= Event::orderBy('id', 'desc')->paginate(15);
 
-
         $category = $request->get('category', 'All');
         
         if ($category === 'All') {
             $data['events'] = Event::orderBy('id','desc')->paginate(15);
         } else {
             $data['events'] = Event::where('category', $category)->paginate(15);
-           
         }
 
         if ($request->ajax()) {
@@ -72,6 +70,18 @@ class FrontendController extends Controller
 
         return view('frontend.event', $data);
 
+    }
+
+
+    public function event_single($slug)
+    {
+        $data['logo'] = Logo::first();
+        $data['about'] = About::first();
+        $data['notice'] = Notice::orderBy('id', 'desc')->get();
+        $data['general'] = General::first();
+        $data['event'] = Event::where('slug', $slug)->first();
+        $data['event_all'] = Event::orderBy('id', 'desc')->limit(3)->get();
+        return view('frontend.event_single', $data);
     }
 
     

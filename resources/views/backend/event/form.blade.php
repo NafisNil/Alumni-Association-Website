@@ -34,7 +34,7 @@
     <label for="exampleInputEmail1">Title <span style="color:red" >*</span></label>
 
     <input type="text"  class="form-control" name="title"  value="{!!old('title',@$edit->title)!!}" required>
-
+  
   </div>
 
 

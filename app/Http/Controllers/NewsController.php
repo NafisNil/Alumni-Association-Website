@@ -6,6 +6,7 @@ use App\Models\News;
 use Illuminate\Http\Request;
 use App\Http\Requests\NewsRequest;
 use Image;
+use Illuminate\Support\Str;
 class NewsController extends Controller
 {
     /**
@@ -33,7 +34,12 @@ class NewsController extends Controller
     public function store(NewsRequest $request)
     {
         //\
-        $news = News::create($request->all());
+
+        $news = News::create([
+            'title' => $request->title,
+            'description' => $request->description,
+            'slug' => Str::slug($request->slug),
+        ]);
         if ($request->hasFile('photo')) {
             $this->_uploadImage($request, $news);
         }
@@ -67,7 +73,12 @@ class NewsController extends Controller
     public function update(NewsRequest $request, News $news)
     {
         //
-        $news->update($request->all());
+       
+        $news->update([
+            'title' => $request->title,
+            'description' => $request->description,
+            'slug' => Str::slug($request->title),   
+        ]);
         if ($request->hasFile('photo')) {
             @unlink('storage/'.$news->photo);
             $this->_uploadImage($request, $news);

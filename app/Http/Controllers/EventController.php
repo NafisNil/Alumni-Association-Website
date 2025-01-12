@@ -6,6 +6,7 @@ use App\Models\Event;
 use Illuminate\Http\Request;
 use Image;
 use App\Http\Requests\EventRequest;
+use Illuminate\Support\Str;
 class EventController extends Controller
 {
     /**
@@ -32,16 +33,18 @@ class EventController extends Controller
      */
     public function store(EventRequest $request)
     {
-  //      $embeddedUrl = convertToEmbeddedMapUrl($request->map);
+
          $event = Event::create([
             'title' => $request->title,
             'category' => $request->category,
+            'slug' => Str::slug($request->title),
             'date' => $request->date,
             'time' => $request->time,
             'location' => $request->location,
             'map' => $request->map,
             'description' => $request->description,
-            'application_fees' => $request->application_fees
+            'application_fees' => $request->application_fees,
+            
          ]);
         if ($request->hasFile('photo')) {
             $this->_uploadImage($request, $event);
@@ -77,11 +80,10 @@ class EventController extends Controller
      */
     public function update(EventRequest $request, Event $event)
     {
-        //
-   //     dd($event->map);
-      //  $embeddedUrl = convertToEmbeddedMapUrl($request->map);
+ 
         $event->update([
             'title' => $request->title,
+            'slug' => Str::slug($request->title),
             'category' => $request->category,
             'date' => $request->date,
             'time' => $request->time,
