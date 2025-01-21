@@ -35,205 +35,27 @@
              </div>
            </div>
          </li>
-         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-93 qodef-menu-item--narrow">
-           <a href="#">
-             <span class="qodef-menu-item-text">Blog</span>
-           </a>
-           <div class="qodef-drop-down-second">
-             <div class="qodef-drop-down-second-inner">
-               <ul class="sub-menu">
-                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-589">
-                   <a href="right-sidebar.html">
-                     <span class="qodef-menu-item-text">Blog Right Sidebar</span>
-                   </a>
-                 </li>
-                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-588">
-                   <a href="left-sidebar.html">
-                     <span class="qodef-menu-item-text">Blog Left Sidebar</span>
-                   </a>
-                 </li>
-                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587">
-                   <a href="no-sidebar.html">
-                     <span class="qodef-menu-item-text">Blog No Sidebar</span>
-                   </a>
-                 </li>
-                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-722">
-                   <a href="blog-masonry.html">
-                     <span class="qodef-menu-item-text">Blog Masonry</span>
-                   </a>
-                 </li>
-                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-590 qodef--hide-link">
-                   <a href="#" onclick="JavaScript: return false;">
-                     <span class="qodef-menu-item-text">Post Types</span>
-                   </a>
-                   <ul class="sub-menu">
-                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4652">
-                       <a href="learn-the-basics-of-design.html">
-                         <span class="qodef-menu-item-text">Standard</span>
-                       </a>
-                     </li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4651">
-                       <a href="pay-attention-to-details.html">
-                         <span class="qodef-menu-item-text">Gallery</span>
-                       </a>
-                     </li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4650">
-                       <a href="fun-ideas-for-your-forum.html">
-                         <span class="qodef-menu-item-text">Quote</span>
-                       </a>
-                     </li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4649">
-                       <a href="practice-writing-blog-titles.html">
-                         <span class="qodef-menu-item-text">Link</span>
-                       </a>
-                     </li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4648">
-                       <a href="nothing-can-stop-you-now.html">
-                         <span class="qodef-menu-item-text">Audio</span>
-                       </a>
-                     </li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4647">
-                       <a href="exaggeration-in-animation.html">
-                         <span class="qodef-menu-item-text">Video</span>
-                       </a>
-                     </li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-731">
-                       <a href="read-our-blog-and-master-your-designs.html">
-                         <span class="qodef-menu-item-text">No Sidebar</span>
-                       </a>
-                     </li>
-                   </ul>
-                 </li>
-               </ul>
-             </div>
-           </div>
-         </li>
-         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-94 qodef-menu-item--narrow">
-           <a href="#">
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-93 ">
+           <a href="{{route('event_all')}}">
              <span class="qodef-menu-item-text">Events</span>
            </a>
-           <div class="qodef-drop-down-second">
-             <div class="qodef-drop-down-second-inner">
-               <ul class="sub-menu">
-                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4548">
-                   <a href="event-list.html">
-                     <span class="qodef-menu-item-text">Event List</span>
-                   </a>
-                 </li>
-                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1997">
-                   <a href="events/list.html">
-                     <span class="qodef-menu-item-text">Event Directory</span>
-                   </a>
-                 </li>
-                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1998">
-                   <a href="events/month.html">
-                     <span class="qodef-menu-item-text">Event Calendar</span>
-                   </a>
-                 </li>
-                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4543">
-                   <a href="events/today/tribe-bar-date-2024-04-17.html">
-                     <span class="qodef-menu-item-text">Event Day</span>
-                   </a>
-                 </li>
-                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1999">
-                   <a href="event/eighty-percent-of-success-is-showing-up-5.html">
-                     <span class="qodef-menu-item-text">Event Single</span>
-                   </a>
-                 </li>
-               </ul>
-             </div>
-           </div>
+
          </li>
-         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95 qodef-menu-item--narrow">
-           <a href="#">
-             <span class="qodef-menu-item-text">Shop</span>
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-94 ">
+           <a href="{{route('news_all')}}">
+             <span class="qodef-menu-item-text">News</span>
            </a>
-           <div class="qodef-drop-down-second">
-             <div class="qodef-drop-down-second-inner">
-               <ul class="sub-menu">
-                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1546">
-                   <a href="shop.html">
-                     <span class="qodef-menu-item-text">Shop List</span>
-                   </a>
-                 </li>
-                 <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2064">
-                   <a href="product/leila-mug.html">
-                     <span class="qodef-menu-item-text">Shop Single</span>
-                   </a>
-                 </li>
-                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1553 qodef--hide-link">
-                   <a href="#" onclick="JavaScript: return false;">
-                     <span class="qodef-menu-item-text">Shop Layouts</span>
-                   </a>
-                   <ul class="sub-menu">
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1556">
-                       <a href="three-columns.html">
-                         <span class="qodef-menu-item-text">Three Columns</span>
-                       </a>
-                     </li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2070">
-                       <a href="four-columns.html">
-                         <span class="qodef-menu-item-text">Four Columns</span>
-                       </a>
-                     </li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2069">
-                       <a href="five-columns-wide.html">
-                         <span class="qodef-menu-item-text">Five Columns Wide</span>
-                       </a>
-                     </li>
-                   </ul>
-                 </li>
-                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1552 qodef--hide-link">
-                   <a href="#" onclick="JavaScript: return false;">
-                     <span class="qodef-menu-item-text">Shop Pages</span>
-                   </a>
-                   <ul class="sub-menu">
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1550">
-                       <a href="my-account.html">
-                         <span class="qodef-menu-item-text">My Account</span>
-                       </a>
-                     </li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1551">
-                       <a href="cart.html">
-                         <span class="qodef-menu-item-text">Cart</span>
-                       </a>
-                     </li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1549">
-                       <a href="checkout.html">
-                         <span class="qodef-menu-item-text">Checkout</span>
-                       </a>
-                     </li>
-                   </ul>
-                 </li>
-               </ul>
-             </div>
-           </div>
+   
+         </li>
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95 ">
+           <a href="{{route('notice_all')}}">
+             <span class="qodef-menu-item-text">Notice</span>
+           </a>
+
          </li>
        </ul>
      </nav>
-     <div class="qodef-widget-holder qodef--one">
-       <div id="joinup_core_prominent_groups-2" class="widget widget_joinup_core_prominent_groups qodef-header-widget-area-one" data-area="header-widget-one">
-         <div class="qodef-prominent-groups-widget">
-           <ul>
-             <li class="qodef-hot">
-               <i class="kikos kiko-fire"></i>
-               <a href="hot-groups.html" class="qodef-pg-link">Hot</a>
-             </li>
-             <li class="qodef-trending">
-               <i class="kikos kiko-lightning"></i>
-               <a href="trending-groups.html" class="qodef-pg-link">Trending</a>
-             </li>
-           </ul>
-         </div>
-       </div>
-       <div id="joinup_core_side_area_opener-2" class="widget widget_joinup_core_side_area_opener qodef-header-widget-area-one" data-area="header-widget-one">
-         <a href="javascript:void(0)" class="qodef-opener-icon qodef-m qodef-source--icon-pack qodef-side-area-opener" style="margin: -2px 0px 0px 19px">
-           <span class="qodef-m-icon qodef--open">
-             <span class="qodef-icon-kiko kiko-ellipsis-menu-v kikos"></span>
-           </span>
-         </a>
-       </div>
-     </div>
+
    </div>
  </header>
  <header id="qodef-page-mobile-header">
@@ -244,11 +66,11 @@
      <div class="qodef-widget-holder qodef--one">
        <div id="joinup_core_login_opener-3" class="widget widget_joinup_core_login_opener qodef-mobile-header-widget-area-one" data-area="mobile-header">
          <div class="qodef-login-opener-widget">
-           <a class="qodef-login-opener qodef-login" data-show-youzify-login="true">
+           <a class="qodef-login-opener qodef-login" data-show-youzify-login="true" href="">
              <span class="qodef-icon-kiko kiko-user kikol"></span>
              <span class="qodef-login-opener-text">Login</span>
            </a>
-           <a href="register.html" class="qodef-login-opener qodef-register">
+           <a href="{{route('member_registration')}}" class="qodef-login-opener qodef-register" ">
              <span class="qodef-icon-kiko kiko-lock kikol"></span>
              <span class="qodef-login-opener-text">Register</span>
            </a>
@@ -334,7 +156,7 @@
                        </a>
                      </li>
                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3547">
-                       <a href="register.html">
+                       <a href="{{route('member_registration')}}">
                          <span class="qodef-menu-item-text">Registration</span>
                        </a>
                      </li>

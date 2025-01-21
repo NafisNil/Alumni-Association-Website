@@ -90,7 +90,7 @@
                  <h5 class="qodef-m-title">Sign Up to Join Up</h5>
                  <h6 class="qodef-m-subtitle">Your New Social Network</h6>
                  <div class="qodef-m-button">
-                   <a class="qodef-shortcode qodef-m  qodef-button qodef-layout--filled qodef-size--small qodef-html--link" href="register.html" target="_self">
+                   <a class="qodef-shortcode qodef-m  qodef-button qodef-layout--filled qodef-size--small qodef-html--link" href="{{route('member_registration')}}" target="_self">
                      <span class="qodef-m-text">Register Now</span>
                    </a>
                  </div>

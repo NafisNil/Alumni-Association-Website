@@ -6,7 +6,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-
+use App\Models\Batch;
 class User extends Authenticatable
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
@@ -21,6 +21,18 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'address',
+        'phone',
+        'photo',
+        'id_no',
+        'batch',
+        'occupation',
+        'company_name',
+        'business_name',
+        'business_info',
+        'business_type',
+        'business_location',
+        'type',
     ];
 
     /**
@@ -44,5 +56,11 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    public function batch_name()
+    {
+        # code...
+        return $this->belongsTo(Batch::class, 'batch','id');
     }
 }

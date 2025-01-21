@@ -784,7 +784,7 @@
                       @foreach ($notice as $item)
                       <li class="qodef-activity-item">
                         <p>
-                          <a href="members/test.html">{{$item->title}}</a> 
+                          <a href="{{route('notice_single', $item->slug)}}">{{$item->title}}</a> 
                         </p>
                       </li>
                       @endforeach
@@ -815,7 +815,7 @@
                     <span class="qodef-icon-kiko kiko-user kikol"></span>
                     <span class="qodef-login-opener-text">Login</span>
                   </a>
-                  <a href="register.html" class="qodef-login-opener qodef-register">
+                  <a href="{{route('member_registration')}}" class="qodef-login-opener qodef-register">
                     <span class="qodef-icon-kiko kiko-lock kikol"></span>
                     <span class="qodef-login-opener-text">Register</span>
                   </a>
@@ -903,31 +903,21 @@
           <header class="youzify-membership-form-header">
             <div class="form-title">
               <h2>Welcome to Join Up</h2>
-              <span class="youzify-membership-form-desc">User: test Password: test</span>
+              
             </div>
           </header>
-          <form id="youzify-membership-form" class="youzify-membership-login-form" method="post" action="index.html">
+          <form id="youzify-membership-form" class="youzify-membership-login-form" method="post" action="{{route('login')}}">
+            @csrf
             <!-- After Form Buttons -->
             <div class="youzify-membership-social-buttons form-full-button form-border-radius form-icons-left">
-              <ul>
-                <li class="youzify-membership-facebook-btn">
-                  <a href="youzify-auth/social-login/Facebook.html">
-                    <div class="youzify-membership-button-icon">
-                      <i class="fab fa-facebook-f"></i>
-                    </div>
-                    <span class="youzify-membership-button-title"> Connect with Facebook </span>
-                  </a>
-                </li>
-              </ul>
-              <div class="youzify-membership-social-title">
-                <span>or</span>
-              </div>
+
+
             </div>
             <div class="youzify-membership-form-item">
               <div class="youzify-membership-item-content">
-                <label for="user_login">Username or Email</label>
+                <label for="user_login">Email</label>
                 <div class="youzify-membership-field-content">
-                  <input type="text" name="log" autocomplete="false" placeholder="" value="" required>
+                  <input type="text" name="email" autocomplete="false" placeholder="Enter Your Email" value="{{old('email')}}" required>
                 </div>
               </div>
             </div>
@@ -935,7 +925,7 @@
               <div class="youzify-membership-item-content">
                 <label for="user_pass">Password</label>
                 <div class="youzify-membership-field-content">
-                  <input type="password" name="pwd" autocomplete="false" placeholder="" value="" required>
+                  <input type="password" name="password" autocomplete="false" placeholder="" value="" required>
                 </div>
               </div>
             </div>
@@ -946,7 +936,7 @@
                   <div class="youzify_membership_field_indication"></div>Remember Me
                 </label>
               </div>
-              <a class="youzify-membership-forgot-password" href="lost-password.html">Lost password?</a>
+              {{-- <a class="youzify-membership-forgot-password" href="lost-password.html">Lost password?</a> --}}
             </div>
             <div class="youzify-membership-form-actions form-fullwidth-button form-border-radius">
               <div class="youzify-membership-action-item youzify-membership-submit-item">
@@ -967,7 +957,7 @@
       (function($) {
           $(document).ready(function() {
               // Add Close Button to Login Popup.
-              $('.youzify-popup-login .youzify-membership-form-header').append(' < i class = "fas fa-times youzify-close-login" > < /i>' );
+              
                 // Display Login Popup.
                 $('a[data-show-youzify-login="true"],.youzify-show-youzify-login-popup a').on('click', function(e) {
                   e.preventDefault();

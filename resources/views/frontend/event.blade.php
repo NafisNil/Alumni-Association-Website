@@ -69,10 +69,10 @@
                               <span class="woocommerce-Price-currencySymbol">Time : </span>{{$item->time}} </bdi>
                           </span>
                         </span>
-                        <a href="?add-to-cart=1281" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="1281" data-product_sku="001" aria-label="Add &ldquo;Leila Mug&rdquo; to your cart" rel="nofollow">Details</a>
+                        <a href="{{route('event_single', $item->slug)}}" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="1281" data-product_sku="001" aria-label="Add &ldquo;Leila Mug&rdquo; to your cart" rel="nofollow">Details</a>
                       </div>
                     </div>
-                    <a href="https://joinup.qodeinteractive.com/product/leila-mug/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
+                    <a href="{{route('event_single', $item->slug)}}" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
                   </div>
                 </li>
                 @endforeach

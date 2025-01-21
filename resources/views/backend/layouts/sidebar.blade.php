@@ -62,6 +62,8 @@
           $route = Request::route()->getName();
           @endphp
 
+        @if (Auth::user()->type == 'admin')
+                  
         <li class="nav-item">
           <a href="{{ route('logo.index') }}" class="nav-link {{$route == 'logo.index'?'active':''}}">
             <i class="far fa-circle nav-icon"></i>
@@ -126,6 +128,16 @@
             <p>General</p>
           </a>
         </li>
+        @elseif (Auth::user()->type == 'member')
+        <li class="nav-item">
+          <a href="{{ route('profile.index') }}" class="nav-link {{$route == 'profile.index'?'active':''}}">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Profile</p>
+          </a>
+        </li>
+            
+        @endif
+
 
          
      
