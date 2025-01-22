@@ -14,6 +14,7 @@ use App\Http\Controllers\BatchController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\MemberProfileController;
+use App\Http\Controllers\StoryController;
 
 Route::get('/', [FrontendController::class, 'index'])->name('index');
 Route::get('/about-us', [FrontendController::class, 'about'])->name('about_us');
@@ -36,6 +37,16 @@ Route::middleware('auth')->group(function () {
     Route::get('/member-profile', [MemberProfileController::class, 'member_profile'])->name('profile.index');
     Route::post('/member-profile-update', [MemberProfileController::class, 'member_profile_update'])->name('member.profile.update');
     Route::post('/member-password-update', [MemberProfileController::class, 'member_password_update'])->name('member.password.update');
+
+    //member  portion
+    Route::get('/member-index',[HomeController::class, 'member_index'])->name('member.index');
+    Route::get('/member-show/{id}',[HomeController::class, 'member_show'])->name('member.show');
+
+    Route::get('/pending-member-index',[HomeController::class, 'pending_member_index'])->name('pending.member.index');
+    Route::get('/member-active/{id}',[HomeController::class, 'member_approve'])->name('member.approve');
+    Route::get('/member-deactive/{id}',[HomeController::class, 'member_disapprove'])->name('member.disapproved');
+
+    Route::delete('/member-delete/{id}',[HomeController::class, 'member_delete'])->name('member.delete');
     Route::resources([
         'logo' => LogoController::class,
         'slider' => SliderController::class,
@@ -46,6 +57,7 @@ Route::middleware('auth')->group(function () {
         'general' => GeneralController::class,
         'batch' => BatchController::class,
         'news' => NewsController::class,
+        'stories' => StoryController::class,
     ]);
 
 });

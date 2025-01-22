@@ -26,7 +26,15 @@
               <div class="row">
                 <div class="col-12">
                   <div class="card">
-
+                    <div class="card-header">
+                      <h3 class="card-title text-center">Status : </h3> 
+                      <p><b>
+                      @if (Auth::user()->status == 'active')
+                      &nbsp;  <span class="badge badge-success">Active</span>
+                      @else
+                      &nbsp; <span class="badge badge-danger">Inactive</span>
+                      @endif  
+                      </b></p>
                   </div>
                   <!-- /.card -->
       

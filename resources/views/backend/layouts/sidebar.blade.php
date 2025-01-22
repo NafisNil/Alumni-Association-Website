@@ -13,7 +13,7 @@
           <img src="{{ asset('backend') }}/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">{{ Auth::user()->name }}</a>
+          <a href="{{route('dashboard')}}" class="d-block">{{ Auth::user()->name }}</a>
         </div>
       </div>
 
@@ -128,6 +128,26 @@
             <p>General</p>
           </a>
         </li>
+
+
+        <hr>
+
+        <li class="nav-item">
+          <a href="{{ route('member.index') }}" class="nav-link {{$route == 'member.index'?'active':''}}">
+            <i class="far fa-circle nav-icon"></i>
+            <p>All Active Members</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="{{ route('pending.member.index') }}" class="nav-link {{$route == 'pending.member.index'?'active':''}}">
+            <i class="far fa-circle nav-icon"></i>
+            <p>All Pending Members</p>
+          </a>
+        </li>
+
+
+
         @elseif (Auth::user()->type == 'member')
         <li class="nav-item">
           <a href="{{ route('profile.index') }}" class="nav-link {{$route == 'profile.index'?'active':''}}">
@@ -135,6 +155,14 @@
             <p>Profile</p>
           </a>
         </li>
+
+        <li class="nav-item">
+          <a href="{{ route('stories.index') }}" class="nav-link {{$route == 'stories.index'?'active':''}}">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Stories</p>
+          </a>
+        </li>
+
             
         @endif
 

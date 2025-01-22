@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Story;
 use Illuminate\Http\Request;
-
+use App\Http\Requests\StoryRequest;
+use Auth;
 class StoryController extends Controller
 {
     /**
@@ -13,6 +14,9 @@ class StoryController extends Controller
     public function index()
     {
         //
+        $stories = Story::where('user_id', Auth::user()->id)->orderBy('id', 'desc')->get();
+        $storiesCount = Story::where('user_id', Auth::user()->id)->count();
+        return view('backend.member.stories.index',['stories'=>$stories, 'storiesCount' => $storiesCount]);
     }
 
     /**
@@ -21,14 +25,19 @@ class StoryController extends Controller
     public function create()
     {
         //
+        return view('backend.member.stories.create');
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(StoryRequest $request)
     {
         //
+        $stories = Story::create($request->all());
+       
+
+        return redirect()->route('stories.index')->with('success','Data inserted successfully');
     }
 
     /**
@@ -45,14 +54,20 @@ class StoryController extends Controller
     public function edit(Story $story)
     {
         //
+        return view('backend.member.stories.edit',[
+            'edit' => $story
+        ]);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Story $story)
+    public function update(StoryRequest $request, Story $story)
     {
         //
+        $story->update($request->all());
+    
+        return redirect()->route('stories.index')->with('success','Data updated successfully');
     }
 
     /**
@@ -61,5 +76,8 @@ class StoryController extends Controller
     public function destroy(Story $story)
     {
         //
+        $story->delete();
+    
+        return redirect()->route('stories.index')->with('status','Data deleted successfully!');
     }
 }

@@ -6,13 +6,15 @@ use Illuminate\Http\Request;
 use Auth;
 use Image;
 use App\Models\Batch;
+use App\Models\Story;
 use Illuminate\Support\Facades\Hash;
 class MemberProfileController extends Controller
 {
     //
     public function member_profile(){
         $batches = Batch::all();
-        return view('backend.member-profile',['batches'=>$batches]);
+        $story = Story::where('user_id', Auth::user()->id)->first();
+        return view('backend.member-profile',['batches'=>$batches, 'story' => $story]);
     }
 
     public function member_profile_update(Request $request){

@@ -12,6 +12,7 @@ use App\Models\News;
 use App\Models\Batch;
 use App\Models\Committee;
 use App\Models\Event;
+use App\Models\Story;
 use Carbon\Carbon;
 use Auth;
 use Image;
@@ -32,6 +33,16 @@ class FrontendController extends Controller
         $data['notice'] = Notice::orderBy('id', 'desc')->get();
         $data['news']= News::orderBy('id', 'desc')->limit(3)->get();
         $data['event']= Event::orderBy('id', 'desc')->limit(3)->get();
+        // Retrieve user IDs of members with status '1'
+        $userIds = User::where('type', 'member')
+        ->where('status', 'active')
+        ->pluck('id');
+
+        // Retrieve the latest 3 stories associated with these users
+        $data['stories'] = Story::whereIn('user_id', $userIds)
+                ->orderBy('id', 'desc')
+                ->limit(3)
+                ->get();
         return view('frontend.index', $data);
     }
 

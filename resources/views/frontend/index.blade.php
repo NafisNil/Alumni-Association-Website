@@ -282,7 +282,7 @@
                                <div class="elementor-widget-container">
                                  <div class="qodef-shortcode qodef-m  qodef-section-title qodef-alignment--left ">
                                    <h2 class="qodef-m-title"> Stories </h2>
-                                   <p class="qodef-m-text" style="margin-top: 18px;color: #040A17">Loved by businesses and individuals across the globe.</p>
+                                   <p class="qodef-m-text" style="margin-top: 18px;color: #040A17">Journeys of Success and Inspiration from Our Alumni.</p>
                                  </div>
                                </div>
                              </div>
@@ -290,66 +290,26 @@
                                <div class="elementor-widget-container">
                                  <div class="qodef-shortcode qodef-m  qodef-testimonials-list  qodef-grid qodef-layout--columns  qodef-gutter--large qodef-col-num--3 qodef-item-layout--info-below qodef-responsive--custom qodef-col-num--1440--3 qodef-col-num--1366--3 qodef-col-num--1024--3 qodef-col-num--768--1 qodef-col-num--680--1 qodef-col-num--480--1">
                                    <div class="qodef-grid-inner clear">
-                                     <div class="qodef-e qodef-grid-item">
-                                       <div class="qodef-e-inner">
-                                         <div class="qodef-e-media-image">
-                                           <img width="800" height="800" src="{{asset('frontend')}}/wp-content/uploads/2020/10/h1-img-1.jpg" class="attachment-full size-full wp-post-image" alt="aa" srcset="wp-content/uploads/2020/10/h1-img-1.jpg 800w, wp-content/uploads/2020/10/h1-img-1-300x300.jpg 300w, wp-content/uploads/2020/10/h1-img-1-100x100.jpg 100w, wp-content/uploads/2020/10/h1-img-1-600x600.jpg 600w, wp-content/uploads/2020/10/h1-img-1-150x150.jpg 150w, wp-content/uploads/2020/10/h1-img-1-768x768.jpg 768w, wp-content/uploads/2020/10/h1-img-1-650x650.jpg 650w" sizes="(max-width: 800px) 100vw, 800px" loading="eager" />
-                                           <div class="qodef-overlay-image">
-                                             <img width="800" height="800" src="{{asset('frontend')}}/wp-content/uploads/2020/10/h1-img-1-hover.jpg" class="attachment-full size-full" alt="" srcset="wp-content/uploads/2020/10/h1-img-1-hover.jpg 800w, wp-content/uploads/2020/10/h1-img-1-hover-300x300.jpg 300w, wp-content/uploads/2020/10/h1-img-1-hover-100x100.jpg 100w, wp-content/uploads/2020/10/h1-img-1-hover-600x600.jpg 600w, wp-content/uploads/2020/10/h1-img-1-hover-150x150.jpg 150w, wp-content/uploads/2020/10/h1-img-1-hover-768x768.jpg 768w, wp-content/uploads/2020/10/h1-img-1-hover-650x650.jpg 650w" sizes="(max-width: 800px) 100vw, 800px" loading="eager" />
-                                           </div>
-                                           <div class="qodef-custom-icon">
-                                             <img width="121" height="121" src="{{asset('frontend')}}/wp-content/uploads/2020/10/h1-icon-1.png" class="attachment-thumbnail size-thumbnail" alt="ss" srcset="wp-content/uploads/2020/10/h1-icon-1.png 121w, wp-content/uploads/2020/10/h1-icon-1-100x100.png 100w" sizes="(max-width: 121px) 100vw, 121px" loading="eager" />
-                                           </div>
-                                         </div>
-                                         <div class="qodef-e-content">
-                                           <h5 itemprop="description" class="qodef-e-text"> &quot;An aeque copiosae sea. Brute luptatum adversarium cu sit, mei ad probatus moderatius culpus teo.&quot; </h5>
-                                           <h5 class="qodef-e-author">
-                                             <span class="qodef-e-author-name"> Brennan Huffman </span>
-                                             <span class="qodef-e-author-job"> Social Media Manager </span>
-                                           </h5>
-                                         </div>
-                                       </div>
-                                     </div>
-                                     <div class="qodef-e qodef-grid-item">
-                                       <div class="qodef-e-inner">
-                                         <div class="qodef-e-media-image">
-                                           <img width="800" height="800" src="{{asset('frontend')}}/wp-content/uploads/2020/10/h1-img-2.jpg" class="attachment-full size-full wp-post-image" alt="aa" loading="eager" srcset="wp-content/uploads/2020/10/h1-img-2.jpg 800w, wp-content/uploads/2020/10/h1-img-2-300x300.jpg 300w, wp-content/uploads/2020/10/h1-img-2-100x100.jpg 100w, wp-content/uploads/2020/10/h1-img-2-600x600.jpg 600w, wp-content/uploads/2020/10/h1-img-2-150x150.jpg 150w, wp-content/uploads/2020/10/h1-img-2-768x768.jpg 768w, wp-content/uploads/2020/10/h1-img-2-650x650.jpg 650w" sizes="(max-width: 800px) 100vw, 800px" />
-                                           <div class="qodef-overlay-image">
-                                             <img width="800" height="800" src="{{asset('frontend')}}/wp-content/uploads/2020/10/h1-img-2-hover.jpg" class="attachment-full size-full" alt="aa" srcset="wp-content/uploads/2020/10/h1-img-2-hover.jpg 800w, wp-content/uploads/2020/10/h1-img-2-hover-300x300.jpg 300w, wp-content/uploads/2020/10/h1-img-2-hover-100x100.jpg 100w, wp-content/uploads/2020/10/h1-img-2-hover-600x600.jpg 600w, wp-content/uploads/2020/10/h1-img-2-hover-150x150.jpg 150w, wp-content/uploads/2020/10/h1-img-2-hover-768x768.jpg 768w, wp-content/uploads/2020/10/h1-img-2-hover-650x650.jpg 650w" sizes="(max-width: 800px) 100vw, 800px" loading="eager" />
-                                           </div>
-                                           <div class="qodef-custom-icon">
-                                             <img width="121" height="121" src="{{asset('frontend')}}/wp-content/uploads/2020/10/h1-icon-2.png" class="attachment-thumbnail size-thumbnail" alt="aa" srcset="wp-content/uploads/2020/10/h1-icon-2.png 121w, wp-content/uploads/2020/10/h1-icon-2-100x100.png 100w" sizes="(max-width: 121px) 100vw, 121px" loading="eager" />
-                                           </div>
-                                         </div>
-                                         <div class="qodef-e-content">
-                                           <h5 itemprop="description" class="qodef-e-text"> &quot;Eu verear impedit intellegebat mea, ferri deterruisset ad mea, nulla rationibus incorrupte mea nodus.&quot; </h5>
-                                           <h5 class="qodef-e-author">
-                                             <span class="qodef-e-author-name"> Ian Worthington </span>
-                                             <span class="qodef-e-author-job"> Web Developer </span>
-                                           </h5>
-                                         </div>
-                                       </div>
-                                     </div>
-                                     <div class="qodef-e qodef-grid-item">
-                                       <div class="qodef-e-inner">
-                                         <div class="qodef-e-media-image">
-                                           <img width="800" height="800" src="{{asset('frontend')}}/wp-content/uploads/2020/10/h1-img-3.jpg" class="attachment-full size-full wp-post-image" alt="aa" loading="eager" srcset="wp-content/uploads/2020/10/h1-img-3.jpg 800w, wp-content/uploads/2020/10/h1-img-3-300x300.jpg 300w, wp-content/uploads/2020/10/h1-img-3-100x100.jpg 100w, wp-content/uploads/2020/10/h1-img-3-600x600.jpg 600w, wp-content/uploads/2020/10/h1-img-3-150x150.jpg 150w, wp-content/uploads/2020/10/h1-img-3-768x768.jpg 768w, wp-content/uploads/2020/10/h1-img-3-650x650.jpg 650w" sizes="(max-width: 800px) 100vw, 800px" />
-                                           <div class="qodef-overlay-image">
-                                             <img width="800" height="800" src="{{asset('frontend')}}/wp-content/uploads/2020/10/h1-img-3-hover.jpg" class="attachment-full size-full" alt="aa" srcset="wp-content/uploads/2020/10/h1-img-3-hover.jpg 800w, wp-content/uploads/2020/10/h1-img-3-hover-300x300.jpg 300w, wp-content/uploads/2020/10/h1-img-3-hover-100x100.jpg 100w, wp-content/uploads/2020/10/h1-img-3-hover-600x600.jpg 600w, wp-content/uploads/2020/10/h1-img-3-hover-150x150.jpg 150w, wp-content/uploads/2020/10/h1-img-3-hover-768x768.jpg 768w, wp-content/uploads/2020/10/h1-img-3-hover-650x650.jpg 650w" sizes="(max-width: 800px) 100vw, 800px" loading="eager" />
-                                           </div>
-                                           <div class="qodef-custom-icon">
-                                             <img width="121" height="121" src="{{asset('frontend')}}/wp-content/uploads/2020/10/h1-icon-3.png" class="attachment-thumbnail size-thumbnail" alt="aa" srcset="wp-content/uploads/2020/10/h1-icon-3.png 121w, wp-content/uploads/2020/10/h1-icon-3-100x100.png 100w" sizes="(max-width: 121px) 100vw, 121px" loading="eager" />
-                                           </div>
-                                         </div>
-                                         <div class="qodef-e-content">
-                                           <h5 itemprop="description" class="qodef-e-text"> &quot;Ne eum velit eligendi explicari, eos probo oblique sensibus cu. Labore numquam officiis eu mel debitis.&quot; </h5>
-                                           <h5 class="qodef-e-author">
-                                             <span class="qodef-e-author-name"> Keisha Chapman </span>
-                                             <span class="qodef-e-author-job"> Web Designer </span>
-                                           </h5>
-                                         </div>
-                                       </div>
-                                     </div>
+                                    @foreach ($stories as $item)
+                                    <div class="qodef-e qodef-grid-item">
+                                      <div class="qodef-e-inner">
+                                        <div class="qodef-e-media-image">
+                                          <img width="200" height="200" src="{{(!empty($item->user_info->photo))?URL::to('storage/'.$item->user_info->photo):URL::to('image/no_image.png')}}" class="attachment-full size-full wp-post-image" alt="aa" sizes="(max-width: 400px) 100vw, 800px" loading="eager" />
+
+                                        </div>
+                                        <div class="qodef-e-content">
+                                          <h5 itemprop="description" class="qodef-e-text"> {{$item->title}}</h5>
+                                       
+                                          <h5 class="qodef-e-author">
+                                            <span class="qodef-e-author-name">{{ optional($item->user_info)->name ?? 'Default Name' }}
+                                            </span>
+                                            <span class="qodef-e-author-job"> {{$item->user_info->batch_name->name}} Batch </span> 
+                                          </h5>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    @endforeach
+
                                    </div>
                                  </div>
                                </div>

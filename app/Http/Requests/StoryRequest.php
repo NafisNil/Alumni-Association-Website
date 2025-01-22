@@ -11,7 +11,7 @@ class StoryRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -23,6 +23,8 @@ class StoryRequest extends FormRequest
     {
         return [
             //
+            'title' => 'required|string|max:255',
+            'desc' => 'required|string|max:500',
         ];
     }
 }
