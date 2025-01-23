@@ -11,12 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('stories', function (Blueprint $table) {
+        Schema::create('subscriptions', function (Blueprint $table) {
             $table->id();
-            $table->text('desc');
-            $table->string('title');
-            $table->string('slug')->unique()->after('title');
-            $table->foreignId('user_id')->constrained()->onDelete('cascade');
+            $table->string('email')->unique();
             $table->timestamps();
         });
     }
@@ -26,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('stories');
+        Schema::dropIfExists('subscriptions');
     }
 };

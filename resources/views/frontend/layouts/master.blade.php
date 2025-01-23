@@ -7,6 +7,7 @@
     <title>@yield('title')</title>
     <link rel="canonical" href="https://joinup.qodeinteractive.com" />
     <meta name='robots' content='max-image-preview:large' />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Google Tag Manager for WordPress by gtm4wp.com -->
     <script data-cfasync="false" data-pagespeed-no-defer>
       var gtm4wp_datalayer_name = "dataLayer";
@@ -492,9 +493,7 @@
     <meta name="generator" content="WordPress 6.0.9" />
     <meta name="generator" content="WooCommerce 7.0.0" />
     <link rel='shortlink' href='{{route('index')}}' />
-    <script type="text/javascript">
-      var ajaxurl = 'https://joinup.qodeinteractive.com/wp-admin/admin-ajax.php';
-    </script>
+
     <!-- Open Graph data is managed by Alex MacArthur's Complete Open Graph plugin. (v3.4.5) -->
     <!-- https://wordpress.org/plugins/complete-open-graph/ -->
     <meta property='og:site_name' content='BAUET Aliumni Association' />
@@ -552,6 +551,8 @@
     <link rel="icon" href="{{asset('frontend')}}/wp-content/uploads/2020/12/cropped-favicon-img-2-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="{{asset('frontend')}}/wp-content/uploads/2020/12/cropped-favicon-img-2-180x180.png" />
     <meta name="msapplication-TileImage" content="https://joinup.qodeinteractive.com/wp-content/uploads/2020/12/cropped-favicon-img-2-270x270.png" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     <script>
       function setREVStartSize(e) {
         //window.requestAnimationFrame(function() {

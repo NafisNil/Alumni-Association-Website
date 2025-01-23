@@ -15,6 +15,7 @@ use App\Http\Controllers\NewsController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\MemberProfileController;
 use App\Http\Controllers\StoryController;
+use App\Http\Controllers\SubscriptionController;
 
 Route::get('/', [FrontendController::class, 'index'])->name('index');
 Route::get('/about-us', [FrontendController::class, 'about'])->name('about_us');
@@ -25,6 +26,9 @@ Route::get('/news_all', [FrontendController::class, 'news_all'])->name('news_all
 Route::get('/news_single/{slug}', [FrontendController::class, 'news_single'])->name('news_single');
 Route::get('/notice_all', [FrontendController::class, 'notice_all'])->name('notice_all');
 Route::get('/notice_single/{slug}', [FrontendController::class, 'notice_single'])->name('notice_single');
+Route::get('/stories_all', [FrontendController::class, 'stories_all'])->name('stories_all');
+Route::get('/stories_by_batch/{name}', [FrontendController::class, 'stories_by_batch'])->name('stories_by_batch');
+Route::get('/stories_single/{slug}', [FrontendController::class, 'stories_single'])->name('stories_single');
 
 Route::get('/member-registration', [FrontendController::class, 'member_registration'])->name('member_registration');
 Route::post('/member-registration', [FrontendController::class, 'member_registration_store'])->name('member_registration_store');
@@ -33,10 +37,8 @@ Route::post('/member-registration', [FrontendController::class, 'member_registra
 Route::get('/dashboard',[HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
 
-Route::middleware('auth')->group(function () {
-    Route::get('/member-profile', [MemberProfileController::class, 'member_profile'])->name('profile.index');
-    Route::post('/member-profile-update', [MemberProfileController::class, 'member_profile_update'])->name('member.profile.update');
-    Route::post('/member-password-update', [MemberProfileController::class, 'member_password_update'])->name('member.password.update');
+Route::middleware(['auth','admin'])->group(function () {
+
 
     //member  portion
     Route::get('/member-index',[HomeController::class, 'member_index'])->name('member.index');
@@ -58,6 +60,28 @@ Route::middleware('auth')->group(function () {
         'batch' => BatchController::class,
         'news' => NewsController::class,
         'stories' => StoryController::class,
+        'newsletter' => SubscriptionController::class,
+    ]);
+
+});
+
+
+
+
+Route::middleware(['auth','member'])->group(function () {
+    Route::get('/member-profile', [MemberProfileController::class, 'member_profile'])->name('profile.index');
+    Route::post('/member-profile-update', [MemberProfileController::class, 'member_profile_update'])->name('member.profile.update');
+    Route::post('/member-password-update', [MemberProfileController::class, 'member_password_update'])->name('member.password.update');
+
+    //member  portion
+    Route::get('/member-index',[HomeController::class, 'member_index'])->name('member.index');
+    Route::get('/member-show/{id}',[HomeController::class, 'member_show'])->name('member.show');
+
+
+    Route::resources([
+
+        'stories' => StoryController::class,
+        'subscription' => SubscriptionController::class,
     ]);
 
 });

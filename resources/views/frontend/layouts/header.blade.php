@@ -51,8 +51,13 @@
            <a href="{{route('notice_all')}}">
              <span class="qodef-menu-item-text">Notice</span>
            </a>
-
          </li>
+
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95 ">
+          <a href="{{route('stories_all')}}">
+            <span class="qodef-menu-item-text">Stories</span>
+          </a>
+        </li>
        </ul>
      </nav>
 

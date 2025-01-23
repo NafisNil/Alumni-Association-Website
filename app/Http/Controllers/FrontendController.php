@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use App\Models\User;
 use Illuminate\Auth\Events\Registered;
-
+use Illuminate\Support\Str;
 class FrontendController extends Controller
 {
     //
@@ -201,6 +201,46 @@ class FrontendController extends Controller
         return redirect(route('dashboard', absolute: false));
     }
 
+
+    public function stories_all(){
+        $data['logo'] = Logo::first();
+        $data['about'] = About::first();
+        $data['batches']= Batch::orderBy('name', 'asc')->get();
+        $data['notice'] = Notice::orderBy('id', 'desc')->get();
+        $data['general'] = General::first();
+       
+        $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
+        $activeUserIds = User::where('status', 'active')->pluck('id');
+        $data['storyCount'] = Story::whereIn('user_id', $activeUserIds)->count();
+        $data['stories_all'] = Story::whereIn('user_id', $activeUserIds)->paginate(15);
+        return view('frontend.stories_all', $data);
+    }
+
+    public function stories_by_batch($name){
+        $data['logo'] = Logo::first();
+        $data['about'] = About::first();
+        $data['batches']= Batch::orderBy('name', 'asc')->get();
+        $data['notice'] = Notice::orderBy('id', 'desc')->get();
+        $data['general'] = General::first();
+        $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
+        $batch = Batch::where('name', $name)->first();
+        $activeUserIds = User::where('status', 'active')->where('batch', $batch->id)->pluck('id');
+        $data['storyCount'] = Story::whereIn('user_id', $activeUserIds)->count();
+        $data['stories_all'] = Story::whereIn('user_id', $activeUserIds)->paginate(15);
+        return view('frontend.stories_all', $data);
+    }
+
+    public function stories_single($slug){
+        $data['logo'] = Logo::first();
+        $data['about'] = About::first();
+        $data['batches']= Batch::orderBy('name', 'asc')->get();
+        $data['notice'] = Notice::orderBy('id', 'desc')->get();
+        $data['general'] = General::first();
+        $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
+        $data['stories_single'] = Story::where('slug', $slug)->first();
+        return view('frontend.stories_single', $data);
+    }
+
     private function _uploadImage($request, $about)
     {
         # code...
@@ -213,6 +253,8 @@ class FrontendController extends Controller
         }
 
     }
+
+
 
     
 }

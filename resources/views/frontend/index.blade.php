@@ -3,6 +3,41 @@
     Index - BAUET Alumni Association CSE
 @endsection
 @section('content')
+
+@if (session('success'))
+
+<script>
+Swal.fire({
+  position: 'top-end',
+  icon: 'success',
+  title: '{{ session('success') }}',
+  showConfirmButton: false,
+  timer: 1500,
+  toast: true,
+  confirmButtonColor: 'green', // Set button color to red (optional)
+  customClass: {
+    popup: 'swal-small-popup' // Add a custom class for styling
+  }
+})
+</script>
+
+@elseif(session('status'))
+<script>
+Swal.fire({
+  position: 'top-end',
+  icon: 'success',
+  title: '{{ session('status') }}',
+  showConfirmButton: false,
+  timer: 1500,
+  toast: true,
+  confirmButtonColor: 'yellow', // Set button color to red (optional)
+  customClass: {
+    popup: 'swal-small-popup' // Add a custom class for styling
+  }
+})
+
+</script>
+@endif
 <div id="qodef-page-outer">
    <div id="qodef-page-inner" class="qodef-content-full-width">
      <main id="qodef-page-content" class="qodef-grid qodef-layout--template ">
@@ -298,7 +333,7 @@
 
                                         </div>
                                         <div class="qodef-e-content">
-                                          <h5 itemprop="description" class="qodef-e-text"> {{$item->title}}</h5>
+                                         <a href="{{route('stories_single', $item->slug)}}"> <h5 itemprop="description" class="qodef-e-text"> {{$item->title}}</h5></a>
                                        
                                           <h5 class="qodef-e-author">
                                             <span class="qodef-e-author-name">{{ optional($item->user_info)->name ?? 'Default Name' }}
@@ -521,34 +556,24 @@
                              <div class="elementor-element elementor-element-37df178 elementor-widget elementor-widget-wp-widget-joinup_core_contact_form_7" data-id="37df178" data-element_type="widget" data-widget_type="wp-widget-joinup_core_contact_form_7.default">
                                <div class="elementor-widget-container">
                                  <div class="qodef-contact-form-7">
-                                   <div role="form" class="wpcf7" id="wpcf7-f184-p134-o1" lang="en-US" dir="ltr">
+                                   <div role="" class="" id="" lang="en-US" dir="ltr">
                                      <div class="screen-reader-response">
                                        <p role="status" aria-live="polite" aria-atomic="true"></p>
                                        <ul></ul>
                                      </div>
-                                     <form action="index.html#wpcf7-f184-p134-o1" method="post" class="wpcf7-form init demo" novalidate="novalidate" data-status="init">
-                                       <div style="display: none;">
-                                         <input type="hidden" name="_wpcf7" value="184" />
-                                         <input type="hidden" name="_wpcf7_version" value="5.6.4" />
-                                         <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                         <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f184-p134-o1" />
-                                         <input type="hidden" name="_wpcf7_container_post" value="134" />
-                                         <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                                       </div>
-                                       <div class="qodef-newsletter-cf7">
-                                         <div class="qodef-input-holder">
-                                           <span class="wpcf7-form-control-wrap" data-name="your-email">
-                                             <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Enter your email" />
-                                           </span>
-                                         </div>
-                                         <div class="qodef-button-holder">
-                                           <button type="submit" class="wpcf7-form-control wpcf7-submit qodef-button qodef-size--normal qodef-type--filled qodef-m">
-                                             <span class="qodef-m-text">subscribe</span>
-                                           </button>
-                                         </div>
-                                       </div>
-                                       <div class="wpcf7-response-output" aria-hidden="true"></div>
-                                     </form>
+                                     <form action="{{route('subscription.store')}}" method="post" class="wpcf7-form init demo" novalidate="novalidate" data-status="init">
+                                      @csrf
+                                      <div class="qodef-newsletter-cf7">
+                                      
+                                      <div class="qodef-input-holder">
+                                      <span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Enter your email"></span>
+                                      </div>
+                                      
+                                      <div class="qodef-button-holder">
+                                      <button type="submit" class="wpcf7-form-control wpcf7-submit qodef-button qodef-size--normal qodef-type--filled qodef-m"><span class="qodef-m-text">subscribe</span></button>
+                                      </div>
+                                      
+                                      </div><div class="wpcf7-response-output" aria-hidden="true"></div></form>
                                    </div>
                                  </div>
                                </div>
@@ -568,5 +593,7 @@
    </div>
    <!-- close #qodef-page-inner div from header.php -->
  </div>
+
+
 
 @endsection

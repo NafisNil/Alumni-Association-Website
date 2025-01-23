@@ -7,7 +7,7 @@ use App\Models\User;
 class Story extends Model
 {
     //
-    protected $fillable = ['title','desc','user_id'];
+    protected $fillable = ['title','desc','user_id','slug'];
     public function user_info(){
         return $this->belongsTo(User::class, 'user_id', 'id');
     }

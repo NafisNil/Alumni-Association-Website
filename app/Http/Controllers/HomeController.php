@@ -21,7 +21,8 @@ class HomeController extends Controller
     public function member_show($id){
         $user = User::where('id_no', $id)->first();
         $story = Story::where('user_id', $user->id)->first();
-        return view('backend.member.show', ['user' => $user, 'story' => $story]);
+        $storyCount =   Story::where('user_id', $user->id)->count();
+        return view('backend.member.show', ['user' => $user, 'story' => $story, 'storyCount' => $storyCount]);
     }
 
     public function pending_member_index(){

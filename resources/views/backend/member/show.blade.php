@@ -142,6 +142,9 @@
                         <div class="active tab-pane" id="activity">
                           <!-- Post -->
                           <div class="post">
+
+                            @if ($storyCount>0)
+                                
                             <div class="user-block">
                          
                               <span class="username">
@@ -150,6 +153,9 @@
                               </span>
                               <span class="description">{{@$story->updated_at->format('H:i A- d M,Y')}}</span>
                             </div>
+                                
+                            @endif
+                           
                             <!-- /.user-block -->
                             <p>
                               {!! @$story->desc !!}

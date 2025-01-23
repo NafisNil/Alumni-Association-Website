@@ -146,6 +146,13 @@
           </a>
         </li>
 
+        <li class="nav-item">
+          <a href="{{ route('newsletter.index') }}" class="nav-link {{$route == 'newsletter.index'?'active':''}}">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Newsletter Mail</p>
+          </a>
+        </li>
+
 
 
         @elseif (Auth::user()->type == 'member')

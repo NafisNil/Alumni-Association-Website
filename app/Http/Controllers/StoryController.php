@@ -6,6 +6,7 @@ use App\Models\Story;
 use Illuminate\Http\Request;
 use App\Http\Requests\StoryRequest;
 use Auth;
+use Illuminate\Support\Str;
 class StoryController extends Controller
 {
     /**
@@ -34,7 +35,13 @@ class StoryController extends Controller
     public function store(StoryRequest $request)
     {
         //
-        $stories = Story::create($request->all());
+        $stories = Story::create([
+            'user_id' => Auth::user()->id,
+            'title' => $request->title,
+            'desc' => $request->desc,
+            'status' => $request->status,
+            'slug' => Str::slug($request->title),
+        ]);
        
 
         return redirect()->route('stories.index')->with('success','Data inserted successfully');
@@ -65,7 +72,12 @@ class StoryController extends Controller
     public function update(StoryRequest $request, Story $story)
     {
         //
-        $story->update($request->all());
+        $story->update([
+            'title' => $request->title,
+            'desc' => $request->desc,
+            'status' => $request->status,
+            'slug' => Str::slug($request->title),
+        ]);
     
         return redirect()->route('stories.index')->with('success','Data updated successfully');
     }

@@ -8,13 +8,15 @@ use Image;
 use App\Models\Batch;
 use App\Models\Story;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 class MemberProfileController extends Controller
 {
     //
     public function member_profile(){
         $batches = Batch::all();
         $story = Story::where('user_id', Auth::user()->id)->first();
-        return view('backend.member-profile',['batches'=>$batches, 'story' => $story]);
+        $storyCount =  Story::where('user_id', Auth::user()->id)->count();
+        return view('backend.member-profile',['batches'=>$batches, 'story' => $story, 'storyCount' => $storyCount]);
     }
 
     public function member_profile_update(Request $request){
