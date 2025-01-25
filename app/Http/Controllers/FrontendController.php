@@ -13,6 +13,7 @@ use App\Models\Batch;
 use App\Models\Committee;
 use App\Models\Event;
 use App\Models\Story;
+use App\Models\Social;
 use Carbon\Carbon;
 use Auth;
 use Image;
@@ -43,6 +44,7 @@ class FrontendController extends Controller
                 ->orderBy('id', 'desc')
                 ->limit(3)
                 ->get();
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         return view('frontend.index', $data);
     }
 
@@ -52,6 +54,7 @@ class FrontendController extends Controller
         $data['about'] = About::first();
         $data['notice'] = Notice::orderBy('id', 'desc')->get();
         $data['general'] = General::first();
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         $data['event']= Event::orderBy('id', 'desc')->limit(3)->get();
         return view('frontend.about', $data);
     }
@@ -64,6 +67,7 @@ class FrontendController extends Controller
         $data['general'] = General::first();
         $data['committee']= Committee::orderBy('serial', 'desc')->get();
         $data['event']= Event::orderBy('id', 'desc')->limit(3)->get();
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         return view('frontend.committee', $data);
     }
 
@@ -73,10 +77,11 @@ class FrontendController extends Controller
         $data['about'] = About::first();
         $data['notice'] = Notice::orderBy('id', 'desc')->get();
         $data['general'] = General::first();
-       $data['event']= Event::orderBy('id', 'desc')->paginate(15);
-
+       $data['event']= Event::orderBy('id', 'desc')->paginate(3);
+       $data['events']= Event::orderBy('id', 'desc')->paginate(15);
+       $data['socials'] = Social::orderBy('id', 'desc')->get();
         $category = $request->get('category', 'All');
-        
+
         if ($category === 'All') {
             $data['events'] = Event::orderBy('id','desc')->paginate(15);
         } else {
@@ -99,7 +104,7 @@ class FrontendController extends Controller
         $data['notice'] = Notice::orderBy('id', 'desc')->get();
         $data['general'] = General::first();
         $data['event_single'] = Event::where('slug', $slug)->first();
-        
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
         return view('frontend.event_single', $data);
     }
@@ -112,6 +117,7 @@ class FrontendController extends Controller
         $data['general'] = General::first();
         $data['news_all'] = News::orderBy('id', 'desc')->paginate(15);
         $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         return view('frontend.news_all', $data);
     }
 
@@ -121,7 +127,7 @@ class FrontendController extends Controller
         $data['notice'] = Notice::orderBy('id', 'desc')->get();
         $data['general'] = General::first();
         $data['news_single'] = News::where('slug', $slug)->first();
-        
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
         return view('frontend.news_single', $data);
     }
@@ -133,6 +139,7 @@ class FrontendController extends Controller
         $data['general'] = General::first();
         $data['notice_all'] = Notice::orderBy('id', 'desc')->paginate(15);
         $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         return view('frontend.notice_all', $data);
     }
 
@@ -142,7 +149,7 @@ class FrontendController extends Controller
         $data['notice'] = Notice::orderBy('id', 'desc')->get();
         $data['general'] = General::first();
         $data['notice_single'] = Notice::where('slug', $slug)->first();
-        
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
         return view('frontend.notice_single', $data);
     }
@@ -154,6 +161,7 @@ class FrontendController extends Controller
         $data['general'] = General::first();
         $data['batch'] = Batch::orderBy('id', 'desc')->get();
         $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         return view('frontend.register', $data);
     }
 
@@ -208,7 +216,7 @@ class FrontendController extends Controller
         $data['batches']= Batch::orderBy('name', 'asc')->get();
         $data['notice'] = Notice::orderBy('id', 'desc')->get();
         $data['general'] = General::first();
-       
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
         $activeUserIds = User::where('status', 'active')->pluck('id');
         $data['storyCount'] = Story::whereIn('user_id', $activeUserIds)->count();
@@ -227,6 +235,7 @@ class FrontendController extends Controller
         $activeUserIds = User::where('status', 'active')->where('batch', $batch->id)->pluck('id');
         $data['storyCount'] = Story::whereIn('user_id', $activeUserIds)->count();
         $data['stories_all'] = Story::whereIn('user_id', $activeUserIds)->paginate(15);
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         return view('frontend.stories_all', $data);
     }
 
@@ -238,6 +247,7 @@ class FrontendController extends Controller
         $data['general'] = General::first();
         $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
         $data['stories_single'] = Story::where('slug', $slug)->first();
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
         return view('frontend.stories_single', $data);
     }
 

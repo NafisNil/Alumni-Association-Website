@@ -82,6 +82,40 @@
         padding: 0 !important;
       }
     </style>
+    <style>
+      .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a,
+.pagination li span {
+    display: inline-block;
+    padding: 8px 12px;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pagination li a:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination .active span {
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
+}
+
+    </style>
     <link rel='stylesheet' id='sbi_styles-css' href='{{asset('frontend')}}/wp-content/plugins/instagram-feed/css/sbi-styles.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='dripicons-css' href='{{asset('frontend')}}/wp-content/plugins/joinup-core/inc/icons/dripicons/assets/css/dripicons.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='elegant-icons-css' href='{{asset('frontend')}}/wp-content/plugins/joinup-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css' type='text/css' media='all' />
@@ -415,7 +449,7 @@
       }
 
       #qodef-top-area {
-        background-color: #040a17;
+        background-color: #004d25;
       }
 
       .qodef-page-title {
@@ -903,7 +937,7 @@
         <div class="youzify-membership-form youzify-membership-login-page form-no-header form-with-labels form-no-icons form-full-border form-border-rounded">
           <header class="youzify-membership-form-header">
             <div class="form-title">
-              <h2>Welcome to Join Up</h2>
+              <h2>Welcome to BAUET CSE Alumni</h2>
               
             </div>
           </header>

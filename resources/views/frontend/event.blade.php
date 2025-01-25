@@ -23,7 +23,7 @@
             </div>
           </div>
         </div>
-        <div class="qodef-m-content qodef-content-grid ">
+        <div class="qodef-m-content qodef-content-grid " style="background-image: url({{asset('image/Gemini_Generated_2.jpg')}})" >
           <h2 class="qodef-m-title entry-title"> Event </h2>
           <p class="qodef-m-subtitle">Experience Something New: Check Our Events</p>
         </div>
@@ -57,16 +57,25 @@
                       <img width="300" height="300" src="{{(!empty($item->photo))?URL::to('storage/'.$item->photo):URL::to('image/no_image.png')}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="jj" loading="eager" />
                       <span class="qodef-woo-product-mark qodef-new">{{$item->category}}</span>
                     </div>
+                    @php
+                    // Create a Carbon instance from the time string
+                      $time = Carbon\Carbon::createFromFormat('H:i', $item->time);
+                      $formattedTime = $time->format('h:i A'); // Output: 11:30 AM
+                      // Create a Carbon instance from the date string
+                      $date = Carbon\Carbon::createFromFormat('Y-m-d', $item->date);
+                      $formattedDate = $date->format('F j, Y'); // Output: October 19, 2010
+                    @endphp
                     <div class="qodef-woo-product-content">
                       <h5 class="qodef-woo-product-title woocommerce-loop-product__title">{{$item->title}}</h5>
                       <div class="qodef-woo-product-categories">
-                        <a href="#" rel="tag"><b>Date : </b>{{$item->date}}</a>
+                        <a href="#" rel="tag"><b>Date : </b>{{$formattedDate}}</a>
                       </div>
                       <div class="qodef-woo-product-content-bottom">
                         <span class="price">
                           <span class="woocommerce-Price-amount amount">
+
                             <bdi>
-                              <span class="woocommerce-Price-currencySymbol">Time : </span>{{$item->time}} </bdi>
+                              <span class="woocommerce-Price-currencySymbol">Time - </span>{{$formattedTime}} </bdi>
                           </span>
                         </span>
                         <a href="{{route('event_single', $item->slug)}}" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="1281" data-product_sku="001" aria-label="Add &ldquo;Leila Mug&rdquo; to your cart" rel="nofollow">Details</a>
@@ -78,9 +87,10 @@
                 @endforeach
               </ul>
             </div>
-            <nav class="woocommerce-pagination">
-              {{$events->links()}}
+            <nav class="woocommerce-pagination" style="text-decoration: none;">
+              <p>  {{$events->links('pagination::default')}}</p>
             </nav>
+   
           </div>
      
         </div>

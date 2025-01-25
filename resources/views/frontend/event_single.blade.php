@@ -52,7 +52,7 @@
                             <div class="qodef-grid-inner clear">
                                <div class="qodef-grid-item qodef-col--6">
                                   <div class="qodef-e-media">
-                                     <div class="tribe-events-event-image"><img width="800" height="479" src="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/event-img-3.jpg" class="attachment-full size-full wp-post-image" alt="aa" srcset="https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/event-img-3.jpg 800w, https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/event-img-3-600x359.jpg 600w, https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/event-img-3-300x180.jpg 300w, https://joinup.qodeinteractive.com/wp-content/uploads/2020/11/event-img-3-768x460.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" loading="eager" /></div>
+                                     <div class="tribe-events-event-image"><img width="800" height="479" src="{{(!empty($event_single->photo))?URL::to('storage/'.$event_single->photo):URL::to('image/no_image.png')}}" class="attachment-full size-full wp-post-image" alt="aa" sizes="(max-width: 800px) 100vw, 800px" loading="eager" /></div>
                                   </div>
                                </div>
                                <div class="qodef-grid-item qodef-col--6">

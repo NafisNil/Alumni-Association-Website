@@ -297,7 +297,7 @@ Swal.fire({
                              <div class="elementor-element elementor-element-3be41fe elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-image" data-id="3be41fe" data-element_type="widget" data-widget_type="image.default">
                                <div class="elementor-widget-container">
                                  <div class="elementor-image">
-                                   <img width="2560" height="486" src="{{asset('frontend')}}/wp-content/uploads/2020/11/h1-divider-img-01.png" class="attachment-full size-full" alt="aaa" srcset="{{asset('frontend')}}/wp-content/uploads/2020/11/h1-divider-img-01.png 2560w, wp-content/uploads/2020/11/h1-divider-img-01-300x57.png 300w, wp-content/uploads/2020/11/h1-divider-img-01-1024x194.png 1024w, wp-content/uploads/2020/11/h1-divider-img-01-768x146.png 768w, wp-content/uploads/2020/11/h1-divider-img-01-1536x292.png 1536w, wp-content/uploads/2020/11/h1-divider-img-01-2048x389.png 2048w, wp-content/uploads/2020/11/h1-divider-img-01-1200x228.png 1200w, wp-content/uploads/2020/11/h1-divider-img-01-600x114.png 600w" sizes="(max-width: 2560px) 100vw, 2560px" loading="eager" />
+                                   <img width="2560" height="486" src="{{asset('frontend')}}/wp-content/uploads/2020/11/h1-divider-img-01.png" class="attachment-full size-full" alt="aaa" sizes="(max-width: 2560px) 100vw, 2560px" loading="eager" />
                                  </div>
                                </div>
                              </div>

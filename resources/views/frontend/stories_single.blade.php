@@ -22,7 +22,7 @@ $route = Request::route()->getName();
             </div>
           </div>
         </div>
-        <div class="qodef-m-content qodef-content-grid ">
+        <div class="qodef-m-content qodef-content-grid " style="background-image: url({{asset('image/Gemini_Generated_2.jpg')}})" >
           <h2 class="qodef-m-title entry-title"> {{$stories_single->title}} </h2>
         
         </div>
@@ -31,7 +31,7 @@ $route = Request::route()->getName();
     <div id="qodef-page-inner" class="qodef-content-grid">
       <main class="qodef-grid qodef-layout--template ">
         <div class="qodef-grid-inner clear">
-          <div class="qodef-grid-item qodef-page-content-section qodef-col--9">
+          <div class="qodef-grid-item qodef-page-content-section qodef-col--9" style="width:95%">
             <div id="bbpress-forums">
               <div class="qodef-bbp-topic-head">
                 <div class="bbp-breadcrumb">

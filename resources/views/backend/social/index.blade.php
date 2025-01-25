@@ -1,6 +1,6 @@
 @extends('backend.layouts.master')
 @section('title')
-BAUET CSE AA- All Active Members -  - Index
+    BAUET CSE AA - Index
 @endsection
 @section('content')
 
@@ -8,12 +8,12 @@ BAUET CSE AA- All Active Members -  - Index
       <div class="container">
         <div class="row mb-2">
           <div class="col-sm-6 offset-3">
-            <h1>All Active Member</h1>
+            <h1>BAUET CSE AA</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">BAUET CSE AA- All Active Members  - Index</li>
+              <li class="breadcrumb-item active">BAUET CSE AA</li>
             </ol>
           </div>
         </div>
@@ -27,7 +27,14 @@ BAUET CSE AA- All Active Members -  - Index
           <!-- left column -->
              <div class="card">
               <div class="card-header">
-                <h3 class="card-title">BAUET CSE AA- All Active Members  </h3>
+                <h3 class="card-title">BAUET CSE AA</h3>
+
+                @if ($socialCount<4 )
+                <a href="{{route('social.create')}}" class="float-right btn btn-outline-dark btn-sm mb-2"><i class="fas fa-plus-square"></i></a>
+                @endif
+            
+          
+           
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -37,9 +44,7 @@ BAUET CSE AA- All Active Members -  - Index
                   <tr>
                     <th>#</th>
                     <th>Name</th>
-                    <th>Email</th>
-                    <th>Batch</th>
-                    <th>ID No.</th>
+                    <th>URL</th>
                     <th>Photo</th>
               
                     <th>Action</th>
@@ -53,7 +58,7 @@ BAUET CSE AA- All Active Members -  - Index
 
 
 
-                    @foreach ($user as $key=>$item)
+                    @foreach ($social as $key=>$item)
 
 
 
@@ -61,26 +66,23 @@ BAUET CSE AA- All Active Members -  - Index
                   <tr>
                     <td>{{ ++$key }}</td>
                     <td>{{ $item->name }}</td>
-                    <td>{{ $item->email }}</td>
-                    <td>{{ $item->batch_name->name }}</td>
-                    <td>{{ $item->id_no }}</td>
-                    <td> <img src="{{(!empty($item->photo))?URL::to('storage/'.$item->photo):URL::to('image/no_image.png')}}" alt="" style="max-height:150px;max-width:150px"></td>
+                    <td>{!! $item->url !!}</td>
+                    <td> <img src="{{(!empty($item->photo))?URL::to('storage/'.$item->photo):URL::to('image/no_image.png')}}" alt="" style="max-height:60px"></td>
                 
                    <td>
 
-                      <a href="{{route('member.show',[$item->id_no])}}" title="Show"><button class="btn btn-outline-primary btn-sm"><i class="fas fa-eye"></i></button></a> <br>
 
-                      <a href="javascript:void(0);" 
-                      onclick="confirmApproval('{{route('member.disapproved', [$item->id_no])}}')" 
-                      title="deactivate">
-                      <button class="btn btn-outline-danger btn-sm">
-                        <i class="fas fa-thumbs-down"></i>
-                      </button>
-                   </a> <br>
+                      <a href="{{route('social.edit',[$item->id])}}" title="Edit"><button class="btn btn-outline-info btn-sm"><i class="fas fa-pen-square"></i></button></a>
 
 
 
 
+                      <form action="{{route('social.destroy',[$item->id])}}" method="POST"  id="delete-form-{{ $item->id }}">
+                    
+                        @method('DELETE')
+                        @csrf
+                        <button class="btn btn-outline-danger btn-sm delete-btn" title="Delete" data-id="{{ $item->id }}"><i class="fas fa-trash"></i></button>
+                      </form>
 
 
 
@@ -95,9 +97,7 @@ BAUET CSE AA- All Active Members -  - Index
                   <tr>
                     <th>#</th>
                     <th>Name</th>
-                    <th>Email</th>
-                    <th>Batch</th>
-                    <th>ID No.</th>
+                    <th>URL</th>
                     <th>Photo</th>
                 
                     <th>Action</th>
@@ -142,23 +142,5 @@ BAUET CSE AA- All Active Members -  - Index
             });
         });
     });
-</script>
-<script>
-            function confirmApproval(url) {
-       Swal.fire({
-           title: 'Are you sure?',
-           text: "You won't be able to revert this!",
-           icon: 'warning',
-           showCancelButton: true,
-           confirmButtonColor: '#3085d6',
-           cancelButtonColor: '#d33',
-           confirmButtonText: 'Yes, disapprove it!'
-       }).then((result) => {
-           if (result.isConfirmed) {
-               window.location.href = url;
-           }
-       });
-   }
-    </script>
 </script>
 @endsection

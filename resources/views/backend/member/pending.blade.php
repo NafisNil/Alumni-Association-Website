@@ -65,7 +65,7 @@ BAUET CSE AA- All Pending Members -  - Index
                     <td>{{ $item->batch_name->name }}</td>
                     <td>{{ $item->id_no }}</td>
                
-                    <td> <img src="{{(!empty($item->photo))?URL::to('storage/'.$item->photo):URL::to('image/no_image.png')}}" alt="" style="max-height:150px"></td>
+                    <td> <img src="{{(!empty($item->photo))?URL::to('storage/'.$item->photo):URL::to('image/no_image.png')}}" alt="" style="max-height:150px;max-width:150px"></td>
                     <td><span class="badge badge-danger">{{$item->status}}</span></td>
                 
                    <td>

@@ -16,6 +16,7 @@ use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\MemberProfileController;
 use App\Http\Controllers\StoryController;
 use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\SocialController;
 
 Route::get('/', [FrontendController::class, 'index'])->name('index');
 Route::get('/about-us', [FrontendController::class, 'about'])->name('about_us');
@@ -44,10 +45,11 @@ Route::middleware(['auth','admin'])->group(function () {
     Route::get('/member-index',[HomeController::class, 'member_index'])->name('member.index');
     Route::get('/member-show/{id}',[HomeController::class, 'member_show'])->name('member.show');
 
+
     Route::get('/pending-member-index',[HomeController::class, 'pending_member_index'])->name('pending.member.index');
     Route::get('/member-active/{id}',[HomeController::class, 'member_approve'])->name('member.approve');
     Route::get('/member-deactive/{id}',[HomeController::class, 'member_disapprove'])->name('member.disapproved');
-
+    Route::get('/member-index',[HomeController::class, 'member_index'])->name('member.index');
     Route::delete('/member-delete/{id}',[HomeController::class, 'member_delete'])->name('member.delete');
     Route::resources([
         'logo' => LogoController::class,
@@ -61,6 +63,7 @@ Route::middleware(['auth','admin'])->group(function () {
         'news' => NewsController::class,
         'stories' => StoryController::class,
         'newsletter' => SubscriptionController::class,
+        'social' => SocialController::class,
     ]);
 
 });
@@ -74,8 +77,8 @@ Route::middleware(['auth','member'])->group(function () {
     Route::post('/member-password-update', [MemberProfileController::class, 'member_password_update'])->name('member.password.update');
 
     //member  portion
-    Route::get('/member-index',[HomeController::class, 'member_index'])->name('member.index');
-    Route::get('/member-show/{id}',[HomeController::class, 'member_show'])->name('member.show');
+
+
 
 
     Route::resources([

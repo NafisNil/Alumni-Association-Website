@@ -129,6 +129,12 @@
           </a>
         </li>
 
+        <li class="nav-item">
+          <a href="{{ route('social.index') }}" class="nav-link {{$route == 'newsletter.index'?'active':''}}">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Social Media</p>
+          </a>
+        </li>
 
         <hr>
 
@@ -152,6 +158,7 @@
             <p>Newsletter Mail</p>
           </a>
         </li>
+
 
 
 

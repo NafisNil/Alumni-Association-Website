@@ -1,4 +1,4 @@
-@foreach ($event as $item)
+@foreach ($events as $item)
 <li class="new product type-product post-1281 status-publish first instock product_cat-coffee product_tag-mugs has-post-thumbnail shipping-taxable purchasable product-type-simple">
   <div class="qodef-woo-product-inner">
     <div class="qodef-woo-product-image">

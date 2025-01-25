@@ -22,7 +22,7 @@ $route = Request::route()->getName();
             </div>
           </div>
         </div>
-        <div class="qodef-m-content qodef-content-grid ">
+        <div class="qodef-m-content qodef-content-grid " style="background-image: url({{asset('image/Gemini_Generated_2.jpg')}})" >
           <h2 class="qodef-m-title entry-title"> Stories </h2>
           <p class="qodef-m-subtitle">Journeys of Success and Inspiration from Our Alumni.</p>
         </div>
@@ -77,7 +77,7 @@ $route = Request::route()->getName();
                   <div class="loop-item-0 user-id-2 bbp-parent-forum-46 bbp-parent-topic-46 bbp-reply-position-1 odd  post-48 topic type-topic status-publish hentry topic-tag-hotel">
                     <div class="qodef-bbp-reply">
                       <div class="qodef-bbp-reply-author">
-                        <a href="https://joinup.qodeinteractive.com/members/anthony-clark/" title="View Anthony Clark&#039;s profile" class="bbp-author-link">
+                        <a href="{{route('stories_single', $item->slug)}}" title="{{$item->title}}" class="bbp-author-link">
                           <span class="bbp-author-avatar">
                             <img alt='' src='{{(!empty($item->user_info->photo))?URL::to('storage/'.$item->user_info->photo):URL::to('image/no_image.png')}}'  class='avatar avatar-80 photo' height='80' width='80' />
                           </span>
@@ -92,7 +92,7 @@ $route = Request::route()->getName();
                       </div>
                       <!-- .bbp-reply-author -->
                       <div class="qodef-bbp-reply-content">
-                        <p>{!! Str::limit(@$item->desc, 100) !!} ...</p>
+                        <p>{!! Str::limit(@$item->desc, 100) !!}    <a href="{{route('stories_single', $item->slug)}}" title="{{$item->title}}" class="bbp-author-link"> <b> Show more</b></a> </p>
                       </div>
                       <!-- .bbp-reply-content -->
                       <div id="post-48" class="qodef-bbp-reply-links">

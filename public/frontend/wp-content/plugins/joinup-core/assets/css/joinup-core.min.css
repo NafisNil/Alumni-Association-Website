@@ -48,8 +48,8 @@
     height:100%;
     font-size:20px;
     color:#fff;
-    background-color:#f36b7f;
-    border:1px solid #f36b7f;
+    background-color:#A9D18E;
+    border:1px solid #6E6E6E;
     border-radius:50%;
     -webkit-box-shadow:6px 6px 60px rgba(255,81,107,.1);
     box-shadow:6px 6px 60px rgba(255,81,107,.1);
@@ -392,7 +392,7 @@
 }
 .qodef-blog.qodef-item-layout--standard.qodef-layout--masonry .qodef-blog-item .qodef-e-info.qodef-info--bottom .qodef-e-category{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -1084,7 +1084,7 @@
 }
 #qodef-top-area{
     position:relative;
-    background-color:#040a17;
+    background-color:#006837;
     z-index:101
 }
 #qodef-top-area-inner{
@@ -1342,7 +1342,7 @@
     font-size:30px;
     font-weight:700;
     text-align:center;
-    color:#040a17
+    color:#006837
 }
 .qodef-cluster-marker svg{
     width:100%;
@@ -1685,7 +1685,7 @@
     font-size:17px;
     line-height:1.65em;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 .qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul{
     padding-top:12px
@@ -1740,7 +1740,7 @@
 }
 .qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul li.current-menu-item>a,.qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul li.current_page_item>a,.qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul li:hover>a{
     padding-right:0;
-    color:#040a17
+    color:#006837
 }
 .qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul li.current-menu-item>a .qodef-menu-item-text,.qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul li.current_page_item>a .qodef-menu-item-text,.qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul li:hover>a .qodef-menu-item-text{
     -webkit-transform:translateX(15px);
@@ -1772,7 +1772,7 @@ body:not(.qodef-drop-down-second--full-width) .qodef-header-navigation ul li.qod
 }
 .bp-user.bbp-user-page.single .qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul li.current_page_item:hover>a,.single-item.groups .qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul li.current_page_item:hover>a{
     padding-right:0;
-    color:#040a17
+    color:#006837
 }
 .bp-user.bbp-user-page.single .qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul li.current_page_item:hover>a .qodef-menu-item-text,.single-item.groups .qodef-header-navigation ul li.qodef-menu-item--wide .qodef-drop-down-second-inner>ul>li ul li.current_page_item:hover>a .qodef-menu-item-text{
     -webkit-transform:translateX(15px);
@@ -1931,7 +1931,7 @@ body:not(.qodef-drop-down-second--full-width) .qodef-header-navigation ul li.qod
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 @media only screen and (max-width:768px){
     #bbpress-forums li.bbp-header>ul>li{
@@ -1965,7 +1965,7 @@ body:not(.qodef-drop-down-second--full-width) .qodef-header-navigation ul li.qod
     color:#70737a
 }
 #bbpress-forums li.bbp-body .bbp-forum-freshness>a:hover{
-    color:#040a17
+    color:#006837
 }
 #bbpress-forums li.bbp-body .bbp-forum-freshness .bbp-topic-meta{
     margin:0;
@@ -1976,7 +1976,7 @@ body:not(.qodef-drop-down-second--full-width) .qodef-header-navigation ul li.qod
     display:none
 }
 #bbpress-forums li.bbp-body .bbp-forum-freshness .bbp-author-name{
-    color:#040a17
+    color:#006837
 }
 #bbpress-forums li.bbp-body .bbp-forum-freshness .bbp-author-name:hover{
     color:#ff516b
@@ -2072,7 +2072,7 @@ body.forum-archive #bbpress-forums li.bbp-body .bbp-forum-info .youzify-forums-f
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 body.forum-archive #bbpress-forums li.bbp-body .bbp-forum-info .youzify-forums-forum-item .youzify-forums-forum-desc,body.forums.subscriptions #bbpress-forums li.bbp-body .bbp-forum-info .youzify-forums-forum-item .youzify-forums-forum-desc{
     font-family:Barlow,sans-serif;
@@ -2086,7 +2086,7 @@ body.forum-archive #bbpress-forums li.bbp-body .bbp-forum-reply-count,body.forum
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 body.forum-archive #bbpress-forums li.bbp-body .bbp-forum-reply-count i,body.forum-archive #bbpress-forums li.bbp-body .bbp-forum-topic-count i,body.forums.subscriptions #bbpress-forums li.bbp-body .bbp-forum-reply-count i,body.forums.subscriptions #bbpress-forums li.bbp-body .bbp-forum-topic-count i{
     display:none
@@ -2100,7 +2100,7 @@ body.forum-archive #bbpress-forums li.bbp-body .youzify-bbp-forum-freshness .you
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 body.forum-archive #bbpress-forums li.bbp-body .youzify-bbp-forum-freshness .youzify-bbp-freshness-time,body.forums.subscriptions #bbpress-forums li.bbp-body .youzify-bbp-forum-freshness .youzify-bbp-freshness-time{
     margin-top:2px
@@ -2117,7 +2117,7 @@ body.forum-archive #bbpress-forums li.bbp-body .bbp-topic-started-by,body.forums
     font-size:inherit
 }
 body.forum-archive #bbpress-forums li.bbp-body .bbp-topic-started-by .bbp-author-name,body.forums.subscriptions #bbpress-forums li.bbp-body .bbp-topic-started-by .bbp-author-name{
-    color:#040a17
+    color:#006837
 }
 body.forum-archive #bbpress-forums li.bbp-body .bbp-topic-started-by .bbp-author-name:hover,body.forums.subscriptions #bbpress-forums li.bbp-body .bbp-topic-started-by .bbp-author-name:hover{
     color:#ff516b
@@ -2136,7 +2136,7 @@ body.forum-archive #bbpress-forums li.bbp-body .bbp-topic-started-by .bbp-author
     line-height:1.18em;
     font-weight:600;
     margin:0 0 11px;
-    color:#040a17
+    color:#006837
 }
 @media only screen and (max-width:480px){
     #bbpress-forums .qodef-bbp-topic-head .bbp-breadcrumb .bbp-breadcrumb-current #subscription-toggle{
@@ -2148,7 +2148,7 @@ body.forum-archive #bbpress-forums li.bbp-body .bbp-topic-started-by .bbp-author
     margin-left:20px;
     font-size:12px;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     font-family:Barlow,sans-serif;
     background-color:#fff;
     border:1px solid rgba(183,189,199,.3);
@@ -2193,7 +2193,7 @@ body.forum-archive #bbpress-forums li.bbp-body .bbp-topic-started-by .bbp-author
     color:#777b81
 }
 #bbpress-forums .qodef-bbp-topic-head .bbp-template-notice .bbp-forum-description a,#bbpress-forums .qodef-bbp-topic-head .bbp-template-notice .bbp-topic-description a{
-    color:#040a17
+    color:#006837
 }
 #bbpress-forums .qodef-bbp-topic-head .bbp-template-notice .bbp-forum-description .bbp-author-avatar img,#bbpress-forums .qodef-bbp-topic-head .bbp-template-notice .bbp-topic-description .bbp-author-avatar img{
     display:none
@@ -2274,7 +2274,7 @@ body.forum-archive #bbpress-forums li.bbp-body .bbp-topic-started-by .bbp-author
     padding:12px 20px 15px;
     text-align:center;
     border:1px solid #eaebec;
-    color:#040a17
+    color:#006837
 }
 .qodef-forums-topics-holder .qodef-bbp-topic-reply-count span{
     font-size:14px;
@@ -2329,7 +2329,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .qodef-bbp-reply .qodef-bbp-reply-author .qodef-bbp-reply-post-date{
     font-size:14px;
@@ -2423,14 +2423,14 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-weight:400;
     border-radius:3px;
     min-width:25px;
-    color:#040a17
+    color:#006837
 }
 #bbpress-forums .bbp-submit-wrapper .button.submit{
     width:auto;
     min-height:auto;
     padding:13px 49px;
     border-radius:0;
-    background-color:#040a17;
+    background-color:#006837;
     -webkit-transition:background-color .2s ease-out;
     -o-transition:background-color .2s ease-out;
     transition:background-color .2s ease-out
@@ -2455,7 +2455,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 .forum-search #bbpress-forums div.bbp-breadcrumb .bbp-breadcrumb-current{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:28px;
     line-height:1.18em;
     font-weight:600;
@@ -2470,7 +2470,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 .forum-search #bbpress-forums div.bbp-forum-header .bbp-meta,.forum-search #bbpress-forums div.bbp-reply-header .bbp-meta,.forum-search #bbpress-forums div.bbp-topic-header .bbp-meta{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -2478,7 +2478,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 .forum-search #bbpress-forums div.bbp-forum-title h3,.forum-search #bbpress-forums div.bbp-reply-title h3,.forum-search #bbpress-forums div.bbp-topic-title h3{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -2486,14 +2486,14 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 .forum-search #bbpress-forums .bbp-topic-title-meta{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
     color:#a9a9a9
 }
 .forum-search #bbpress-forums .bbp-topic-title-meta a{
-    color:#040a17
+    color:#006837
 }
 .forum-search #bbpress-forums .bbp-search-results li.bbp-header{
     display:none
@@ -2521,7 +2521,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 .forum-search #bbpress-forums div.bbp-forum-author .bbp-author-name,.forum-search #bbpress-forums div.bbp-reply-author .bbp-author-name,.forum-search #bbpress-forums div.bbp-topic-author .bbp-author-name{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -2529,7 +2529,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 .forum-search #bbpress-forums div.bbp-forum-author .bbp-author-role,.forum-search #bbpress-forums div.bbp-reply-author .bbp-author-role,.forum-search #bbpress-forums div.bbp-topic-author .bbp-author-role{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -2667,7 +2667,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 .qodef-forums-list ul li a:hover{
     color:rgba(4,10,23,.7)
@@ -2751,7 +2751,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     margin-left:auto;
     text-align:center;
     border:1px solid #eaebec;
-    color:#040a17
+    color:#006837
 }
 .qodef-topic-list .qodef-topic-reply-count span{
     font-size:14px;
@@ -2797,7 +2797,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     height:auto
 }
 .nice-select .list{
@@ -2830,7 +2830,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     line-height:1.57em;
     font-weight:500;
     margin:0;
-    color:#040a17;
+    color:#006837;
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -2946,7 +2946,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 #youzify-members-directory .item-list .youzify-show-cover .youzify-user-data .item-title .youzify-account-verified{
     display:none
@@ -2979,7 +2979,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 #youzify-members-directory .item-list .youzify-show-cover .youzify-user-data .qodef-e-member-location{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -3091,7 +3091,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 #youzify-members-directory .item-list .youzify-user-actions .friendship-button a{
     font-size:15px;
     font-weight:500;
-    color:#040a17!important;
+    color:#006837!important;
     background-color:transparent!important
 }
 #youzify-members-directory .item-list .youzify-user-actions .friendship-button a:hover{
@@ -3117,7 +3117,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     height:auto;
     background-color:transparent!important;
     border:none!important;
-    color:#040a17
+    color:#006837
 }
 #youzify-members-directory .item-list .youzify-user-actions .youzify-profile-settings:hover,#youzify-members-directory .item-list .youzify-user-actions .yzmd-second-btn:hover{
     color:rgba(4,10,23,.7)
@@ -3257,7 +3257,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     display:inline-block;
     padding:3px 16px;
     border-radius:14px;
-    color:#040a17
+    color:#006837
 }
 #youzify #youzify-groups-directory .item .qodef-group-type .qodef-private{
     background-color:rgba(255,81,107,.15)
@@ -3305,7 +3305,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 #youzify #youzify-groups-directory .item .qodef-group-excerpt{
     margin:16px 0 29px;
@@ -3325,7 +3325,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     align-items:center
 }
 #youzify #youzify-groups-directory .qodef-group-info-bottom .qodef-group-count{
-    color:#040a17
+    color:#006837
 }
 #youzify #youzify-groups-directory .qodef-group-info-bottom .qodef-group-count i{
     font-size:13px;
@@ -3339,7 +3339,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     display:none
 }
 #youzify #youzify-groups-directory .action .youzify-manage-group{
-    color:#040a17;
+    color:#006837;
     background-color:transparent
 }
 #youzify #youzify-groups-directory .action a{
@@ -3375,7 +3375,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     height:60px;
     width:auto;
     padding:10px 40px;
-    background-color:#040a17;
+    background-color:#006837;
     font-family:Barlow,sans-serif;
     font-size:13px;
     line-height:2em;
@@ -3394,7 +3394,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 .groups.group-invites #youzify #invite-list .list-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -3424,7 +3424,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-family:Barlow,sans-serif;
     font-size:18px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .groups.group-invites #youzify #invite-list ul li label img{
     width:49px;
@@ -3457,7 +3457,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 .groups.group-invites #youzify .main-column .section-header{
     font-size:18px;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     margin-bottom:20px
 }
 .groups.group-invites #youzify .group-request-list li{
@@ -3474,14 +3474,14 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 .groups.group-invites #youzify .group-request-list li .item-data .item .item-title a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
 }
 .groups.group-invites #youzify .group-request-list li .item-data .item .item-meta span{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -3503,7 +3503,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-family:Barlow,sans-serif;
     font-size:12px;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:all .2s ease-out;
     -o-transition:all .2s ease-out;
     transition:all .2s ease-out
@@ -3569,7 +3569,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .youzify-tab-reviews .youzify-user-reviews .youzify-review-item .youzify-head-meta .youzify-item-date{
     font-size:14px;
@@ -3617,7 +3617,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-weight:600;
     padding:0;
     font-weight:400;
-    color:#040a17
+    color:#006837
 }
 .youzify-tab-reviews .youzify-user-reviews .youzify-review-item .youzify-item-content .youzify-item-desc:before{
     content:'“'
@@ -3641,7 +3641,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     min-width:auto;
     border:1px solid rgba(183,189,199,.3);
     border-radius:0;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:all .2s ease-out;
     -o-transition:all .2s ease-out;
     transition:all .2s ease-out
@@ -3690,7 +3690,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     min-width:auto;
     border:1px solid rgba(183,189,199,.3);
     border-radius:0;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:all .2s ease-out;
     -o-transition:all .2s ease-out;
     transition:all .2s ease-out
@@ -3804,7 +3804,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 .my-groups #youzify ul#youzify-groups-list .item-holder .item-title a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
@@ -3828,7 +3828,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     line-height:1.57em;
     font-weight:500;
     margin-top:16px;
-    color:#040a17
+    color:#006837
 }
 @media screen and (min-width:1025px){
     .my-groups #youzify ul#youzify-groups-list .qodef-group-count{
@@ -3862,7 +3862,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     text-decoration:none;
     text-transform:capitalize;
     border-radius:0;
-    color:#040a17;
+    color:#006837;
     background-color:transparent;
     border:1px solid rgba(183,189,199,.3);
     -webkit-transition:color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
@@ -3936,7 +3936,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-family:Barlow,sans-serif;
     font-size:16px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .group-members #youzify .qodef-group-members-title{
     background-color:#fff;
@@ -3971,7 +3971,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-size:18px;
     font-weight:500;
     line-height:1em;
-    color:#040a17
+    color:#006837
 }
 .group-members #youzify #youzify-members-list .item .item-meta span{
     font-family:Barlow,sans-serif;
@@ -3990,7 +3990,7 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
     font-family:Barlow,sans-serif;
     font-size:12px;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:all .2s ease-out;
     -o-transition:all .2s ease-out;
     transition:all .2s ease-out
@@ -4063,14 +4063,14 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 }
 .invites #youzify #youzify-groups-list .item .item-title a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
 }
 .invites #youzify #youzify-groups-list .item .item-meta span{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -4110,14 +4110,14 @@ div.bbp-forum-header,div.bbp-reply-header,div.bbp-topic-header,li.bbp-body div.h
 .invites #youzify #youzify-groups-list .action .button.accept{
     margin-right:6px;
     background-color:#fff;
-    color:#040a17
+    color:#006837
 }
 .invites #youzify #youzify-groups-list .action .button.accept:before{
     content:"\f253"
 }
 .invites #youzify #youzify-groups-list .action .button.reject{
     background-color:#fff;
-    color:#040a17
+    color:#006837
 }
 .invites #youzify #youzify-groups-list .action .button.reject:before{
     content:"\f252"
@@ -4235,7 +4235,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_core_members_widget .item-
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17!important;
+    color:#006837!important;
     padding:0 8px;
     margin:0;
     display:inline-block;
@@ -4291,7 +4291,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_core_members_widget #membe
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 body #qodef-page-wrapper .widget.buddypress.widget_bp_core_members_widget #members-list .vcard .item-title a:hover{
     color:#ff516b
@@ -4331,7 +4331,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list li .item-meta .activity{
     font-size:14px;
@@ -4371,7 +4371,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 .qodef-activity-feed ul li p a{
     font-size:inherit;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .qodef-activity-feed ul li p a:hover{
     color:rgba(4,10,23,.7)
@@ -4452,7 +4452,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     font-weight:500;
     padding:5.5px 16px;
     border-radius:14px;
-    color:#040a17
+    color:#006837
 }
 .qodef-group-list.qodef-item-layout--standard .qodef-e-type .qodef-private{
     background-color:rgba(255,81,107,.15)
@@ -4486,7 +4486,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     display:flex
 }
 .qodef-group-list.qodef-item-layout--standard .qodef-e-info-bottom .qodef-e-count{
-    color:#040a17
+    color:#006837
 }
 .qodef-group-list.qodef-item-layout--standard .qodef-e-info-bottom .qodef-e-count i{
     padding-right:7px;
@@ -4585,7 +4585,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 }
 .qodef-login-form .qodef-m-fields label{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -4611,7 +4611,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     align-items:center;
     margin:0;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -4652,7 +4652,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 }
 .qodef-login-form .qodef-m-links-reset-password{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -4661,7 +4661,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     color:#ff516b
 }
 .qodef-login-form .qodef-m-links-reset-password:hover{
-    color:#f36b7f
+    color:#83c557
 }
 .qodef-login-form .qodef-m-action .qodef-button{
     width:100%;
@@ -4670,7 +4670,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     font-size:13px
 }
 .qodef-login-form .qodef-m-action .qodef-button:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 .qodef-login-form .qodef-m-register{
     font-family:Barlow,sans-serif;
@@ -4683,7 +4683,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 }
 .qodef-login-form .qodef-m-register a{
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .qodef-login-form .qodef-m-register a:hover{
     color:#ff516b
@@ -4877,7 +4877,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     line-height:1.57em;
     font-weight:500;
     padding-right:6px;
-    color:#040a17
+    color:#006837
 }
 .qodef-members-list .qodef-e-last-active{
     font-size:14px;
@@ -4896,7 +4896,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 }
 .qodef-members-list .qodef-e-member-location{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -5028,7 +5028,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     width:20px
 }
 .qodef-search-bar .qodef-search-spinner svg *{
-    fill:#040a17
+    fill:#006837
 }
 .qodef-search-bar.process .qodef-search-spinner{
     display:block
@@ -5094,7 +5094,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     height:100%;
     border:none;
     z-index:99;
-    color:#040a17;
+    color:#006837;
     background-color:transparent;
     cursor:pointer
 }
@@ -5145,7 +5145,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 .qodef-search-bar .selectize-dropdown .qodef-search-result-title{
     font-size:16px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .qodef-search-bar .selectize-dropdown .qodef-search-result-message{
     margin-top:8px;
@@ -5193,7 +5193,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     line-height:1.33em;
     font-weight:600;
     min-width:30px;
-    color:#040a17
+    color:#006837
 }
 .qodef-activity-feed-widget ul{
     list-style-type:none
@@ -5213,7 +5213,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     color:#0b1a3a
 }
 .qodef-activity-feed-widget ul li p a{
-    color:#040a17;
+    color:#006837;
     font-weight:500
 }
 .qodef-activity-feed-widget ul li p a:hover{
@@ -5360,7 +5360,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     -ms-flex-align:center;
     align-items:center;
     font-size:17px;
-    color:#040a17
+    color:#006837
 }
 .qodef-login-opener-widget .qodef-login-opener span{
     display:inline-block;
@@ -5380,7 +5380,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     position:relative;
     padding:0 6px;
     display:inline-block;
-    color:#040a17
+    color:#006837
 }
 #qodef-top-area .qodef-loggedin-user-buttons .qodef-button-item{
     color:rgba(255,255,255,.7)
@@ -5452,10 +5452,10 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     color:#4c5059
 }
 .qodef-user-settings-area .qodef-user-settings-menu a:hover{
-    color:#040a17
+    color:#006837
 }
 #qodef-top-area .qodef-user-settings-area .qodef-user-settings-menu a:hover{
-    color:#040a17
+    color:#006837
 }
 .qodef-user-settings-area .qodef-user-settings-menu a i{
     padding-right:5px
@@ -5534,7 +5534,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .qodef-prominent-groups-widget ul li i{
     font-size:18px;
@@ -5761,11 +5761,11 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     font-weight:600;
     padding-left:5px;
     font-weight:400;
-    color:#040a17
+    color:#006837
 }
 .qodef-tribe-events-single-item .qodef-e-main-info .qodef-e-info .qodef-e-info-item span.qodef-icon-kiko{
     font-size:18px;
-    color:#040a17
+    color:#006837
 }
 .qodef-tribe-events-single-item .qodef-e-main-content .qodef-e-media{
     margin:0 0 16px
@@ -5812,7 +5812,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 .qodef-tribe-events-single-item .qodef-e-main-content .qodef-e-meta-holder .qodef-e-meta-item .qodef-e-meta-label,.qodef-tribe-events-single-item .qodef-e-main-content .qodef-e-meta-holder .qodef-e-meta-item .qodef-e-meta-value{
     font-size:18px;
     line-height:1.33em;
-    color:#040a17
+    color:#006837
 }
 .qodef-tribe-events-single-item .qodef-e-main-content .qodef-e-meta-holder .qodef-e-meta-item .qodef-e-meta-label{
     font-weight:500
@@ -5852,11 +5852,11 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     line-height:0
 }
 #tribe-events .qodef-tribe-events-single-item .qodef-e-main-content .tribe-events-button:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #tribe-events .qodef-tribe-events-single-item .qodef-e-main-content .tribe-events-button.tribe-events-ical{
     margin-left:20px;
-    background-color:#040a17
+    background-color:#006837
 }
 #tribe-events .qodef-tribe-events-single-item .qodef-e-main-content .tribe-events-button.tribe-events-ical:hover{
     background-color:#2a2d38
@@ -5906,7 +5906,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 #tribe-events-content-wrapper .tribe-bar-filters .tribe-bar-filters-inner>div label{
     display:block;
     margin:0 0 14px;
-    color:#040a17;
+    color:#006837;
     font-family:Barlow,sans-serif;
     font-size:20px;
     line-height:30px;
@@ -5980,7 +5980,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     letter-spacing:2.2px;
     padding:13px 26px;
     width:100%;
-    background-color:#040a17
+    background-color:#006837
 }
 #tribe-events-content-wrapper .tribe-bar-filters .tribe-bar-filters-inner>div input[type=submit]:hover{
     background-color:#2a2d38
@@ -6078,7 +6078,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     text-transform:capitalize;
     font-size:14px;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:color .2s ease-out;
     -o-transition:color .2s ease-out;
     transition:color .2s ease-out
@@ -6148,10 +6148,10 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 #tribe-events-content-wrapper #tribe-events-content .tribe-events-button:hover{
     color:#fff;
     border-color:transparent;
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #tribe-events-content-wrapper #tribe-events-content .tribe-events-button:hover:after{
-    background-color:#040a17
+    background-color:#006837
 }
 #tribe-events-content{
     position:relative;
@@ -6165,7 +6165,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     line-height:30px;
     font-weight:300!important;
     text-transform:capitalize;
-    color:#040a17;
+    color:#006837;
     text-align:left
 }
 #tribe-events-content .tribe-events-sub-nav .tribe-events-nav-next a,#tribe-events-content .tribe-events-sub-nav .tribe-events-nav-previous a{
@@ -6173,7 +6173,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     line-height:1.18em;
     font-weight:600;
     position:relative;
-    color:#040a17
+    color:#006837
 }
 #tribe-events-content .tribe-events-sub-nav .tribe-events-nav-next a:hover,#tribe-events-content .tribe-events-sub-nav .tribe-events-nav-previous a:hover{
     color:#ff516b
@@ -6198,7 +6198,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     font-size:21px;
     line-height:28px;
     font-weight:600;
-    color:#040a17;
+    color:#006837;
     background:#fff;
     border:0;
     border-right:1px solid #eaebec;
@@ -6277,7 +6277,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     display:inline-block;
     font-size:21px;
     font-weight:600;
-    color:#040a17;
+    color:#006837;
     padding:0;
     text-align:left;
     background-color:#fff;
@@ -6300,7 +6300,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
     line-height:22px!important;
     font-weight:500!important;
     text-transform:capitalize!important;
-    color:#040a17
+    color:#006837
 }
 #tribe-events-content table.tribe-events-calendar tbody td .tribe-events-month-event-title a{
     font-size:inherit;
@@ -6362,7 +6362,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 }
 #tribe-events-content table.tribe-events-calendar tbody .tribe-events-tooltip .entry-title{
     margin:0 0 5px;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.2em;
     font-weight:600;
@@ -6424,7 +6424,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 }
 #tribe-events-content.tribe-events-list .tribe-events-list-separator-month{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -6449,7 +6449,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 }
 #tribe-events-content.tribe-events-list .tribe-events-loop .tribe-events-day-time-slot-heading{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -6583,7 +6583,7 @@ body #qodef-page-wrapper .widget.buddypress.widget_bp_groups_widget #groups-list
 }
 .tribe-events-day .tribe-events-day-time-slot h5{
     padding:0;
-    color:#040a17;
+    color:#006837;
     background:0 0;
     margin:50px 0
 }
@@ -6628,7 +6628,7 @@ body.events-list .qodef-page-sidebar-section{
     font-size:11px;
     line-height:2em;
     font-weight:500;
-    background-color:#ff516b;
+    background-color:##85d053;
     color:#fff
 }
 .qodef-events-list-item-holder .qodef-events-list-item-date-holder .qodef-events-list-item-date-day{
@@ -6641,7 +6641,7 @@ body.events-list .qodef-page-sidebar-section{
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     text-align:center
 }
 .qodef-events-list-item-holder .qodef-events-list-item-title{
@@ -6655,7 +6655,7 @@ body.events-list .qodef-page-sidebar-section{
     line-height:1.57em;
     font-weight:500;
     display:inline-block;
-    color:#040a17
+    color:#006837
 }
 .qodef-events-list-item-holder .qodef-events-list-date,.qodef-events-list-item-holder .qodef-events-list-venue{
     font-size:14px;
@@ -6714,7 +6714,7 @@ body.events-list .qodef-page-sidebar-section{
 }
 .qodef-events-day-holder .qodef-events-single-meta-label{
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .qodef-events-day-holder .qodef-events-day-price{
     font-size:21px;
@@ -6749,12 +6749,12 @@ body.events-list .qodef-page-sidebar-section{
     border-collapse:unset
 }
 .datepicker.dropdown-menu .table-condensed tr td.active{
-    background:#ff516b;
+    background:##85d053;
     color:#fff;
     text-shadow:none
 }
 .datepicker.dropdown-menu .table-condensed tr td.active:hover{
-    background:#ff516b;
+    background:##85d053;
     color:#fff
 }
 .datepicker.dropdown-menu .table-condensed tr td:hover{
@@ -6814,7 +6814,7 @@ body.events-list .qodef-page-sidebar-section{
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     text-align:center
 }
 .qodef-tribe-events-list .qodef-e-content-inner{
@@ -6830,7 +6830,7 @@ body.events-list .qodef-page-sidebar-section{
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .qodef-tribe-events-list .qodef-e-content-inner .qodef-e-date{
     font-size:14px;
@@ -6879,7 +6879,7 @@ body.events-list .qodef-page-sidebar-section{
 }
 .qodef-twitter-list.qodef-layout--columns #ctf .ctf-author-name{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -7177,7 +7177,7 @@ body.events-list .qodef-page-sidebar-section{
     text-transform:capitalize;
     letter-spacing:0;
     z-index:5;
-    color:#040a17;
+    color:#006837;
     background-color:transparent
 }
 .qodef-woo-product-list.qodef-item-layout--info-below .added_to_cart:before,.qodef-woo-product-list.qodef-item-layout--info-below .button:before{
@@ -7269,7 +7269,7 @@ body.events-list .qodef-page-sidebar-section{
     line-height:1.3em;
     letter-spacing:-.2px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .qodef-woo-dropdown-cart .qodef-woo-dropdown-items{
     position:relative;
@@ -7323,7 +7323,7 @@ body.events-list .qodef-page-sidebar-section{
 }
 .qodef-woo-dropdown-cart .qodef-e-price{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -7333,7 +7333,7 @@ body.events-list .qodef-page-sidebar-section{
 }
 .qodef-woo-dropdown-cart .qodef-e-quantity{
     margin:3px 0 0;
-    color:#040a17
+    color:#006837
 }
 .qodef-woo-dropdown-cart .qodef-e-remove{
     position:absolute;
@@ -7341,7 +7341,7 @@ body.events-list .qodef-page-sidebar-section{
     right:5px;
     font-size:11px;
     line-height:1;
-    color:#040a17
+    color:#006837
 }
 .qodef-woo-dropdown-cart .qodef-m-order-details{
     position:relative;
@@ -7367,7 +7367,7 @@ body.events-list .qodef-page-sidebar-section{
 }
 .qodef-woo-dropdown-cart .qodef-m-order-details .qodef-m-order-amount{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -7415,10 +7415,10 @@ body.events-list .qodef-page-sidebar-section{
 }
 .qodef-woo-dropdown-cart .qodef-m-action-link:hover{
     color:#fff;
-    background-color:#f36b7f
+    background-color:#83c557
 }
 .qodef-woo-dropdown-cart .qodef-m-action-link.e-checkout{
-    background-color:#040a17
+    background-color:#006837
 }
 .qodef-woo-dropdown-cart .qodef-m-action-link.e-checkout:hover{
     background-color:#2a2d38
@@ -7593,7 +7593,7 @@ body.events-list .qodef-page-sidebar-section{
 }
 .qodef-woo-side-area-cart .qodef-m-action-link:hover{
     color:#fff;
-    background-color:#f36b7f
+    background-color:#83c557
 }
 .qodef-woo-side-area-cart.qodef--opened .qodef-m-content{
     right:0;
@@ -7706,7 +7706,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-size:28px;
     line-height:1.18em;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 .youzify-profile-header.youzify-hdr-v7 .youzify-name h2 .youzify-account-verified{
     display:inline-block;
@@ -7735,14 +7735,14 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 .youzify-profile-header.youzify-hdr-v7 .youzify-user-statistics .youzify-sdescription{
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
     text-transform:capitalize;
-    color:#040a17
+    color:#006837
 }
 .youzify-profile-header.youzify-hdr-v7 .youzify-usermeta li{
     display:-webkit-inline-box;
@@ -7827,7 +7827,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     border:none
 }
 #youzify .youzify-content .youzify-profile-navmenu .youzify-navbar-item.youzify-active-menu a{
-    color:#ff516b
+    color:##85d053
 }
 #youzify .youzify-content .youzify-profile-navmenu .youzify-navbar-item.youzify-navbar-view-more>a{
     font-size:0;
@@ -7839,7 +7839,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-size:14px;
     line-height:19px;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content .youzify-profile-navmenu .youzify-navbar-item a{
     min-width:auto!important;
@@ -7850,7 +7850,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-weight:500;
     letter-spacing:-.35px;
     text-transform:capitalize;
-    color:#040a17;
+    color:#006837;
     -webkit-tap-highlight-color:unset;
     -webkit-transition:color .2s ease-out;
     -o-transition:color .2s ease-out;
@@ -7995,7 +7995,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     transition:background-color .2s ease-out
 }
 #youzify .youzify-content #youzify-profile-navmenu .youzify-social-buttons .friendship-button a:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #youzify .youzify-content #youzify-profile-navmenu .youzify-social-buttons .friendship-button a:before{
     font-family:Kiko!important;
@@ -8031,7 +8031,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-weight:500;
     letter-spacing:2.2px;
     text-transform:uppercase;
-    background-color:#040a17;
+    background-color:#006837;
     color:#fff;
     border-radius:0;
     -webkit-transition:background-color .2s ease-out;
@@ -8069,7 +8069,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-weight:500;
     letter-spacing:2.2px;
     text-transform:uppercase;
-    background-color:#040a17;
+    background-color:#006837;
     color:#fff;
     -webkit-transition:background-color .2s ease-out;
     -o-transition:background-color .2s ease-out;
@@ -8117,7 +8117,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     transition:background-color .2s ease-out
 }
 #youzify .youzify-content #youzify-profile-navmenu #youzify-group-buttons a.join-group:hover,#youzify .youzify-content #youzify-profile-navmenu #youzify-group-buttons a.leave-group:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #youzify .youzify-content #youzify-profile-navmenu #youzify-group-buttons a.join-group:before,#youzify .youzify-content #youzify-profile-navmenu #youzify-group-buttons a.leave-group:before{
     content:"\f089";
@@ -8154,7 +8154,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
 }
 #youzify .youzify-content .item-list-tabs ul li.selected a{
     font-weight:500!important;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content .item-list-tabs ul li.last{
     float:none!important;
@@ -8169,7 +8169,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-family:Barlow,sans-serif;
     font-size:16px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content .item-list-tabs ul li a{
     margin:3px 30px 3px 0;
@@ -8188,7 +8188,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
 }
 #youzify .youzify-content .item-list-tabs ul li a:hover{
     font-weight:500!important;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content .item-list-tabs ul li a i,#youzify .youzify-content .item-list-tabs ul li a:before{
     width:28px;
@@ -8206,7 +8206,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     background:#82b5a6
 }
 #youzify .youzify-content .item-list-tabs ul li:nth-child(4) a i,#youzify .youzify-content .item-list-tabs ul li:nth-child(4) a:before{
-    background:#f36b7f
+    background:#83c557
 }
 #youzify .youzify-content .item-list-tabs ul li:nth-child(5) a i,#youzify .youzify-content .item-list-tabs ul li:nth-child(5) a:before{
     background:#606edd
@@ -8416,7 +8416,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-family:Barlow,sans-serif;
     font-size:16px;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     letter-spacing:-.35px
 }
 #youzify .youzify-content .item-list-tabs .nice-select{
@@ -8511,7 +8511,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     transition:background-color .2s ease-out
 }
 #youzify .youzify-content .item-list-tabs #search-message-form #messages_search_submit:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #youzify .youzify-content .youzify-group-content .youzify-page-main-content{
     padding:18px 0 145px
@@ -8551,7 +8551,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-weight:500;
     letter-spacing:-.35px;
     text-transform:capitalize;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content .youzify-group-content #youzify-profile-navmenu li a:before{
     display:none
@@ -8758,7 +8758,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     letter-spacing:2.6px;
     color:#fff;
     border-radius:0;
-    background-color:#040a17;
+    background-color:#006837;
     -webkit-transition:background-color .2s ease-out;
     -o-transition:background-color .2s ease-out;
     transition:background-color .2s ease-out
@@ -8804,14 +8804,14 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     content:"\e854";
     font-family:Linearicons-Free;
     font-size:18px;
-    color:#040a17
+    color:#006837
 }
 #youzify #youzify-wall-form .youzify-wall-actions .youzify-form-tools .youzify-tag-users-tool i:before{
     content:"\f199";
     font-family:Kiko;
     font-size:18px;
     font-weight:300;
-    color:#040a17
+    color:#006837
 }
 #youzify #youzify-wall-form .youzify-wall-actions .youzify-form-tools .youzify-form-tool i{
     padding:0 10px;
@@ -8824,7 +8824,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     text-align:center;
     border-radius:0;
     cursor:pointer;
-    color:#040a17
+    color:#006837
 }
 #youzify #youzify-wall-form .youzify-wall-actions .youzify-form-tools .youzify-form-tool i:hover{
     background-color:transparent
@@ -8851,7 +8851,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     opacity:1;
     visibility:visible;
     vertical-align:middle;
-    color:#040a17;
+    color:#006837;
     background-color:transparent
 }
 @media only screen and (max-width:1440px){
@@ -8884,7 +8884,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
 }
 #youzify #youzify-wall-form .youzify-wall-actions #whats-new-post-in-box .nice-select .current{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -8903,7 +8903,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     margin:0;
     width:auto;
     position:absolute;
-    color:#040a17
+    color:#006837
 }
 #youzify #youzify-wall-form .youzify-wall-actions #whats-new-post-in-box label{
     font-family:Barlow,sans-serif;
@@ -9021,7 +9021,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:background-color .2s ease-in-out;
     -o-transition:background-color .2s ease-in-out;
     transition:background-color .2s ease-in-out
@@ -9031,13 +9031,13 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-size:18px;
     font-weight:300;
     vertical-align:bottom;
-    color:#040a17
+    color:#006837
 }
 #youzify .activity-list>li .activity-meta a:hover{
     background-color:rgba(183,189,199,.1)
 }
 #youzify .activity-list>li .activity-meta a:hover:before{
-    color:#040a17
+    color:#006837
 }
 #youzify .activity-list>li .activity-meta a.fav:before,#youzify .activity-list>li .activity-meta a.unfav:before{
     content:"\f379"
@@ -9058,7 +9058,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 #youzify .activity-list>li.activity-item.activity_share .youzify-shared-wrapper .youzify-timestamp-area{
     height:auto;
@@ -9107,7 +9107,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
 }
 #youzify .activity-list li.load-more a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -9140,13 +9140,13 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-weight:500;
     font-family:Barlow,sans-serif;
     text-transform:initial;
-    color:#040a17
+    color:#006837
 }
 #youzify .activity-list .activity-header .activity-head a:first-child{
     font-size:18px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 #youzify .activity-list .activity-header .activity-head .youzify-account-verified{
     display:none
@@ -9213,7 +9213,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     background-color:#a0bfff!important
 }
 #youzify .activity-list .activity-header .youzify-wall-mood i.fa-brain,#youzify .activity-list .activity-header .youzify-wall-mood i.fa-glasses{
-    background-color:#f36b7f!important
+    background-color:#83c557!important
 }
 #youzify .activity-list .activity-header .youzify-wall-mood i.fa-gamepad,#youzify .activity-list .activity-header .youzify-wall-mood i.fa-glass-cheers{
     background-color:#b890d5!important
@@ -9267,7 +9267,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
 }
 #youzify .activity-list .youzify-activity-embed .youzify-wall-embed .youzify-embed-head .youzify-embed-name{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
@@ -9339,7 +9339,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     transition:background-color .2s ease-out
 }
 #youzify .activity-list .youzify-activity-embed .youzify-wall-embed .youzify-embed-action .friendship-button a:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #youzify .activity-list .youzify-activity-embed .youzify-wall-embed .youzify-embed-action .friendship-button .add:before,#youzify .activity-list .youzify-activity-embed .youzify-wall-embed .youzify-embed-action .friendship-button .pending_friend:before,#youzify .activity-list .youzify-activity-embed .youzify-wall-embed .youzify-embed-action .friendship-button .remove:before{
     font-family:Kiko!important;
@@ -9371,7 +9371,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
 }
 #youzify .activity-list .youzify-activity-embed .youzify-wall-embed .youzify-embed-action .message-button .youzify-send-message{
     font-size:0;
-    background-color:#040a17;
+    background-color:#006837;
     display:-webkit-inline-box;
     display:-ms-inline-flexbox;
     display:inline-flex;
@@ -9417,7 +9417,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     transition:background-color .2s ease-out
 }
 #youzify .activity-list .youzify-activity-embed .youzify-wall-embed .youzify-embed-action .group-button a.join-group:hover,#youzify .activity-list .youzify-activity-embed .youzify-wall-embed .youzify-embed-action .group-button a.leave-group:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #youzify .activity-list .youzify-activity-embed .youzify-wall-embed .youzify-embed-action .group-button a.join-group:before,#youzify .activity-list .youzify-activity-embed .youzify-wall-embed .youzify-embed-action .group-button a.leave-group:before{
     content:"\f089";
@@ -9431,7 +9431,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-size:18px;
     line-height:1.22em;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     background-color:rgba(183,189,199,.1);
     border-radius:0;
     padding:14.5px 25px
@@ -9444,7 +9444,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-size:18px;
     line-height:1.5em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 #youzify .activity-list .activity-comments{
     background-color:#fff
@@ -9492,7 +9492,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 #youzify .activity-list .activity-comments .acomment-meta>a .youzify-account-verified{
     display:none
@@ -9524,7 +9524,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
 }
 #youzify .activity-list .activity-comments .acomment-options a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -9534,7 +9534,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     font-size:18px;
     font-weight:300;
     vertical-align:bottom;
-    color:#040a17
+    color:#006837
 }
 #youzify .activity-list .activity-comments .acomment-options a.acomment-reply:before{
     content:"\f188"
@@ -9608,7 +9608,7 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     content:"\e854";
     font-family:Linearicons-Free;
     font-size:18px;
-    color:#040a17
+    color:#006837
 }
 #youzify .activity-list .activity-comments .ac-form .youzify-wall-comments-buttons{
     top:0;
@@ -9662,13 +9662,13 @@ body .youzify a,body .youzify button,body .youzify input,body .youzify p,body .y
     content:"\e854";
     font-family:Linearicons-Free;
     font-size:18px;
-    color:#040a17!important
+    color:#006837!important
 }
 #youzify #activity-stream .ac-form .youzify-emojionearea .youzify-emojionearea-button>.youzify-emojionearea-button-close:before{
     content:"\f252";
     font-family:Kiko;
     font-size:15px;
-    color:#040a17
+    color:#006837
 }
 #youzify #activity-stream .ac-form .youzify-emojionearea .youzify-emojionearea-editor{
     font-size:18px;
@@ -9847,7 +9847,7 @@ body #youzify-wall-form .youzify-wall-content .youzify-wall-feeling .youzify-lis
 }
 body #youzify-wall-form .youzify-wall-content .youzify-wall-tagusers .youzify-list-selected-items .youzify-feeling-selected-item,body #youzify-wall-form .youzify-wall-content .youzify-wall-tagusers .youzify-list-selected-items .youzify-list-items-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -9911,7 +9911,7 @@ body .youzify-wall-list-items .youzify-list-item .youzify-item-button.youzify-wa
     font-family:Barlow,sans-serif;
     font-size:12px;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:all .2s ease-out;
     -o-transition:all .2s ease-out;
     transition:all .2s ease-out
@@ -9940,7 +9940,7 @@ body .youzify-wall-list-items .youzify-list-item .youzify-item-icon i{
 }
 body .youzify-wall-list-items .youzify-list-item .youzify-item-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -9961,7 +9961,7 @@ body .youzify-wall-list-items .youzify-list-item.youzify-category-celebrating .y
     background-color:#a0bfff
 }
 body .youzify-wall-list-items .youzify-list-item.youzify-category-thinking .youzify-item-icon i,body .youzify-wall-list-items .youzify-list-item.youzify-category-watching .youzify-item-icon i{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 body .youzify-wall-list-items .youzify-list-item.youzify-category-eating .youzify-item-icon i,body .youzify-wall-list-items .youzify-list-item.youzify-category-reading .youzify-item-icon i{
     background-color:#82b5a6
@@ -10000,14 +10000,14 @@ body .youzify-post-attachments .youzify-wall-file-post .youzify-wall-file-icon:b
     font-family:Kiko;
     font-size:55px;
     font-weight:300;
-    color:#040a17
+    color:#006837
 }
 body .youzify-post-attachments .youzify-wall-file-post .youzify-wall-file-title{
     font-family:Barlow,sans-serif;
     font-size:18px;
     line-height:1.22em;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     margin-bottom:7px
 }
 body .youzify-post-attachments .youzify-wall-file-post .youzify-wall-file-size{
@@ -10033,7 +10033,7 @@ body .youzify-post-attachments .youzify-wall-file-post .youzify-wall-file-downlo
     transition:all .2s ease-out
 }
 body .youzify-post-attachments .youzify-wall-file-post .youzify-wall-file-download:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 body .youzify-post-attachments .youzify-wall-file-post .youzify-wall-file-download i{
     display:none
@@ -10048,7 +10048,7 @@ body .youzify-wall-link-content .youzify-wall-link-data{
 }
 body .youzify-wall-link-content .youzify-wall-link-data .youzify-wall-link-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -10077,7 +10077,7 @@ body .youzify-wall-link-content .youzify-wall-link-data .youzify-wall-link-url{
 }
 body .youzify-list-selected-items .youzify-feeling-selected-item,body .youzify-list-selected-items .youzify-list-items-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -10133,7 +10133,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
 }
 #youzify-modal .youzify-modal .uk-option-item .option-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -10221,7 +10221,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
     font-size:18px;
     font-weight:400;
     line-height:1.43em;
-    color:#040a17;
+    color:#006837;
     border-bottom:1px solid #eaebec!important;
     border-radius:0
 }
@@ -10230,35 +10230,35 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
     font-size:18px;
     font-weight:400;
     line-height:1.43em;
-    color:#040a17!important
+    color:#006837!important
 }
 #youzify-modal #youzify-wall-form .youzify-wall-textarea::-moz-placeholder{
     font-family:Barlow,sans-serif;
     font-size:18px;
     font-weight:400;
     line-height:1.43em;
-    color:#040a17!important
+    color:#006837!important
 }
 #youzify-modal #youzify-wall-form .youzify-wall-textarea:-ms-input-placeholder{
     font-family:Barlow,sans-serif;
     font-size:18px;
     font-weight:400;
     line-height:1.43em;
-    color:#040a17!important
+    color:#006837!important
 }
 #youzify-modal #youzify-wall-form .youzify-wall-textarea::-ms-input-placeholder{
     font-family:Barlow,sans-serif;
     font-size:18px;
     font-weight:400;
     line-height:1.43em;
-    color:#040a17!important
+    color:#006837!important
 }
 #youzify-modal #youzify-wall-form .youzify-wall-textarea::placeholder{
     font-family:Barlow,sans-serif;
     font-size:18px;
     font-weight:400;
     line-height:1.43em;
-    color:#040a17!important
+    color:#006837!important
 }
 #youzify-modal #youzify-wall-form .youzify-wall-author img{
     position:absolute;
@@ -10324,7 +10324,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
 }
 #youzify-modal .youzify-shared-wrapper .youzify-wall-embed .youzify-embed-head .youzify-embed-name{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
@@ -10389,7 +10389,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
     transition:background-color .2s ease-out
 }
 #youzify-modal .youzify-shared-wrapper .youzify-wall-embed .youzify-embed-action .generic-button .friendship-button:hover,#youzify-modal .youzify-shared-wrapper .youzify-wall-embed .youzify-embed-action .generic-button .group-button:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #youzify-modal .youzify-shared-wrapper .youzify-wall-embed .youzify-embed-action .generic-button .friendship-button:before,#youzify-modal .youzify-shared-wrapper .youzify-wall-embed .youzify-embed-action .generic-button .group-button:before{
     font-family:Kiko!important;
@@ -10411,7 +10411,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
 }
 #youzify-modal .youzify-shared-wrapper .youzify-wall-embed .youzify-embed-action .generic-button .youzify-send-message{
     font-size:0;
-    background-color:#040a17;
+    background-color:#006837;
     display:-webkit-inline-box;
     display:-ms-inline-flexbox;
     display:inline-flex;
@@ -10442,11 +10442,11 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
 }
 #youzify-modal .youzify-shared-wrapper .youzify-post-author{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 #youzify-modal .youzify-shared-wrapper .youzify-timestamp-area{
     display:-webkit-box;
@@ -10512,7 +10512,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
     padding:17px 39px;
     font-size:13px;
     border-radius:0;
-    background-color:#040a17;
+    background-color:#006837;
     -webkit-transition:background-color .2s ease-out;
     -o-transition:background-color .2s ease-out;
     transition:background-color .2s ease-out
@@ -10539,7 +10539,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
     font-family:Kiko;
     font-size:18px;
     font-weight:300;
-    color:#040a17
+    color:#006837
 }
 #youzify-modal #youzify-wall-form .youzify-wall-actions .youzify-form-tools .youzify-tag-users-tool:after,#youzify-modal #youzify-wall-form .youzify-wall-actions .youzify-form-tools .youzify-user-mood-tool:after{
     font-size:14px;
@@ -10555,7 +10555,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
     opacity:1;
     visibility:visible;
     vertical-align:middle;
-    color:#040a17;
+    color:#006837;
     background-color:transparent
 }
 #youzify-modal #youzify-wall-form .youzify-wall-actions .youzify-form-tools .youzify-tag-users-tool:before,#youzify-modal #youzify-wall-form .youzify-wall-actions .youzify-form-tools .youzify-user-mood-tool:before{
@@ -10577,7 +10577,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
 #youzify-modal #youzify-wall-form #whats-new-post-in-box .nice-select .current{
     font-size:14px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 #youzify-modal #youzify-wall-form #whats-new-post-in-box label{
     margin:0;
@@ -10593,7 +10593,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
 }
 #youzify-modal .youzify-rate-user .youzify-rate-user-desc{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
@@ -10617,7 +10617,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
 }
 #youzify-modal .youzify-modal .youzify-networks-form .option-infos label{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
@@ -10637,7 +10637,7 @@ body .youzify-list-selected-items .youzify-selected-item.youzify-feeling-selecte
 }
 #youzify-modal .youzify-modal-actions button{
     padding:14px 36px 16px 39px;
-    background-color:#040a17;
+    background-color:#006837;
     border-radius:0;
     width:auto;
     font-family:Barlow,sans-serif;
@@ -10690,7 +10690,7 @@ body .youzify-wall-modal .youzify-users-who-list .youzify-list-item .youzify-ite
 }
 body .youzify-wall-modal .youzify-users-who-list .youzify-list-item .youzify-item-name a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
@@ -10775,7 +10775,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     line-height:1.33em;
     font-weight:600;
     padding:22px 40px 20px;
-    color:#040a17
+    color:#006837
 }
 @media only screen and (max-width:480px){
     .youzify-custom_infos .youzify-widget-head .youzify-widget-title{
@@ -10856,7 +10856,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 #youzify .youzify-media .youzify-media-group .youzify-media-group-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
@@ -10869,7 +10869,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-size:12px;
     line-height:1.5em;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     background:0 0;
     text-transform:initial;
     border:1px solid rgba(183,189,199,.3);
@@ -10999,14 +10999,14 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-family:Kiko;
     font-size:55px;
     font-weight:300;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-media .youzify-media-group-files .youzify-media-item .youzify-media-title{
     font-family:Barlow,sans-serif;
     font-size:18px;
     line-height:1.22em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-media .youzify-media-group-files .youzify-media-item .youzify-media-size{
     font-family:Barlow,sans-serif;
@@ -11037,7 +11037,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     transition:background-color .2s ease-out
 }
 #youzify .youzify-media .youzify-media-group-files .youzify-media-item .youzify-media-download a:hover{
-    background-color:#f36b7f;
+    background-color:#83c557;
     color:#fff
 }
 #youzify .youzify-media .youzify-media-group-files .youzify-media-item .youzify-media-download a i{
@@ -11050,7 +11050,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     content:"\f108";
     font-weight:600;
     font-family:Kiko;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content table.messages-notices,#youzify .youzify-content table.notifications{
     border:1px solid #eaebec
@@ -11059,7 +11059,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     border:none;
     border-bottom:1px solid #eaebec;
     background-color:#fff;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content table.messages-notices thead .youzify_field_indication,#youzify .youzify-content table.notifications thead .youzify_field_indication{
     border-color:#eaebec
@@ -11067,7 +11067,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 #youzify .youzify-content table.messages-notices thead th,#youzify .youzify-content table.notifications thead th{
     padding:22px 5px;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -11158,11 +11158,11 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 #youzify .youzify-content table.notifications tbody td.notification-actions .mark-read span:before{
     content:"\f147";
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content table.notifications tbody td.notification-actions .mark-unread span:before{
     content:"\f148";
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content table.notifications tbody td.notification-actions .delete span:before{
     content:"\f149";
@@ -11196,14 +11196,14 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 #youzify .youzify-content table.messages-notices .thread-sender .thread-from .from{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
 }
 #youzify .youzify-content table.messages-notices .thread-sender .thread-from .from a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -11221,7 +11221,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 #youzify .youzify-content table.messages-notices .thread-info p{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -11236,7 +11236,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 #youzify .youzify-content table.messages-notices .thread-info p a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -11250,7 +11250,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-family:Kiko;
     font-weight:300;
     font-size:20px;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content table.messages-notices .thread-star .message-action-unstar .icon:before{
     content:"\f215";
@@ -11282,11 +11282,11 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 #youzify .youzify-content table.messages-notices .thread-options .read span:before{
     content:"\f147";
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content table.messages-notices .thread-options .unread span:before{
     content:"\f148";
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-content table.messages-notices .thread-options .delete span:before{
     content:"\f149";
@@ -11318,7 +11318,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     line-height:1.73em;
     font-weight:600;
     letter-spacing:.2em;
-    background-color:#040a17
+    background-color:#006837
 }
 @media only screen and (max-width:480px){
     #youzify .youzify-content .messages-options-nav .button,#youzify .youzify-content .notifications-options-nav .button{
@@ -11334,7 +11334,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 .my-messages.view #youzify #message-recipients .highlight #message-subject{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:28px;
     line-height:1.18em;
     font-weight:600
@@ -11349,7 +11349,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     letter-spacing:0
 }
 .my-messages.view #youzify #message-recipients .highlight .highlight-meta a{
-    color:#040a17;
+    color:#006837;
     font-weight:400
 }
 .my-messages.view #youzify #message-recipients .highlight-button .button{
@@ -11373,7 +11373,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     transition:background-color .2s ease-out
 }
 .my-messages.view #youzify #message-recipients .highlight-button .button:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 .my-messages.view #youzify #message-recipients .highlight-button .button i:before{
     content:"\f149";
@@ -11398,7 +11398,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 .my-messages.view #youzify #message-thread .message-metadata-head a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -11408,7 +11408,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 .my-messages.view #youzify #message-thread .message-metadata-head .message-meta .activity{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -11428,7 +11428,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-family:Kiko;
     font-weight:300;
     font-size:20px;
-    color:#040a17
+    color:#006837
 }
 .my-messages.view #youzify #message-thread .message-action-unstar .icon:before{
     content:"\f215";
@@ -11546,7 +11546,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 .my-messages.view #youzify #send-reply .youzify-upload-btn{
     margin-top:0;
-    background-color:#040a17
+    background-color:#006837
 }
 .my-messages.view #youzify #send-reply .youzify-upload-btn:hover{
     background-color:#2a2d38
@@ -11561,7 +11561,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     }
 }
 .my-messages.view #youzify #send-reply #send_reply_button:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 .my-messages.view #send-reply .youzify-emojionearea .youzify-emojionearea-editor{
     font-family:Barlow,sans-serif;
@@ -11654,7 +11654,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .my-friends .youzify ul#youzify-members-list li .item .item-title .youzify-account-verified{
     display:none
@@ -11682,7 +11682,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     line-height:1em;
     border:1px solid rgba(183,189,199,.3);
     border-radius:0;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:all .2s ease-out;
     -o-transition:all .2s ease-out;
     transition:all .2s ease-out
@@ -11747,7 +11747,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-family:Barlow,sans-serif;
     font-size:18px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .friend-requests #youzify #friend-list .item .item-meta span{
     font-family:Barlow,sans-serif;
@@ -11775,7 +11775,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-weight:500;
     border:1px solid #eaebec;
     background-color:#fff;
-    color:#040a17
+    color:#006837
 }
 .friend-requests #youzify #friend-list .action .button:hover{
     color:rgba(4,10,23,.7)
@@ -11797,7 +11797,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 .membership-requests #youzify .bp-screen-reader-text{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -11828,7 +11828,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 .membership-requests #youzify .group-request-list .item .item-title a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -11856,7 +11856,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-weight:500;
     border:1px solid #eaebec;
     background-color:#fff;
-    color:#040a17
+    color:#006837
 }
 .membership-requests #youzify .group-request-list .action .generic-button a:before{
     font-family:Kiko!important;
@@ -11878,7 +11878,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 .membership-requests #youzify .group-request-list .request-comment .request-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -11918,7 +11918,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 #youzify #youzify-main-posts .youzify-post-title a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -11931,7 +11931,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 #youzify #youzify-main-posts .youzify-post-meta ul li{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -11985,7 +11985,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     border:1px solid transparent
 }
 #youzify #youzify-main-posts .youzify-read-more:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #youzify #youzify-main-posts .youzify-read-more .youzify-rm-icon{
     display:none
@@ -12034,7 +12034,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-family:Barlow,sans-serif;
     font-size:18px;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-tab-comment .youzify-comment-meta .view-comment-button{
     display:-webkit-inline-box;
@@ -12052,7 +12052,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-weight:500;
     text-transform:initial;
     letter-spacing:0;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:all .2s ease-out;
     -o-transition:all .2s ease-out;
     transition:all .2s ease-out
@@ -12111,7 +12111,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-weight:600;
     font-family:Barlow,sans-serif;
     display:inline-block;
-    color:#040a17
+    color:#006837
 }
 .badges .youzify-tab-title-content span{
     margin:0
@@ -12169,7 +12169,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     line-height:1.33em;
     font-weight:600;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     padding:0;
     margin-top:15px;
     text-align:center;
@@ -12227,7 +12227,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     line-height:60px;
     font-size:16px;
     background-color:transparent;
-    color:#040a17
+    color:#006837
 }
 .bp-user.forums #bbpress-forums .qodef-bbp-search-form #bbp_search_submit>span{
     font-weight:400
@@ -12262,7 +12262,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     transition:background-color .2s ease-out
 }
 .bp-user.forums #bbpress-forums .bbp-search-form #bbp_search_submit:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 .youzify-group-content .youzify-group-infos-widget .youzify-group-widget-title{
     font-size:21px;
@@ -12274,7 +12274,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     border:1px solid #eaebec;
     border-bottom:none;
     background-color:#fff;
-    color:#040a17
+    color:#006837
 }
 .youzify-group-content .youzify-group-infos-widget .youzify-group-widget-title i{
     display:none
@@ -12392,7 +12392,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-size:12px;
     font-weight:500;
     line-height:1.58em;
-    color:#040a17
+    color:#006837
 }
 .registration .youzify-membership-form.youzify-membership-signup-page .youzify-membership-form-note.youzify-membership-terms-note a{
     color:#ff516b;
@@ -12422,7 +12422,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     margin:0 0 26px;
     padding:0;
     display:block;
-    color:#040a17;
+    color:#006837;
     background-color:transparent;
     text-transform:capitalize
 }
@@ -12456,7 +12456,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 .registration .youzify-membership-form.youzify-membership-signup-page #youzify_membership_signup_form label,.registration .youzify-membership-form.youzify-membership-signup-page #youzify_membership_signup_form legend{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -12541,7 +12541,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-family:Barlow,sans-serif;
     margin-left:0;
     padding:0;
-    color:#040a17;
+    color:#006837;
     border:none
 }
 .registration .youzify-membership-form.youzify-membership-signup-page #youzify_membership_signup_form .field-visibility-settings-notoggle .visibility-toggle-link,.registration .youzify-membership-form.youzify-membership-signup-page #youzify_membership_signup_form .field-visibility-settings-toggle .visibility-toggle-link{
@@ -12552,7 +12552,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     border:none;
     background-color:transparent;
     background-image:none;
-    color:#040a17;
+    color:#006837;
     position:relative
 }
 .registration .youzify-membership-form.youzify-membership-signup-page #youzify_membership_signup_form .field-visibility-settings-notoggle .visibility-toggle-link:hover,.registration .youzify-membership-form.youzify-membership-signup-page #youzify_membership_signup_form .field-visibility-settings-toggle .visibility-toggle-link:hover{
@@ -12567,7 +12567,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 }
 .registration .youzify-membership-form.youzify-membership-signup-page #youzify_membership_signup_form .field-visibility-settings label,.registration .youzify-membership-form.youzify-membership-signup-page #youzify_membership_signup_form .field-visibility-settings legend{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -12613,7 +12613,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
 .registration .youzify-membership-form.youzify-membership-signup-page #youzify_membership_signup_form .field-visibility-settings label[for*=friends] .field-visibility-text:before{
     content:"\f195";
     font-family:Kiko!important;
-    background:#f36b7f;
+    background:#83c557;
     font-weight:700
 }
 .registration .youzify-membership-form.youzify-membership-signup-page #youzify_membership_signup_form .field-visibility-settings input[type=radio]{
@@ -12677,7 +12677,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     letter-spacing:2.6px!important;
     text-align:center;
     text-transform:uppercase;
-    background-color:#040a17;
+    background-color:#006837;
     border-radius:0!important
 }
 .registration .youzify-membership-form.youzify-membership-signup-page .youzify-membership-form-actions .youzify-membership-link-button{
@@ -12687,7 +12687,7 @@ body #youzify #message.info p a,body #youzify #message.updated p a{
     font-weight:400;
     color:#70737a;
     text-transform:initial;
-    color:#040a17;
+    color:#006837;
     height:auto;
     padding:0;
     margin:20px 0 0;
@@ -12924,7 +12924,7 @@ body .youzify-membership-form.form-no-header .form-title h2{
     letter-spacing:0;
     text-transform:capitalize;
     background:0 0;
-    color:#040a17
+    color:#006837
 }
 body .youzify-membership-form.form-no-header .form-title .youzify-membership-form-desc{
     margin-top:6px;
@@ -13041,7 +13041,7 @@ body .youzify-membership-form form#youzify-membership-form .youzify-membership-f
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     display:inline-block!important;
     position:relative;
     margin:0 0 9px
@@ -13082,7 +13082,7 @@ body .youzify-membership-form form#youzify-membership-form .youzify-membership-f
     color:#ff516b
 }
 body .youzify-membership-form form#youzify-membership-form .youzify-membership-form-item.youzify-membership-remember-me .youzify-membership-forgot-password:hover{
-    color:#f36b7f
+    color:#83c557
 }
 body .youzify-membership-form form#youzify-membership-form .youzify-membership-form-item.youzify-membership-remember-me .youzify_membership_checkbox_field .youzify_membership_field_indication{
     width:18px;
@@ -13107,7 +13107,7 @@ body .youzify-membership-form form#youzify-membership-form .youzify-membership-f
     font-weight:600;
     letter-spacing:2.4px;
     border-radius:0!important;
-    background-color:#ff516b
+    background-color:#006837
 }
 body .youzify-membership-form form#youzify-membership-form .youzify-membership-link-button{
     height:auto;
@@ -13117,7 +13117,7 @@ body .youzify-membership-form form#youzify-membership-form .youzify-membership-l
     font-weight:400;
     text-transform:initial;
     background-color:transparent;
-    color:#040a17
+    color:#006837
 }
 body .youzify-close-login{
     top:20px;
@@ -13133,7 +13133,7 @@ body .youzify-close-login{
 }
 body .youzify-close-login:hover{
     background-color:rgba(183,189,199,.16);
-    color:#040a17
+    color:#006837
 }
 body .youzify-close-login:before{
     content:"\f252";
@@ -13181,7 +13181,7 @@ body .youzify-close-login:before{
     font-weight:600;
     margin:0 0 3px;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     text-transform:capitalize
 }
 #youzify .youzify-account-header .youzify-account-head .youzify-account-head-content span{
@@ -13238,7 +13238,7 @@ body .youzify-close-login:before{
     content:"\f374"
 }
 #youzify .youzify-account-header .youzify-head-buttons .youzify-button-item.youzify-avatar-button a{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #youzify .youzify-account-header .youzify-head-buttons .youzify-button-item.youzify-avatar-button a i:before{
     content:"\f131"
@@ -13264,7 +13264,7 @@ body .youzify-close-login:before{
     line-height:1.33em;
     font-weight:600;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-account-header .youzify-account-settings-menu .youzify-menu-head .youzify-menu-description{
     font-size:14px;
@@ -13341,7 +13341,7 @@ body .youzify-close-login:before{
     line-height:1.18em;
     font-weight:600;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-account-page .settings-inner-content .youzify-settings-form .options-section-title h2 i{
     display:none
@@ -13464,7 +13464,7 @@ body .youzify-close-login:before{
     font-weight:500;
     margin-bottom:10px;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-account-page .settings-inner-content .youzify-settings-form .editfield label .bp-required-field-label,#youzify .youzify-account-page .settings-inner-content .youzify-settings-form .editfield legend .bp-required-field-label{
     font-size:0;
@@ -13517,7 +13517,7 @@ body .youzify-close-login:before{
 #youzify .youzify-account-page .settings-inner-content .youzify-settings-form .editfield .radio label[for*=friends] .field-visibility-text:before{
     content:"\f195";
     font-family:Kiko!important;
-    background:#f36b7f;
+    background:#83c557;
     font-size:700
 }
 #youzify .youzify-account-page .settings-inner-content .youzify-settings-form .editfield .radio input[type=radio]{
@@ -13629,7 +13629,7 @@ body .youzify-close-login:before{
     -webkit-transition:color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
     -o-transition:color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
     transition:color .2s ease-out,background-color .2s ease-out,border-color .2s ease-out;
-    background-color:#040a17;
+    background-color:#006837;
     border:1px solid transparent;
     margin-right:16px;
     padding:12px 29px!important;
@@ -13695,7 +13695,7 @@ body #youzify .youzify-account-page .uk-option-item .option-infos label{
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 @media only screen and (min-width:481px){
     body #youzify .youzify-account-page .uk-option-item .option-infos label{
@@ -13775,7 +13775,7 @@ body #youzify .youzify-account-page .option-content .youzify-upload-photo{
     letter-spacing:2.4px;
     text-transform:uppercase;
     color:#fff;
-    background-color:#040a17;
+    background-color:#006837;
     border-radius:0;
     -webkit-transition:background-color .2s ease-out;
     -o-transition:background-color .2s ease-out;
@@ -13842,7 +13842,7 @@ body #youzify .youzify-account-page #youzify-export-data .youzify-section-conten
 }
 body #youzify .youzify-account-page #youzify-export-data .youzify-section-content>h2{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -13896,7 +13896,7 @@ body #youzify .youzify-account-page #youzify-export-data .youzify-section-conten
     transition:background-color .2s ease-out
 }
 body #youzify .youzify-account-page #youzify-export-data .youzify-section-content button:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 body #youzify .youzify-account-page #youzify-export-data .youzify-section-content button i{
     display:none
@@ -13955,12 +13955,12 @@ body #youzify .youzify-account-page .youzify-wg-opts .youzify-no-content{
     padding:22px 20px;
     margin:-26px -26px -41px;
     border:1px solid rgba(255,81,107,.1);
-    border-left:3px solid #ff516b;
+    border-left:3px solid ##85d053;
     border-radius:0;
     font-size:18px;
     line-height:1.56em;
     font-weight:600;
-    color:#ff516b
+    color:##85d053
 }
 body #youzify .youzify-account-page .youzify-wg-opts .youzify-no-content:before{
     content:"\e855";
@@ -14006,7 +14006,7 @@ body #youzify .youzify-account-page .youzify-wg-opts.youzify-cphoto-options .you
     display:inline-block;
     padding:8.5px 16px;
     margin-bottom:35px;
-    background-color:#040a17;
+    background-color:#006837;
     border-radius:0;
     font-family:Barlow,sans-serif;
     font-size:10px;
@@ -14065,7 +14065,7 @@ body #youzify .youzify-account-page .wp-color-result,body #youzify .youzify-acco
 }
 body #youzify .youzify-account-page .wp-color-result-text{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -14139,7 +14139,7 @@ body #youzify .youzify-account-page .youzify-delete-account-item label{
     font-family:Barlow,sans-serif;
     font-size:12px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 body #youzify .youzify-account-page input[type=email]:focus,body #youzify .youzify-account-page input[type=number]:focus,body #youzify .youzify-account-page input[type=password]:focus,body #youzify .youzify-account-page input[type=search]:focus,body #youzify .youzify-account-page input[type=tel]:focus,body #youzify .youzify-account-page input[type=text]:focus,body #youzify .youzify-account-page input[type=url]:focus{
     border-color:#70737a!important
@@ -14173,12 +14173,12 @@ body #youzify .youzify-create-new-group-page #group-create-tabs ul li{
     background-color:transparent
 }
 body #youzify .youzify-create-new-group-page #group-create-tabs ul li.current{
-    color:#040a17;
+    color:#006837;
     border-radius:18px;
     background-color:transparent!important
 }
 body #youzify .youzify-create-new-group-page #group-create-tabs ul li.current a{
-    color:#040a17
+    color:#006837
 }
 body #youzify .youzify-create-new-group-page #group-create-tabs ul li a{
     font-size:14px;
@@ -14219,7 +14219,7 @@ body #youzify .youzify-create-new-group-page #group-create-tabs ul li:nth-child(
     background-color:#82b5a6
 }
 body #youzify .youzify-create-new-group-page #group-create-tabs ul li:nth-child(4) a:after,body #youzify .youzify-create-new-group-page #group-create-tabs ul li:nth-child(4) span:after{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 body #youzify .youzify-create-new-group-page #group-create-tabs ul li:nth-child(5) a:after,body #youzify .youzify-create-new-group-page #group-create-tabs ul li:nth-child(5) span:after{
     background-color:#606edd
@@ -14242,7 +14242,7 @@ body #youzify .youzify-create-new-group-page #group-create-body,body #youzify .y
 }
 body #youzify .youzify-create-new-group-page #group-create-body>h2.bp-screen-reader-text{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -14280,11 +14280,11 @@ body #youzify .youzify-create-new-group-page .youzify-group-settings-tab fieldse
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 body #youzify .youzify-create-new-group-page .youzify-group-settings-tab>h2{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -14373,7 +14373,7 @@ body #youzify #group-settings-form textarea:focus,body #youzify .youzify-group-s
 }
 body #youzify #group-settings-form label,body #youzify .youzify-group-settings-tab label{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -14391,7 +14391,7 @@ body #youzify #group-settings-form .youzify-group-submit-form #group-creation-pr
     color:#fff
 }
 body #youzify #group-settings-form input[type=submit],body #youzify .youzify-group-settings-tab input[type=submit]{
-    background-color:#040a17;
+    background-color:#006837;
     width:auto;
     -webkit-transition:background-color .2s ease-out;
     -o-transition:background-color .2s ease-out;
@@ -14402,7 +14402,7 @@ body #youzify #group-settings-form input[type=submit]:hover,body #youzify .youzi
 }
 body #youzify #group-settings-form #group-creation-previous,body #youzify .youzify-group-settings-tab #group-creation-previous{
     margin-right:17px;
-    background-color:#040a17;
+    background-color:#006837;
     -webkit-appearance:none
 }
 body #youzify #group-settings-form #group-creation-previous:hover,body #youzify .youzify-group-settings-tab #group-creation-previous:hover{
@@ -14412,7 +14412,7 @@ body #youzify #group-settings-form #group-creation-next,body #youzify .youzify-g
     background-color:#ff516b
 }
 body #youzify #group-settings-form #group-creation-next:hover,body #youzify .youzify-group-settings-tab #group-creation-next:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 body #youzify #youzify-group-body form input[type=submit]:not(#members_search_submit){
     border-radius:0;
@@ -14426,7 +14426,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     width:auto;
     height:60px;
     padding:10px 35px;
-    background-color:#040a17;
+    background-color:#006837;
     -webkit-transition:background-color .2s ease-out;
     -o-transition:background-color .2s ease-out;
     transition:background-color .2s ease-out
@@ -14461,7 +14461,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-size:12px;
     font-weight:500;
     line-height:1.58em;
-    color:#040a17
+    color:#006837
 }
 @media only screen and (max-width:480px){
     .groups.edit-details #youzify #youzify-group-body .youzify-group-settings-tab .youzify-group-field-item label[for=group-notify-members]{
@@ -14515,7 +14515,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     transition:background-color .2s ease-out
 }
 .groups #youzify-group-buttons .group-button .membership-requested:hover,.groups #youzify-group-buttons .group-button .request-membership:hover,.groups #youzify-group-buttons .group-button a:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 .groups.group-settings #youzify .youzify-group-settings-tab{
     padding:0 45px 45px;
@@ -14530,7 +14530,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 .groups.group-settings #youzify #group-settings-form fieldset legend,.groups.group-settings #youzify .youzify-group-settings-tab fieldset legend{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -14539,7 +14539,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 .groups.group-settings #youzify #group-settings-form fieldset .radio label,.groups.group-settings #youzify .youzify-group-settings-tab fieldset .radio label{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -14599,7 +14599,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 .groups.group-settings #youzify #group-settings-form fieldset.group-create-invitations p,.groups.group-settings #youzify .youzify-group-settings-tab fieldset.group-create-invitations p{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -14637,7 +14637,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-size:12px;
     line-height:1.58em;
     font-weight:500;
-    color:#040a17;
+    color:#006837;
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -14665,7 +14665,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     transition:background-color .2s ease-out
 }
 .groups.delete-group #youzify #group-settings-form .youzify-group-settings-tab .submit #delete-group-button:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 .groups.delete-group #youzify #group-settings-form .qodef-group-delete-title{
     background-color:#fff;
@@ -14702,7 +14702,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-family:Barlow,sans-serif;
     font-size:12px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .groups.group-admin.group-avatar #youzify .bp-avatar-nav ul.avatar-nav-items li a:before{
     margin-right:3px
@@ -14823,7 +14823,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     display:none
 }
 .groups.group-cover-image #youzify #bp-delete-cover-image:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 .groups.manage-members #youzify .youzify-group-manage-members-search{
     background-color:transparent
@@ -14861,7 +14861,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 .groups.manage-members #youzify #group-settings-form .section-header{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -14921,7 +14921,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-weight:400;
     color:#70737a;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .groups.manage-members #youzify #group-settings-form .group-members-list .item .item-meta{
     font-family:Barlow,sans-serif;
@@ -14954,7 +14954,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     padding:0;
     width:40px;
     height:40px;
-    color:#040a17;
+    color:#006837;
     font-size:15px;
     line-height:40px;
     text-align:center;
@@ -14987,7 +14987,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 .group-admin.groups.forum #youzify #group-settings-form>h2{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -15045,7 +15045,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     width:auto;
     height:auto;
     padding:13px 36px 15px 39px;
-    background-color:#040a17;
+    background-color:#006837;
     -webkit-transition:background-color .2s ease-out;
     -o-transition:background-color .2s ease-out;
     transition:background-color .2s ease-out
@@ -15059,7 +15059,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     vertical-align:bottom;
     font-size:15px;
     font-weight:600;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-user-actions .friendship-button a.add:before{
     content:"\f191"
@@ -15189,7 +15189,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     padding:0;
     margin:0 0 20px;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 .youzify-sidebar-column .widget-content .widget-title{
     font-size:21px;
@@ -15198,7 +15198,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     padding:0;
     margin:0 0 20px;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     border:none
 }
 .youzify-sidebar-column .youzify-custom-widget-box-padding{
@@ -15260,7 +15260,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 .youzify-sidebar-column .youzify-wall_media .youzify-media-filter .youzify-filter-item .youzify-filter-content{
     width:100%;
     padding:3px 0;
-    color:#040a17;
+    color:#006837;
     background-color:transparent!important;
     text-align:left;
     border-radius:0
@@ -15314,7 +15314,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-weight:600;
     margin-bottom:3px;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     text-align:left;
     text-transform:capitalize;
     letter-spacing:0
@@ -15327,7 +15327,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     line-height:1.21em;
     font-weight:700;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     margin:0;
     text-align:left;
     display:inline-block;
@@ -15363,7 +15363,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-size:18px;
     line-height:22px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .widget_youzify_notifications_widget .youzify-notifications-widget .youzify-notif-item .youzify-notif-content .youzify-notif-desc:hover{
     color:rgba(4,10,23,.7)
@@ -15376,7 +15376,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 .widget_youzify_notifications_widget .youzify-notifications-widget .youzify-more-items a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -15438,7 +15438,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 .widget_youzify_friend_suggestions_widget .youzify-items-list-widget.youzify-suggested-friends-widget .youzify-list-item a.youzify-item-name{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -15468,7 +15468,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 .widget_youzify_friend_suggestions_widget .youzify-items-list-widget.youzify-suggested-friends-widget .youzify-list-item .youzify-item-action .youzify-add-button i,.widget_youzify_friend_suggestions_widget .youzify-items-list-widget.youzify-suggested-friends-widget .youzify-list-item .youzify-item-action .youzify-close-button i{
     background-color:#fff;
     border:1px solid rgba(183,189,199,.3);
-    color:#040a17;
+    color:#006837;
     font-size:13px;
     -webkit-transition:all .2s ease-out;
     -o-transition:all .2s ease-out;
@@ -15489,7 +15489,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-media-widget .youzify-media-view-all{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -15540,7 +15540,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-profile-list-widget .youzify-more-items a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -15596,7 +15596,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify .youzify-wg-networks.youzify-icons-colorful a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -15635,7 +15635,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-about_me .youzify-aboutme-name{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -15643,7 +15643,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-about_me .youzify-aboutme-description{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -15666,7 +15666,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-infobox-content .youzify-box-head .youzify-box-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -15691,7 +15691,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-infobox-content .youzify-box-content p{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -15750,14 +15750,14 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-reviews .youzify-review-item .youzify-head-meta .youzify-item-name a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
 }
 #youzify .youzify-widget.youzify-reviews .youzify-review-item .youzify-head-meta .youzify-item-date{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -15770,7 +15770,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-size:21px;
     line-height:1.43em;
     font-weight:400;
-    color:#040a17;
+    color:#006837;
     padding:0 20px 20px
 }
 #youzify .youzify-widget.youzify-reviews .youzify-review-item .youzify-item-rating{
@@ -15801,7 +15801,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     min-width:auto;
     border:1px solid rgba(183,189,199,.3);
     border-radius:0;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:all .2s ease-out;
     -o-transition:all .2s ease-out;
     transition:all .2s ease-out
@@ -15847,7 +15847,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-reviews .youzify-rating-show-more{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -15881,7 +15881,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-quote .youzify-quote-content blockquote{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -15929,7 +15929,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-services .youzify-services-content .youzify-service-item .youzify-item-content p{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -15937,7 +15937,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-services .youzify-services-content .youzify-service-item .youzify-item-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -15951,7 +15951,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-skills .youzify-skills-content .youzify-skillbar-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -15963,7 +15963,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-skills .youzify-skills-content .youzify-skill-bar-percent{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -15997,7 +15997,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-size:18px;
     line-height:1.22em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-widget.youzify-video .youzify-video-content .youzify-video-head .youzify-video-desc{
     margin:6px 0 9px
@@ -16039,14 +16039,14 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     line-height:1.7em;
     font-weight:500;
     text-transform:initial;
-    color:#040a17;
+    color:#006837;
     background-color:rgba(160,191,255,.2);
     border-radius:0;
     padding:5px 14px
 }
 #youzify .youzify-widget.youzify-project .youzify-project-inner-content .youzify-project-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -16138,7 +16138,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-link .youzify-link-content .youzify-link-inner-content>p{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -16146,7 +16146,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-link .youzify-link-content .youzify-link-inner-content .youzify-link-url{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -16244,7 +16244,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-recent_posts .youzify-recent-posts .youzify-post-item .youzify-post-head .youzify-post-title a{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:18px;
     line-height:1.25em;
     font-weight:500;
@@ -16252,7 +16252,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-widget.youzify-recent_posts .youzify-recent-posts .youzify-post-item .youzify-post-head .youzify-post-meta ul li{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -16300,11 +16300,11 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-weight:500;
     text-transform:initial;
     letter-spacing:0;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-widget.youzify-post .youzify-post-content .youzify-post-meta ul li{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -16355,7 +16355,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     display:none
 }
 #youzify .youzify-widget.youzify-post .youzify-post-content .youzify-read-more:hover{
-    color:#f36b7f
+    color:#83c557
 }
 #youzify .youzify-widget.youzify-post .youzify-post-content .youzify-read-more:hover .youzify-rm-icon{
     -webkit-transform:translateX(3px);
@@ -16405,11 +16405,11 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-size:18px;
     line-height:1.22em;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .youzify-widget .youzify-items-list-widget .youzify-list-item .youzify-item-meta .youzify-meta-item{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -16451,7 +16451,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 #youzify .youzify-sidebar-column .youzify-widget .youzify-widget-head .youzify-edit-widget:before{
     content:"\f136";
     font-family:Kiko;
-    color:#040a17
+    color:#006837
 }
 #youzify .youzify-sidebar-column .youzify-widget:hover .youzify-widget-head .youzify-edit-widget{
     opacity:1
@@ -16464,7 +16464,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify .youzify-directory .pagination .page-numbers{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -16517,7 +16517,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify-live-notifications .youzify-notif-item .youzify-notif-desc{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -16564,7 +16564,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     background-color:#606edd
 }
 #youzify-live-notifications .youzify-notif-item.youzify-notif-new_follow .youzify-notif-icon i,#youzify-live-notifications .youzify-notif-item.youzify-notif-new_message .youzify-notif-icon i{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #youzify-live-notifications .youzify-notif-item.youzify-notif-bbp_new_reply .youzify-notif-icon i,#youzify-live-notifications .youzify-notif-item.youzify-notif-friendship_accepted .youzify-notif-icon i{
     background-color:#a0bfff
@@ -16661,7 +16661,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 .youzify-dialog .youzify-dialog-container .youzify-dialog-buttons .youzify-close-dialog{
     padding:18px 24px;
     margin-bottom:60px;
-    background-color:#040a17;
+    background-color:#006837;
     border:none;
     border-radius:0;
     font-size:15px;
@@ -16710,7 +16710,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 .youzify-dialog .youzify-dialog-desc .youzify-dialog-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:44px;
     line-height:1.13em;
     font-weight:700;
@@ -16722,7 +16722,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     font-size:19px;
     line-height:1.42em;
     font-weight:400;
-    color:#040a17
+    color:#006837
 }
 #youzify #send_message_form{
     border:1px solid #eaebec;
@@ -16769,7 +16769,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
 }
 #youzify #send_message_form .youzify-msg-form-item label{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -16869,7 +16869,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     transition:background-color .2s ease-out
 }
 #youzify #send_message_form .submit #send{
-    background-color:#040a17
+    background-color:#006837
 }
 #youzify #send_message_form .submit #send:hover{
     background-color:#2a2d38
@@ -16879,7 +16879,7 @@ body #youzify #youzify-group-body form input[type=submit]:not(#members_search_su
     line-height:60px
 }
 #youzify #send_message_form .youzify-upload-btn:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 #youzify #send_message_form .youzify-upload-btn i{
     display:none
@@ -16925,7 +16925,7 @@ body #youzify .youzify-uploader-change-item{
 }
 body #youzify .youzify-uploader-change-item>h2{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
@@ -16984,7 +16984,7 @@ body #youzify #bp-delete-cover-image:before{
     display:none
 }
 body #youzify #bp-delete-cover-image:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 body #youzify #drag-drop-area{
     border:2px dashed #a9a9a9
@@ -16995,7 +16995,7 @@ body #youzify #drag-drop-area .drag-drop-inside{
 body #youzify #drag-drop-area .drag-drop-inside p{
     font-size:21px;
     font-weight:400;
-    color:#040a17;
+    color:#006837;
     margin-bottom:18px
 }
 body #youzify #drag-drop-area .drag-drop-inside p.drag-drop-buttons{
@@ -17005,7 +17005,7 @@ body #youzify #drag-drop-area .drag-drop-inside .drag-drop-buttons input[type=bu
     padding:15px 33px 17px 36px;
     height:60px;
     border-radius:initial;
-    background-color:#040a17;
+    background-color:#006837;
     -webkit-transition:background-color .2s ease-out;
     -o-transition:background-color .2s ease-out;
     transition:background-color .2s ease-out;
@@ -17046,7 +17046,7 @@ body #youzify #bp-delete-avatar-container #bp-delete-avatar:before{
     display:none
 }
 body #youzify #bp-delete-avatar-container #bp-delete-avatar:hover{
-    background-color:#f36b7f
+    background-color:#83c557
 }
 body #youzify .bp-avatar-status .warning{
     padding:21px 40px;
@@ -17125,7 +17125,7 @@ body #youzify .bp-avatar-nav ul{
 }
 #youzify .youzify-item-tools.youzify-activity-tools .youzify-item-tool .youzify-tool-name{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500;
@@ -17313,7 +17313,7 @@ body .lb-data .lb-close:after{
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:color .2s ease-out;
     -o-transition:color .2s ease-out;
     transition:color .2s ease-out
@@ -17335,7 +17335,7 @@ body .lb-data .lb-close:after{
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:color .2s ease-out;
     -o-transition:color .2s ease-out;
     transition:color .2s ease-out
@@ -17371,7 +17371,7 @@ body .lb-data .lb-close:after{
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:color .2s ease-out;
     -o-transition:color .2s ease-out;
     transition:color .2s ease-out
@@ -17387,7 +17387,7 @@ body .lb-data .lb-close:after{
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
-    color:#040a17;
+    color:#006837;
     -webkit-transition:color .2s ease-out;
     -o-transition:color .2s ease-out;
     transition:color .2s ease-out
@@ -17515,7 +17515,7 @@ body .ac_results li{
     font-family:Barlow,sans-serif;
     font-size:13px;
     font-weight:400;
-    color:#040a17;
+    color:#006837;
     background-color:transparent;
     border-bottom:1px solid #eaebec
 }
@@ -17541,7 +17541,7 @@ body .ac_results li img{
 }
 .bbpress #bbpress-forums .youzify-bbp-topic-head .bbp-breadcrumb .bbp-breadcrumb-current{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:28px;
     line-height:1.18em;
     font-weight:600;
@@ -17563,7 +17563,7 @@ body .ac_results li img{
     line-height:1.5em;
     font-weight:400;
     color:#70737a;
-    color:#040a17
+    color:#006837
 }
 .bbpress #bbpress-forums .youzify-bbp-topic-head .youzify-bbp-topic-head-meta .youzify-bbp-topic-head-meta-item i{
     font-family:Kiko!important;
@@ -17586,7 +17586,7 @@ body .ac_results li img{
 }
 .bbpress #bbpress-forums .youzify-bbp-box .youzify-bbp-box-title{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -17662,7 +17662,7 @@ body .ac_results li img{
 }
 .bbpress #bbpress-forums .bbp-form label{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:14px;
     line-height:1.57em;
     font-weight:500
@@ -17771,7 +17771,7 @@ body .ac_results li img{
 }
 .bbpress #bbpress-forums fieldset.bbp-form legend{
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600;
@@ -18053,7 +18053,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     content:"\e031";
     font-size:16px;
     letter-spacing:.1em;
-    color:#040a17;
+    color:#006837;
     font-family:ElegantIcons;
     line-height:1;
     white-space:nowrap;
@@ -18068,7 +18068,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     content:"\e033\e033\e033\e033\e033";
     font-size:16px;
     letter-spacing:.1em;
-    color:#040a17;
+    color:#006837;
     font-family:ElegantIcons;
     line-height:1;
     white-space:nowrap;
@@ -18346,7 +18346,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     margin:0;
     padding:0;
     font-size:25px;
-    color:#040a17;
+    color:#006837;
     line-height:2em;
     background:0 0;
     border:0;
@@ -18359,7 +18359,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     width:auto;
     padding:0;
     margin:0;
-    color:#040a17;
+    color:#006837;
     background:0 0;
     border:0;
     outline:0;
@@ -18412,7 +18412,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     top:72px
 }
 .qodef-fullscreen-search-holder .qodef-m-close:hover{
-    color:#040a17
+    color:#006837
 }
 .qodef-fullscreen-search-holder .qodef-m-close.qodef-source--icon-pack{
     font-size:25px
@@ -18616,7 +18616,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     padding:10px 24px;
     font-size:10px;
     letter-spacing:2px;
-    background-color:#040a17
+    background-color:#006837
 }
 .qodef-advanced-call-to-action .qodef-m-button .qodef-button.qodef-layout--filled:hover{
     background-color:#2a2d38
@@ -18791,12 +18791,12 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
 }
 .qodef-button.qodef-layout--filled.qodef-html--link{
     color:#fff;
-    background-color:#ff516b;
+    background-color: #006837;
     border:1px solid transparent
 }
 .qodef-button.qodef-layout--filled.qodef-html--link:hover{
     color:#fff;
-    background-color:#f36b7f
+    background-color:#A9D18E !important;
 }
 .qodef-button.qodef-layout--filled .qodef-button-icon-holder{
     display:-webkit-inline-box;
@@ -18863,7 +18863,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     transition:transform .2s ease-in-out,-webkit-transform .2s ease-in-out
 }
 .qodef-button.qodef-layout--textual:hover{
-    color:#f36b7f
+    color:#83c557
 }
 .qodef-button.qodef-layout--textual:hover .qodef-button-icon{
     -webkit-transform:translateX(3px);
@@ -19320,7 +19320,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     line-height:1.33em;
     font-weight:600;
     font-family:inherit;
-    color:#040a17
+    color:#006837
 }
 .qodef-countdown.qodef-layout--simple .qodef-digit{
     margin-right:5px
@@ -19333,7 +19333,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     font-weight:600;
     font-size:75px;
     line-height:1;
-    color:#040a17
+    color:#006837
 }
 .qodef-counter.qodef-layout--simple .qodef-m-title{
     margin:5px 0 0 0
@@ -19366,7 +19366,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     float:left;
     margin:0 10px 5px 0;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:44px;
     line-height:1.13em;
     font-weight:700
@@ -19382,7 +19382,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     line-height:1.18em;
     font-weight:600;
     color:#fff;
-    background-color:#040a17
+    background-color:#006837
 }
 .qodef-dropcaps.qodef-type--circle .qodef-m-letter{
     border-radius:100%
@@ -19449,7 +19449,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
 .qodef-highlight .qodef-highlight-text{
     padding:0 5px;
     color:#fff;
-    background-color:#040a17
+    background-color:#006837
 }
 .qodef-icon-list-item{
     position:relative;
@@ -19560,7 +19560,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     font-weight:600;
     margin:4px 0 0;
     font-weight:400;
-    color:#040a17
+    color:#006837
 }
 .qodef-icon-with-text.qodef-layout--before-title .qodef-m-title{
     line-height:1
@@ -19649,7 +19649,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     transition:none
 }
 .qodef-icon-holder.qodef-layout--circle:hover,.qodef-icon-holder.qodef-layout--square:hover{
-    background-color:#040a17
+    background-color:#006837
 }
 .qodef-icon-holder.qodef-layout--circle{
     border-radius:50%
@@ -19940,7 +19940,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
 }
 .qodef-interactive-link-showcase .qodef-m-item.qodef--active{
     color:#fff;
-    background-color:#040a17
+    background-color:#006837
 }
 .qodef-interactive-link-showcase.qodef--init{
     visibility:visible
@@ -19949,7 +19949,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     color:#fff
 }
 .qodef-interactive-link-showcase.qodef-skin--light .qodef-m-item.qodef--active{
-    color:#040a17;
+    color:#006837;
     background-color:#fff
 }
 .qodef-interactive-link-showcase.qodef-layout--interactive-list .qodef-m-items{
@@ -19962,7 +19962,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
 .qodef-interactive-link-showcase.qodef-layout--interactive-list .qodef-m-item{
     padding:20px 0;
     margin:0;
-    color:#040a17;
+    color:#006837;
     background-color:transparent
 }
 .qodef-interactive-link-showcase.qodef-layout--interactive-list .qodef-m-item.qodef--active .qodef-e-follow-content{
@@ -20195,7 +20195,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     line-height:1.57em;
     font-weight:500;
     font-family:Barlow,sans-serif;
-    color:#040a17
+    color:#006837
 }
 .qodef-post-categories ul .qodef-cat-item a:hover{
     color:rgba(4,10,23,.7)
@@ -20256,7 +20256,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
 }
 .qodef-pricing-table .qodef-m-title p{
     margin:0;
-    color:#040a17
+    color:#006837
 }
 .qodef-pricing-table .qodef-m-price{
     margin-top:-3px
@@ -20284,7 +20284,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     font-weight:600;
     margin:0 0 3px;
     font-weight:400;
-    color:#040a17
+    color:#006837
 }
 .qodef-pricing-table .qodef-m-content ul li:first-child{
     font-weight:700
@@ -20304,7 +20304,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     font-weight:600;
     margin:0 0 3px;
     font-weight:400;
-    color:#040a17
+    color:#006837
 }
 .qodef-pricing-table .qodef-m-content p:first-child{
     font-weight:700
@@ -20368,7 +20368,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     padding:0;
     margin:0;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
@@ -20426,7 +20426,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     margin:35px 0 0;
     font-size:21px;
     line-height:1.43em;
-    color:#040a17
+    color:#006837
 }
 .qodef-separator{
     position:relative;
@@ -20783,7 +20783,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     transition:color .2s ease-out,background-color .2s ease-out;
     font-size:16px;
     font-weight:500;
-    color:#040a17
+    color:#006837
 }
 .qodef-tabs.qodef-layout--simple .qodef-tabs-navigation li:last-child{
     margin-right:0
@@ -20871,16 +20871,16 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     content:'\00b7';
     display:inline-block;
     padding:0 28px;
-    color:#040a17
+    color:#006837
 }
 .qodef-text-marquee .qodef-m-text--1{
-    color:#040a17
+    color:#006837
 }
 .qodef-text-marquee .qodef-m-text--2{
-    color:#040a17
+    color:#006837
 }
 .qodef-text-marquee .qodef-m-text--3{
-    color:#040a17
+    color:#006837
 }
 .qodef-vertical-split-slider{
     height:100vh;
@@ -20965,7 +20965,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     -webkit-box-pack:center;
     -ms-flex-pack:center;
     justify-content:center;
-    color:#040a17;
+    color:#006837;
     font-size:106px;
     line-height:1
 }
@@ -21091,7 +21091,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     color:#a9a9a9
 }
 #qodef-side-area-close:hover{
-    color:#040a17
+    color:#006837
 }
 .admin-bar #qodef-side-area-close{
     top:57px
@@ -21136,7 +21136,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     vertical-align:top;
     margin:0 5px 0 0;
     font-family:Barlow,sans-serif;
-    color:#040a17;
+    color:#006837;
     font-size:21px;
     line-height:1.33em;
     font-weight:600
@@ -22330,7 +22330,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     margin:1px 1px 0 0;
     width:11px;
     height:11px;
-    border:1px solid #040a17;
+    border:1px solid #006837;
     overflow:hidden
 }
 .qodef-sp-holder .qodef-sp-prevent-input svg{
@@ -22418,7 +22418,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     color:#ff516b
 }
 .qodef-page-title .qodef-breadcrumbs .qodef-breadcrumbs-current{
-    color:#040a17
+    color:#006837
 }
 .qodef-page-title .qodef-breadcrumbs .qodef-breadcrumbs-separator{
     margin:0 5px
@@ -22460,7 +22460,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     color:#ff516b
 }
 .qodef-page-title.qodef-title--standard-with-breadcrumbs .qodef-breadcrumbs .qodef-breadcrumbs-current{
-    color:#040a17
+    color:#006837
 }
 .qodef-page-title.qodef-title--standard-with-breadcrumbs .qodef-breadcrumbs .qodef-breadcrumbs-separator{
     margin:0 5px
@@ -22484,14 +22484,14 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     font-size:21px;
     line-height:1.43em;
     font-weight:400;
-    color:#040a17
+    color:#006837
 }
 .qodef-page-title.qodef-title--standard .qodef-m-subtitle{
     margin:6px 0 0;
     font-size:21px;
     line-height:1.43em;
     font-weight:400;
-    color:#040a17
+    color:#006837
 }
 .widget.qodef-author-info .qodef-author-info-image{
     margin-bottom:21px;
@@ -22528,7 +22528,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     background-color:#ff516b
 }
 .widget.widget_joinup_core_social_icons_group .qodef-icon-holder.qodef-layout--circle:hover{
-    background-color:#040a17
+    background-color:#006837
 }
 .widget.widget_joinup_core_social_icons_group .qodef-icon-holder.qodef-layout--circle:hover a{
     color:#fff
@@ -22709,7 +22709,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     line-height:1
 }
 .qodef-wishlist-dropdown .qodef-m-link{
-    color:#040a17
+    color:#006837
 }
 #qodef-top-area .qodef-wishlist-dropdown .qodef-m-link{
     color:#70737a
@@ -23194,7 +23194,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
         width:8px;
         height:8px;
         border-radius:50%;
-        background-color:#040a17;
+        background-color:#006837;
         display:block;
         margin:10px auto 0
     }
@@ -23216,7 +23216,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
         border:0
     }
     #tribe-mobile-container .type-tribe_events .tribe-events-read-more:hover{
-        color:#f36b7f
+        color:#83c557
     }
     #tribe-mobile-container .type-tribe_events .tribe-events-event-image{
         margin:16px 0 12px
@@ -24394,13 +24394,13 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     }
     #youzify .youzify.youzify-directory .youzify-mobile-nav .youzify-mobile-nav-item .youzify-mobile-nav-container a{
         font-family:Barlow,sans-serif;
-        color:#040a17;
+        color:#006837;
         font-size:14px;
         line-height:1.57em;
         font-weight:500
     }
     #youzify .youzify.youzify-directory .youzify-mobile-nav .youzify-mobile-nav-item .youzify-mobile-nav-container i{
-        color:#040a17
+        color:#006837
     }
     #youzify .youzify #groups-order-select,#youzify .youzify #members-order-select,#youzify .youzify #youzify-directory-search-box{
         background:0 0
@@ -24420,7 +24420,7 @@ body.forums.subscriptions #bbp-user-subscriptions .bbp-template-notice{
     }
     body.directory #youzify .youzify-directory-filter .item-list-tabs li#groups-order-select label,body.directory #youzify .youzify-directory-filter .item-list-tabs li#members-order-select label{
         background:0 0;
-        color:#040a17!important;
+        color:#006837!important;
         width:auto!important;
         padding:0;
         margin:0;

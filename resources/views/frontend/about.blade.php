@@ -19,7 +19,7 @@
             </div>
           </div>
         </div>
-        <div class="qodef-m-content qodef-content-grid ">
+        <div class="qodef-m-content qodef-content-grid " style="background-image: url({{asset('image/Gemini_Generated_2.jpg')}})" >
           <h2 class="qodef-m-title entry-title"> About Us </h2>
         
         </div>
