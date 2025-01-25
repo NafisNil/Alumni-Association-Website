@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <title>@yield('title')</title>
-    <link rel="canonical" href="https://joinup.qodeinteractive.com" />
+    <link rel="canonical" href="https://alumnicsebauet.com" />
     <meta name='robots' content='max-image-preview:large' />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Google Tag Manager for WordPress by gtm4wp.com -->
@@ -524,28 +524,28 @@
     <link rel="https://api.w.org/" href="https://joinup.qodeinteractive.com/wp-json/" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://joinup.qodeinteractive.com/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://joinup.qodeinteractive.com/wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 6.0.9" />
-    <meta name="generator" content="WooCommerce 7.0.0" />
+    <meta name="generator" content="BAUET CSE Alumni" />
+    <meta name="generator" content="BAUET CSE Alumni" />
     <link rel='shortlink' href='{{route('index')}}' />
 
     <!-- Open Graph data is managed by Alex MacArthur's Complete Open Graph plugin. (v3.4.5) -->
     <!-- https://wordpress.org/plugins/complete-open-graph/ -->
     <meta property='og:site_name' content='BAUET Aliumni Association' />
-    <meta property='og:url' content='https://joinup.qodeinteractive.com' />
+    <meta property='og:url' content='https://alumnicsebauet.com' />
     <meta property='og:locale' content='en_US' />
-    <meta property='og:description' content='BuddyPress Community Theme' />
-    <meta property='og:title' content='JoinUp' />
+    <meta property='og:description' content='Connect with fellow CSE alumni, explore career paths, and stay updated on department news.' />
+    <meta property='og:title' content='BAUET CSE AA' />
     <meta property='og:type' content='website' />
-    <meta property='og:image' content='{{asset('frontend')}}/wp-content/uploads/2021/03/Social-grafika.jpg' />
+    <meta property='og:image' content='{{(!empty($logo->photo))?URL::to('storage/'.$logo->photo):URL::to('image/no_image.png')}}' />
     <meta property='og:image:width' content='1200' />
     <meta property='og:image:height' content='630' />
     <meta name='twitter:card' content='summary' />
     <meta name='twitter:title' content='BAUET Aliumni Association' />
-    <meta name='twitter:image' content='{{asset('frontend')}}/wp-content/uploads/2021/03/Social-grafika.jpg' />
+    <meta name='twitter:image' content='{{(!empty($logo->photo))?URL::to('storage/'.$logo->photo):URL::to('image/no_image.png')}}' />
     <meta name='twitter:description' content='BuddyPress Community Theme' />
     <!-- End Complete Open Graph. | 0.0026860237121582s -->
     <meta name="tec-api-version" content="v1">
-    <meta name="tec-api-origin" content="https://joinup.qodeinteractive.com">
+    <meta name="tec-api-origin" content="https://alumnicsebauet.com">
     <!-- Google Tag Manager for WordPress by gtm4wp.com -->
     <!-- GTM Container placement set to footer -->
     <script data-cfasync="false" data-pagespeed-no-defer>
@@ -581,10 +581,10 @@
       </style>
     </noscript>
     <meta name="generator" content="Powered by Slider Revolution 6.6.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <link rel="icon" href="{{asset('frontend')}}/wp-content/uploads/2020/12/cropped-favicon-img-2-32x32.png" sizes="32x32" />
-    <link rel="icon" href="{{asset('frontend')}}/wp-content/uploads/2020/12/cropped-favicon-img-2-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{asset('frontend')}}/wp-content/uploads/2020/12/cropped-favicon-img-2-180x180.png" />
-    <meta name="msapplication-TileImage" content="https://joinup.qodeinteractive.com/wp-content/uploads/2020/12/cropped-favicon-img-2-270x270.png" />
+    <link rel="icon" href="{{(!empty($logo->photo))?URL::to('storage/'.$logo->photo):URL::to('image/no_image.png')}}" sizes="32x32" />
+    <link rel="icon" href="{{(!empty($logo->photo))?URL::to('storage/'.$logo->photo):URL::to('image/no_image.png')}}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{(!empty($logo->photo))?URL::to('storage/'.$logo->photo):URL::to('image/no_image.png')}}" />
+    <meta name="msapplication-TileImage" content="{{(!empty($logo->photo))?URL::to('storage/'.$logo->photo):URL::to('image/no_image.png')}}" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     <script>

@@ -38,7 +38,7 @@
       <option>Select Batch</option>
         
      @foreach ($batch as $item)
-      <option value="{{$item->name}}" {{ ( $item->batch == @$edit->batch) ? 'selected' : '' }}> 
+      <option value="{{$item->name}}" {{ ( $item->name == @$edit->batch) ? 'selected' : '' }}> 
         {{$item->name}} Batch
       </option>
      @endforeach

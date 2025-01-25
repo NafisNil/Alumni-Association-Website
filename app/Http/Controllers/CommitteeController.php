@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Image;
 use App\Http\Requests\CommitteeRequest;
 use App\Models\Batch;
+use Illuminate\Support\Str;
 class CommitteeController extends Controller
 {
     /**
@@ -40,7 +41,15 @@ class CommitteeController extends Controller
     public function store(CommitteeRequest $request)
     {
         //
-        $committee = Committee::create($request->all());
+        $committee = Committee::create([
+            'name' => $request->name,
+            'batch' => $request->batch,
+            'designation' => $request->designation,
+            'phone' => $request->phone,
+            'dept' => $request->dept,
+            'slug' => Str::slug($request->name),
+            'serial' => $request->serial
+        ]);
         if ($request->hasFile('photo')) {
             $this->_uploadImage($request, $committee);
         }
@@ -82,7 +91,15 @@ class CommitteeController extends Controller
     {
         //
       
-        $committee->update($request->all());
+        $committee->update([
+            'name' => $request->name,
+            'batch' => $request->batch,
+            'designation' => $request->designation,
+            'phone' => $request->phone,
+            'dept' => $request->dept,
+            'slug' => Str::slug($request->name),
+            'serial' => $request->serial
+        ]);
         if ($request->hasFile('photo')) {
             @unlink('storage/'.$committee->photo);
             $this->_uploadImage($request, $committee);

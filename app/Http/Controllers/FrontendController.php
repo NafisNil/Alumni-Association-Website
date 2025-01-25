@@ -71,6 +71,17 @@ class FrontendController extends Controller
         return view('frontend.committee', $data);
     }
 
+    public function committee_member_single($slug){
+        $data['logo'] = Logo::first();
+        $data['about'] = About::first();
+        $data['notice'] = Notice::orderBy('id', 'desc')->get();
+        $data['general'] = General::first();
+        $data['committee_single'] = Committee::where('slug', $slug)->first();
+        $data['socials'] = Social::orderBy('id', 'desc')->get();
+        $data['event'] = Event::orderBy('id', 'desc')->limit(3)->get();
+        return view('frontend.committee_single', $data);
+    }
+
     public function event(Request $request)
     {
         $data['logo'] = Logo::first();

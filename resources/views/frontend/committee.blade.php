@@ -30,8 +30,10 @@
                                 </div>
                               </div>
                               <div class="qodef-e-content">
-                                <h5 itemprop="name" class="qodef-e-title entry-title"> {{$item->name}} </h5>
-                                <p class="qodef-e-role"> {{$item->designation}} </p>
+                                <a href="{{route('committee_member_by_name', $item->slug)}}">
+                                        <h5 itemprop="name" class="qodef-e-title entry-title"> {{$item->name}} </h5>
+                                        <p class="qodef-e-role"> {{$item->designation}} </p>
+                               </a>
                               </div>
                             </div>
                           </div>

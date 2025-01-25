@@ -21,6 +21,7 @@ use App\Http\Controllers\SocialController;
 Route::get('/', [FrontendController::class, 'index'])->name('index');
 Route::get('/about-us', [FrontendController::class, 'about'])->name('about_us');
 Route::get('/committee-member', [FrontendController::class, 'committee'])->name('committee_member');
+Route::get('/committee-member-single/{slug}', [FrontendController::class, 'committee_member_single'])->name('committee_member_by_name');
 Route::get('/event_all', [FrontendController::class, 'event'])->name('event_all');
 Route::get('/event_single/{slug}', [FrontendController::class, 'event_single'])->name('event_single');
 Route::get('/news_all', [FrontendController::class, 'news_all'])->name('news_all');
